@@ -16,7 +16,7 @@ El laboratorio está formado por varios servidores, cada uno con un rol específ
 | monitoring | Ubuntu 22.04 | Prometheus, Grafana, centralización de logs |
 | win-client | Windows Server 2022 | Pruebas de Samba y PXE |
 | fog-server | Ubuntu 22.04 | FOG, PXE, TFTP, DHCP |
-| ansible-controller (opcional) | Ubuntu o Rocky | Automatización con Ansible |
+| ansible-controller | Rocky Linux 9 | Automatización con Ansible |
 
 Los diagramas de red y servicios están en la carpeta `architecture/`.
 
@@ -126,7 +126,7 @@ Servidor para despliegues masivos mediante FOG.
 
 ---
 
-## ansible-controller (opcional)
+## ansible-controller
 
 Servidor para automatizar tareas en el laboratorio.
 
