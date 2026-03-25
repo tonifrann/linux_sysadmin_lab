@@ -1,7 +1,9 @@
 # Linux Sysadmin Lab
 
-Este repositorio contiene un laboratorio orientado a administración de sistemas Linux. Incluye servicios habituales en entornos de infraestructura, seguridad, contenedores, monitorización, automatización y resolución de incidencias.  
-El objetivo es practicar y documentar tareas reales de un administrador de sistemas.
+Este repositorio contiene un laboratorio práctico de administración de sistemas Linux que simula una infraestructura similar a la de un entorno empresarial.
+
+El objetivo es mostrar cómo se configuran, aseguran y mantienen distintos servicios (red, contenedores, monitorización, backups, etc.) en un entorno similar al de una empresa.
+
 
 ---
 
@@ -19,6 +21,14 @@ El laboratorio está formado por varios servidores, cada uno con un rol específ
 | ansible-controller | Rocky Linux 9 | Automatización con Ansible |
 
 Los diagramas de red y servicios están en la carpeta `architecture/`.
+
+--
+
+## Notas de diseño
+
+En el laboratorio se utilizan distintos sistemas de firewall (firewalld, UFW, iptables y nftables) de forma intencionada.
+
+El objetivo es trabajar con herramientas habituales en diferentes distribuciones Linux y entender sus diferencias, configuración y casos de uso en entornos reales.
 
 ---
 
@@ -117,7 +127,7 @@ Servidor para despliegues masivos mediante FOG.
 - PXE boot  
 - DHCP  
 - Captura y despliegue de imágenes  
-- Scripts
+- Scripts de automatización
 - UFW
 
 **Incidencias documentadas:**
@@ -141,7 +151,7 @@ Servidor para automatizar tareas en el laboratorio.
 
 ## Gestión de incidencias
 
-Cada servidor incluye una carpeta `incidencias/` con problemas provocados para practicar diagnóstico y resolución.  
+Cada servidor incluye una carpeta `incidents/` con problemas provocados para practicar diagnóstico y resolución.  
 Cada incidencia documenta:
 
 - Qué ocurrió  
@@ -153,7 +163,7 @@ Cada incidencia documenta:
 
 ---
 
-## Áreas cubiertas en el laboratorio
+## Tecngologías y areas trabajadas en el laboratorio
 
 - Administración Linux  
 - Seguridad (SELinux, firewalls, hardening, auditoría)  
