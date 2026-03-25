@@ -18,7 +18,7 @@ El laboratorio está formado por varios servidores, cada uno con un rol específ
 | fog-server | Ubuntu 22.04 | FOG, PXE, TFTP, DHCP |
 | ansible-controller | Rocky Linux 9 | Automatización con Ansible |
 
-Los diagramas de red y servicios están en la carpeta `arquitectura/`.
+Los diagramas de red y servicios están en la carpeta `architecture/`.
 
 ---
 
@@ -37,7 +37,7 @@ Servidor principal orientado a seguridad, servicios y almacenamiento.
 - Virtual hosts  
 - LVM (PV, VG, LV, snapshots, ampliación de volúmenes)  
 - Configuración de logrotate  
-- Backups con rsync, tar y dd  
+- Backups con rsync (incrementales), tar (archivos y configuraciones) y dd (copias completas de discos/particiones) 
 - Cron jobs  
 - Hardening general  
 - Auditoría con auditd  
@@ -64,7 +64,7 @@ Servidor dedicado a contenedores y servicios desplegados con Docker.
 - Redes internas  
 - Volúmenes persistentes  
 - Healthchecks  
-- iptables o nftables  
+- Nftables  
 
 **Incidencias documentadas:**
 - Contenedor detenido  
@@ -83,8 +83,9 @@ Servidor de monitorización y observabilidad.
 - Node Exporter en todos los servidores  
 - Grafana  
 - Dashboards personalizados  
-- Alertas básicas  
-- Centralización de logs (rsyslog o Loki + Promtail)  
+- Alertas básicas desde Grafana
+- Iptables
+- Centralización de logs con rsyslog   
 
 **Incidencias documentadas:**
 - Exporter no disponible  
@@ -116,7 +117,8 @@ Servidor para despliegues masivos mediante FOG.
 - PXE boot  
 - DHCP  
 - Captura y despliegue de imágenes  
-- Scripts post-instalación  
+- Scripts
+- UFW
 
 **Incidencias documentadas:**
 - PXE no arranca  
@@ -126,7 +128,7 @@ Servidor para despliegues masivos mediante FOG.
 
 ---
 
-## ansible-controller
+## ansible-controller (Rocky Linux 9)
 
 Servidor para automatizar tareas en el laboratorio.
 
