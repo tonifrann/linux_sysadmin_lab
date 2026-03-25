@@ -18,7 +18,7 @@ El laboratorio está formado por varios servidores, cada uno con un rol específ
 | fog-server | Ubuntu 22.04 | FOG, PXE, TFTP, DHCP |
 | ansible-controller | Rocky Linux 9 | Automatización con Ansible |
 
-Los diagramas de red y servicios están en la carpeta `architecture/`.
+Los diagramas de red y servicios están en la carpeta `arquitectura/`.
 
 ---
 
@@ -139,8 +139,8 @@ Servidor para automatizar tareas en el laboratorio.
 
 ## Gestión de incidencias
 
-Cada servidor incluye una carpeta `incidents/` con problemas reales provocados para practicar diagnóstico y resolución.  
-Cada incidente documenta:
+Cada servidor incluye una carpeta `incidencias/` con problemas provocados para practicar diagnóstico y resolución.  
+Cada incidencia documenta:
 
 - Qué ocurrió  
 - Cómo se detectó  
