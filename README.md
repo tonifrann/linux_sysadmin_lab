@@ -22,7 +22,7 @@ El laboratorio está formado por varios servidores, cada uno con un rol específ
 
 Los diagramas de red y servicios están en la carpeta `architecture/`.
 
---
+---
 
 ## Notas de diseño
 
