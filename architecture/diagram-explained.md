@@ -1,4 +1,4 @@
-                               +-----------------------+
+                                      +-----------------------+
                                |   ansible-controller  |
                                |     (Rocky Linux 9)   |
                                |        - Ansible      |
