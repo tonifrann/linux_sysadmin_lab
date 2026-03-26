@@ -1,0 +1,1 @@
+# Incidencia: Bloqueo por SELinux

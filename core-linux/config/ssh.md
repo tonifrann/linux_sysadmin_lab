@@ -1,0 +1,1 @@
+# Configuración SSH (hardening)

@@ -1,0 +1,1 @@
+# Hardening general del sistema
