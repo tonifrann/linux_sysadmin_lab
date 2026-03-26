@@ -7,16 +7,9 @@ He descargado la ISO desde la página oficial de Rocky Linux.
 - 2 vCPU
 - 4 GB RAM
 - 40 GB disco
-- Red en modo puente/NAT
+- Red en modo NAT Switch
 
-## 3. Proceso de instalación
-Capturas:
-- Selección de idioma
-- Particionado automático/manual
-- Configuración de usuario
-- Configuración de red
-
-## 4. Primer arranque
+## 3. Primer arranque
 Comandos ejecutados:
 
 Lo primero es actualizar todos los paquetes disponibles:
