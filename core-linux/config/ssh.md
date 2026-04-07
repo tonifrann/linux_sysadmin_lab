@@ -14,7 +14,7 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 - Entramos en ```visudo```
 - Agregamos al guiguiente linea:
-  ```bash %admins ALL=(ALL) ALL ```
+  ```%admins ALL=(ALL) ALL```
 
 ## 3. Configurar claves SSH
 ssh-keygen -t nk52341
