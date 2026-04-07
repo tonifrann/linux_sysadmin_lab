@@ -7,6 +7,7 @@ La configuración se realiza manualmente con `nmcli`.
 
 ## 2. Configuración de IP estatica
 Asigno la IP 192.168.100.10/24, gateway y el DNS
+
 <img width="998" height="116" alt="image" src="https://github.com/user-attachments/assets/9e6c233a-180f-4afb-a2b8-cd64973c5c81" />
 
 ## 3. Verificación de la configuración
@@ -37,14 +38,12 @@ Interfaz: eth0
 
 Método: manual
 
-#### El servidor ya tiene acceso a Internet y ya se puede actualizar el sistema con:
 
-dnf update
 
-Hardening SSH
+Nota: El servidor ya tiene acceso a Internet y ya se puede actualizar el sistema con:
 
-Firewall
+dnf update -y
 
-SELinux
+
 
 Servicios
