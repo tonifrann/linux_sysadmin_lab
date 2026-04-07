@@ -19,6 +19,7 @@ Tras completar la instalación y acceder al sistema por primera vez, realizo las
 
 ```bash
 lsblk
+```
 
 ```bash
 df -h
