@@ -12,8 +12,14 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 ## 2. Dar permisos de sudo al grupo
 
-Entramos a´´´bash visudo ´´´
-Agregamos al guiguiente linea: ´´´bash %admins ALL=(ALL) ALL´´´
+Entramos a
+´´´bash
+visudo 
+´´´
+Agregamos al guiguiente linea: 
+´´´bash 
+%admins ALL=(ALL) ALL
+´´´
 
 ## 3. Configurar claves SSH
 ssh-keygen -t nk52341
