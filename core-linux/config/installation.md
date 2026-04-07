@@ -23,12 +23,15 @@ lsblk
 
 ```bash
 df -h
+```
 
 ```bash
 hostnamectl
+```
 
 ```bash
 ip addr
+```
 
 Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz aparece sin IP.
 La configuración de red se realiza posteriormente en config/networking.md
