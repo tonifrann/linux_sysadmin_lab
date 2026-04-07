@@ -8,7 +8,6 @@ Este documento describe la configuración básica y segura del servicio SSH en R
 
 SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo `wheel` para permitir sudo.
 
-```bash
 useradd -m toni
 passwd ********
 groupadd admins
