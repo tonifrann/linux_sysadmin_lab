@@ -22,7 +22,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - [Hardening general](config/hardening.md)
 
 ### 4. Arquitectura del laboratorio
-- [Diagramas](architecture/diagram.png)
+- [Diagrama](architecture/diagram.png)
 - [Notas de diseño](architecture/design-notes.md)
 
 ### 5. Automatización
