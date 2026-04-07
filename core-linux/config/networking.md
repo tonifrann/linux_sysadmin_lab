@@ -37,9 +37,11 @@ Interfaz: eth0
 
 Método: manual
 
+
 El servidor ya tiene acceso a Internet y ya se puede actualizar el sistema con:
 
 dnf update
+
 Hardening SSH
 
 Firewall
