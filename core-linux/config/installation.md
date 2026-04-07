@@ -20,6 +20,8 @@ Una vez que se ha completado la instalación, al acceder al sistema por primera 
 ```bash
 lsblk
 ```
+<img width="1006" height="150" alt="image" src="https://github.com/user-attachments/assets/c1bab7f4-d0a1-42bf-9a43-c12e3cdb4f41" />
+
 
 ```bash
 df -h
