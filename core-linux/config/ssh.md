@@ -12,7 +12,7 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 ## 2. Dar permisos de sudo al grupo
 
-- Entramos en ```bash visudo ```
+- Entramos en ```visudo```
 - Agregamos al guiguiente linea:
   ```bash %admins ALL=(ALL) ALL ```
 
