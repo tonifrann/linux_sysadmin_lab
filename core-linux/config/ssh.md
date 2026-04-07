@@ -15,6 +15,7 @@ groupadd admins
 usermod -aG admins toni
 id toni
 
+
 ## 2. Dar permisos de sudo al grupo
 visudo
 %admins ALL=(ALL) ALL
