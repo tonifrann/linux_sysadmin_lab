@@ -13,7 +13,7 @@ La ISO se ha descargado desde la página oficial de Rocky Linux.
 
 ## 3. Primer arranque
 
-Una vez que se ha completado la instalación, al acceder al sistema por primera vez, realizo las comprobaciones siguientes:
+Una vez que se ha completada la instalación, realizo las siguientes comprobaciones:
 
 ### Verificar el disco y el particionado automático
 
@@ -22,19 +22,21 @@ lsblk
 ```
 <img width="1006" height="150" alt="image" src="https://github.com/user-attachments/assets/c1bab7f4-d0a1-42bf-9a43-c12e3cdb4f41" />
 
-
+### El espacio libre
 ```bash
 df -h
 ```
 <img width="1001" height="161" alt="image" src="https://github.com/user-attachments/assets/30483227-e315-4958-b3e8-201704886fab" />
 
 
+### Cambio de nombre 
+
 ```bash
 hostnamectl
 ```
 <img width="1000" height="86" alt="image" src="https://github.com/user-attachments/assets/0fa543b5-4427-4b1b-a076-386d52b3209c" />
 
-
+### La configuración de red
 ```bash
 ip addr
 ```
