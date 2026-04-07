@@ -8,6 +8,8 @@ He descargado la ISO desde la página oficial de Rocky Linux.
 - 4 GB RAM
 - 40 GB disco
 - Red en modo NAT Switch
+- Particionado Automático (LVM)
+- Root deshabilitado para SSH
 
 ## 3. Primer arranque
 Comandos ejecutados:
