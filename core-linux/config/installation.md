@@ -34,4 +34,4 @@ ip addr
 ```
 
 Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz eth0 aparece sin IP.
-La configuración de red se realiza posteriormente en el apartado de [Configuración de red](config/networking.md)
+La configuración de red se realiza posteriormente en el apartado de [Configuración de red](core-linux/config/networking.md)
