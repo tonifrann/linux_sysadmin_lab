@@ -17,12 +17,24 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
   ```%admins ALL=(ALL) ALL```
 
 ## 3. Configurar claves SSH
-ssh-keygen -t nk52341
-ssh-copy-id toni@192.168.100.10
-ls -l /home/toni/.ssh/authorized_keys
+
+- Para crear la clave desde un PC Windows ejecuto:
+  ```ssh-keygen -t ed25519```
+  
+- Para copiar la clave al Servidor:
+  
+<img width="1072" height="72" alt="image" src="https://github.com/user-attachments/assets/f609d47d-d148-488c-9bcf-1f65b81d68a6" />
+
+- En el servidor (core-linux):
+
+<img width="994" height="96" alt="image" src="https://github.com/user-attachments/assets/636e9339-77d1-4fc1-9be6-8f938a287648" />
+
+Nota: Si lo en vez de windows, l ohubiera hehco en un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no hubiera tenido que crear las carpetas manualmente.
+
 
 ## 4. Configuración del servicio SSH
-sudo nano /etc/ssh/sshd_config
+
+Ejecutamos ```sudo nano /etc/ssh/sshd_config```
 
 PermitRootLogin no
 PasswordAuthentication no
