@@ -6,17 +6,14 @@ Este documento describe la configuración básica y segura del servicio SSH en R
 
 ## 1. Crear un usuario administrador
 
-SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo `wheel` para permitir sudo.
+SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo `admins` para permitir sudo.
 
-useradd -m toni
-passwd ********
-groupadd admins
-usermod -aG admins toni
-id toni
+<img width="996" height="178" alt="image" src="https://github.com/user-attachments/assets/dcddf278-62af-4bc4-96e4-cad2ad87f353" />
 
 ## 2. Dar permisos de sudo al grupo
-visudo
-%admins ALL=(ALL) ALL
+
+Entramos a´´´bash visudo ´´´
+Agregamos al guiguiente linea: ´´´bash %admins ALL=(ALL) ALL´´´
 
 ## 3. Configurar claves SSH
 ssh-keygen -t nk52341
