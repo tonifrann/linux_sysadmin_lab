@@ -41,4 +41,4 @@ ip addr
 <img width="1003" height="143" alt="image" src="https://github.com/user-attachments/assets/b16f70e1-77bf-4b36-87c7-d6c7fd4ea728" />
 
 Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz eth0 aparece sin IP.
-La configuración de red se realiza posteriormente en el apartado de [Configuración de red](networking.md)
+La configuración de red se realizará después en el apartado de [Configuración de red](networking.md)
