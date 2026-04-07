@@ -26,14 +26,19 @@ lsblk
 ```bash
 df -h
 ```
+<img width="1001" height="161" alt="image" src="https://github.com/user-attachments/assets/30483227-e315-4958-b3e8-201704886fab" />
+
 
 ```bash
 hostnamectl
 ```
+<img width="993" height="16" alt="image" src="https://github.com/user-attachments/assets/82390ebb-27a9-40c4-8c92-dc1cb847a030" />
+
 
 ```bash
 ip addr
 ```
+<img width="1003" height="143" alt="image" src="https://github.com/user-attachments/assets/b16f70e1-77bf-4b36-87c7-d6c7fd4ea728" />
 
 Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz eth0 aparece sin IP.
 La configuración de red se realiza posteriormente en el apartado de [Configuración de red](networking.md)
