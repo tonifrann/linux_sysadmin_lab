@@ -22,7 +22,7 @@ lsblk
 ```
 <img width="1006" height="150" alt="image" src="https://github.com/user-attachments/assets/c1bab7f4-d0a1-42bf-9a43-c12e3cdb4f41" />
 
-### El espacio libre
+### Verificación del espacio libre del disco
 ```bash
 df -h
 ```
