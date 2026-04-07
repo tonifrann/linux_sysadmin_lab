@@ -13,7 +13,7 @@ La ISO se ha descargado desde la página oficial de Rocky Linux.
 
 ## 3. Primer arranque
 
-Tras completar la instalación y acceder al sistema por primera vez, realizo las comprobaciones iniciales.
+Una vez que se ha completado la instalación, al acceder al sistema por primera vez, realizo las comprobaciones siguientes:
 
 ### Verificar el disco y el particionado automático
 
@@ -33,5 +33,5 @@ hostnamectl
 ip addr
 ```
 
-Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz aparece sin IP.
+Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz eth0 aparece sin IP.
 La configuración de red se realiza posteriormente en config/networking.md
