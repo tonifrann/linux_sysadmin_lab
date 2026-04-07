@@ -32,7 +32,7 @@ df -h
 ```bash
 hostnamectl
 ```
-<img width="993" height="16" alt="image" src="https://github.com/user-attachments/assets/82390ebb-27a9-40c4-8c92-dc1cb847a030" />
+<img width="1000" height="86" alt="image" src="https://github.com/user-attachments/assets/0fa543b5-4427-4b1b-a076-386d52b3209c" />
 
 
 ```bash
