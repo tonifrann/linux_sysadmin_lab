@@ -12,7 +12,7 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 ## 2. Dar permisos de sudo al grupo
 
-- Entramos en ```visudo```
+- Entramos en ```visudo``` y se agregan las sigueintes lineas:
 
 <img width="984" height="51" alt="image" src="https://github.com/user-attachments/assets/90c94f53-4cbd-443b-81b0-36322d454f5d" />
 
