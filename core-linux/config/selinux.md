@@ -22,19 +22,41 @@ No hay alertas en este punto:
 Actualmente no aparece ningún bloqueo, ya que estamos en la configuración inicial.
 
 
-## 3. Contexto de archivos
+## 2. Consideraciones
 
-<img width="998" height="224" alt="image" src="https://github.com/user-attachments/assets/2b78e40a-47d9-43f9-baaa-bd9a7ca4fbba" />
-
-
-## 4. Consideraciones
-
-SELinux se mantiene en modo enforcing durante todo el laboratorio
-No se desactiva, los problemas se solucionan ajustando contextos o políticas
-Se documentarán los bloqueos reales en el apartado de incidencias
+- SELinux se mantiene en modo enforcing durante todo el laboratorio, no se desactiva.
+- Los bloqueos reales se documentarán en el apartado de [incidencias](../incidents/selinux-block.md)
 
 
-## 5. Notas
+---
 
-Al inicio SELinux no ha generado conflictos, pero al desplegar servicios (Samba, Nginx) empezaron a aparecer bloqueos que obligaron a revisar logs y ajustar configuraciones. [Bloqueos de SELinux](../incidents/selinux-block.md)
+ 
+## Configuración después de instalar servicios
+
+Una vez desplegados servicios como Samba y Nginx, SELinux puede bloquear accesos si los contextos no están bien definidos.
+
+Aquí se revisarán las rutas de los servicios para asegurar que SELinux está correctamente configurado.
+
+
+## 3. Ajustes en Samba
+
+Nota para más tarde: “Aquí debo configurar semanage fcontext, restorecon, etc. Sin incidencias por ahora, ya que se documentarán en /incidents”.
+
+📸 Captura recomendada después de aplicar cambios: contexto de /srv/share con ls -Z.
+
+## 6. Ajustes en Nginx
+
+'```Se revisan los contextos de los directorios web y logs:
+
+ls -Z /srv/app
+ls -Z /var/log/nginx
+
+📸 Captura recomendada: contextos de /srv/app y /var/log/nginx.
+
+Si fuera necesario, se aplicarían comandos como:
+
+restorecon -Rv /srv/app
+semanage fcontext -a -t httpd_sys_content_t "/srv/app(/.*)?"
+
+📸 Captura recomendada: salida de restorecon mostrando cambios aplicados. ```
 
