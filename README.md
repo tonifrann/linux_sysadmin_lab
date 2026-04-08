@@ -38,7 +38,7 @@ Diagrama en [`architecture/`](architecture/diagram-explained.png)
 ## Servidores del laboratorio
 
 ### core-linux
-Servidor central: seguridad, servicios y almacenamiento  
+Servidor principal: seguridad, servicios y almacenamiento  
 [Ver documentación](core-linux/README.md)
 
 ### docker-host
