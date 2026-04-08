@@ -2,17 +2,27 @@
 
 Servidor principal del laboratorio, orientado a seguridad, servicios base y almacenamiento. Actúa como nodo central para pruebas de red, autenticación, backups y servicios web.
 
+## Que se ha implementado en el servidor
+
+- Hardening real: SSH, SELinux (enforcing), firewalld
+- Gestión avanzada de almacenamiento con LVM (snapshots y ampliación)
+- Servicios en producción: Samba (ACLs) y Nginx (HTTPS)
+- Estrategias de backup: rsync, tar y dd
+- Auditoría y seguridad: auditd, logrotate, Lynis
+- Automatización con scripts y cron
+- Resolución de incidencias reales simuladas
+
 ## Índice
 
 ### 1. Introducción
 - [Descripción general](#descripción-general)
 
 ### 2. Instalación y configuración base
-1. [Instalación del sistema](config/installation.md)
-2. [Configuración de red (nmcli)](config/networking.md)
-3. [Hardening SSH](config/ssh.md)
-4. [Firewall (firewalld)](config/firewalld.md)
-5. [SELinux](config/selinux.md)
+- [Instalación del sistema](config/installation.md)
+- [Configuración de red (nmcli)](config/networking.md)
+- [Hardening SSH](config/ssh.md)
+- [Firewall (firewalld)](config/firewalld.md)
+- [SELinux](config/selinux.md)
 
 ### 3. Servicios del servidor
 - [LVM y almacenamiento](config/lvm.md)
@@ -37,43 +47,12 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 
 ---
 
-## Funciones principales
-
-### Seguridad
-- SSH endurecido  
-- SELinux enforcing  
-- firewalld  
-- Fail2ban  
-- Hardening general  
-
-### Servicios
-- Samba con ACLs  
-- Nginx con HTTPS y virtual hosts  
-
-### Almacenamiento
-- LVM (PV/VG/LV)  
-- Snapshots  
-- Ampliación de volúmenes  
-
-### Backups
-- rsync (incrementales)  
-- tar (archivos y configuraciones)  
-- dd (copias completas)  
-
-### Auditoría
-- auditd  
-- logrotate  
-- Análisis con Lynis  
-
-### Automatización
-- Tareas programadas con cron 
-
-## Estructura del directorio
+## Estructura del repositorio
 - `architecture/` → Diagramas y notas de diseño.
 - `config/` → Configuraciones detalladas de cada servicio.
 - `scripts/` → Scripts utilizados en el servidor.
 - `incidents/` → Incidencias simuladas y su resolución.
 
 ## Estado
-Este servidor está completamente documentado y sirve como referencia para el resto del laboratorio.
+Proyecto completo y documentado. Base del laboratorio.
 
