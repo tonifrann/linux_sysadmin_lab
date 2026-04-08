@@ -31,7 +31,7 @@ Actualmente no aparece ningún bloqueo, ya que estamos en la configuración inic
 ---
 
  
-## Configuración después de instalar servicios
+## Configuración después de instalar los servicios
 
 Una vez desplegados servicios como Samba y Nginx, SELinux puede bloquear accesos si los contextos no están bien definidos.
 
