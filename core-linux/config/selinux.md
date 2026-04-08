@@ -46,7 +46,7 @@ Nota para más tarde: “Aquí debo configurar semanage fcontext, restorecon, et
 
 ## 6. Ajustes en Nginx
 
-'```Se revisan los contextos de los directorios web y logs:
+``` Se revisan los contextos de los directorios web y logs:
 
 ls -Z /srv/app
 ls -Z /var/log/nginx
