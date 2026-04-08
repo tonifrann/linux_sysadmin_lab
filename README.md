@@ -31,7 +31,7 @@ Diseñado para demostrar despliegue, seguridad, monitorización, automatización
 | fog-server | Ubuntu 22.04 | PXE y despliegues |
 | ansible-controller | Rocky Linux 9 | Automatización |
 
-Diagramas en [`architecture/`](architecture\diagram-explained.png)
+Diagramas en [`architecture/`](architecture/diagram-explained.png)
 
 ---
 
