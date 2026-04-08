@@ -29,21 +29,14 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 <img width="994" height="96" alt="image" src="https://github.com/user-attachments/assets/636e9339-77d1-4fc1-9be6-8f938a287648" />
 
-Nota: Si lo en vez de windows, l ohubiera hehco en un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no hubiera tenido que crear las carpetas manualmente.
+Nota: Si lo en vez de windows, se hubiera utilizado un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no se hubiera tenido que crear las carpetas manualmente.
 
 
 ## 4. Configuración del servicio SSH
 
 Ejecutamos ```sudo nano /etc/ssh/sshd_config```
 
-PermitRootLogin no
-PasswordAuthentication no
-PubkeyAuthentication yes
-AllowUsers toni
-AllowGroups admins
-X11Forwarding no
-MaxAuthTries 3
-ClientAliveInterval 300
+<img width="1009" height="502" alt="image" src="https://github.com/user-attachments/assets/024b4397-56f0-4346-9053-e4048a32b3db" />
 
 Con esta configuración lograremos lo siguiente:
 - Evitar que se acceda como root desde SSH.
@@ -51,12 +44,19 @@ Con esta configuración lograremos lo siguiente:
 - Solo el usuario toni tiene acceso.
 - El maximo numero de intentos fallidos es 3, asi reducimos la posibilidad de fuerza bruta.
 
-## 5. Reiniciar SSH
-sudo systemctl restart sshd
-sudo systemctl status sshd
+## 5. Reiniciar SSH y verificar su status
+<img width="999" height="304" alt="image" src="https://github.com/user-attachments/assets/c0681d62-ebbd-4fe1-9b08-ed6c009b9cee" />
 
-## 6. Desde mi maquina
-ssh toni@192.168.100.10
+
+## 6. Probar acceso
+Verifico desde la maquina Windows 11 que entra con la clave sin la contraseña.
+
+<img width="1091" height="113" alt="image" src="https://github.com/user-attachments/assets/e18b7187-cabf-475c-8c14-fc7187ffae6d" />
+
+Verifico que root no puede acceder.
+
+<img width="1098" height="110" alt="image" src="https://github.com/user-attachments/assets/9ad9fac2-054d-4a38-a985-3a572ce21974" />
+
 
 ## 7. Estado final
 SSH queda configurado de forma segura:
