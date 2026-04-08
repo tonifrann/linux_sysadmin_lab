@@ -37,5 +37,5 @@ Se comprueba que los servicios estan correctamente configurados.
 
 ## 6. Consideraciones de seguridad
 
-- Solo se exponen los servicios necesarios.
+- Solo se permiten los servicios necesarios.
 - Se evita abrir puertos si existe el servicio.
