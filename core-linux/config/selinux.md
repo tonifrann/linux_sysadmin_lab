@@ -40,13 +40,13 @@ Aquí se revisarán las rutas de los servicios para asegurar que SELinux está c
 
 ## 3. Ajustes en Samba
 
-Nota para más tarde: “Aquí debo configurar semanage fcontext, restorecon, etc. Sin incidencias por ahora, ya que se documentarán en /incidents”.
+``` Nota para más tarde: “Aquí debo configurar semanage fcontext, restorecon, etc. Sin incidencias por ahora, ya que se documentarán en /incidents”.
 
 📸 Captura recomendada después de aplicar cambios: contexto de /srv/share con ls -Z.
 
 ## 6. Ajustes en Nginx
 
-``` Se revisan los contextos de los directorios web y logs:
+Se revisan los contextos de los directorios web y logs:
 
 ls -Z /srv/app
 ls -Z /var/log/nginx
