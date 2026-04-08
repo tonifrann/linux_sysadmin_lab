@@ -41,6 +41,8 @@ ip addr
 ```
 <img width="1003" height="143" alt="image" src="https://github.com/user-attachments/assets/b16f70e1-77bf-4b36-87c7-d6c7fd4ea728" />
 
+
+
 Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz no obtiene IP automáticamente.
 La configuración de red se realiza manualmente en el apartado de [Configuración de red](networking.md)
 Se utiliza LVM automático para la instalación inicial, aunque más adelante se configurará manualmente.
