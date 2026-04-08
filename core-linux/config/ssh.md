@@ -35,7 +35,7 @@ Nota: Si lo en vez de windows, se hubiera utilizado un cliente Linux, hubiera ut
 
 ## 4. Configuración del servicio SSH
 
-Ejecutamos ```sudo nano /etc/ssh/sshd_config```
+Ejecutamos ```sudo nano /etc/ssh/sshd_config``` y añadimos las siguientes lineas:
 
 <img width="1009" height="502" alt="image" src="https://github.com/user-attachments/assets/024b4397-56f0-4346-9053-e4048a32b3db" />
 
