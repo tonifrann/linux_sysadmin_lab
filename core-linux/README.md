@@ -2,7 +2,7 @@
 
 Servidor principal del laboratorio, orientado a seguridad, servicios base y almacenamiento. Actúa como nodo central para pruebas de red, autenticación, backups y servicios web.
 
-## 📌 Índice
+## Índice
 
 ### 1. Introducción
 - [Descripción general](#descripción-general)
@@ -37,7 +37,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 
 ---
 
-## 🔐 Funciones principales
+## Funciones principales
 
 ### Seguridad
 - SSH endurecido  
