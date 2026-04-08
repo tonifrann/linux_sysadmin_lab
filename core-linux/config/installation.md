@@ -44,5 +44,3 @@ ip addr
 Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz no obtiene IP automáticamente.
 La configuración de red se realiza manualmente en el apartado de [Configuración de red](networking.md)
 
-```md
-Se utiliza LVM para permitir redimensionado dinámico y snapshots en fases posteriores del laboratorio.
