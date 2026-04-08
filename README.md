@@ -67,13 +67,6 @@ Automatización y configuración centralizada
 
 Cada servidor incluye incidencias reales simuladas para practicar:
 
-- Diagnóstico
+- Diagnóstico y Resolución de problemas
 - Análisis de logs
-- Resolución de problemas
-- Prevención
-
----
-
-## Estado
-
-Proyecto completo, funcional y documentado.
+- Medidas preventivas
