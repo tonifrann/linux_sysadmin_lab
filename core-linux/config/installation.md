@@ -1,19 +1,18 @@
 # Instalación de Rocky Linux 9
 
 ## 1. Descarga de la ISO
-La ISO se ha descargado desde la página oficial de Rocky Linux.
+
+La ISO descargada desde la página oficial de Rocky Linux.
 
 ## 2. Configuración de la máquina virtual
+
 - 2 vCPU  
 - 4 GB RAM  
-- 40 GB de disco  
-- Red: NAT Switch (Hyper‑V)  
-- Particionado: Automático (LVM)  
-- Root deshabilitado para SSH  
+- 40 GB disco (LVM automático)  
+- Red: NAT (Hyper-V)  
+- Acceso SSH con root deshabilitado
 
-## 3. Primer arranque
-
-Una vez que se ha completada la instalación, realizo las siguientes comprobaciones:
+## 3. Validaciones tras la instalación
 
 ### Verificar el disco y el particionado automático
 
@@ -42,5 +41,8 @@ ip addr
 ```
 <img width="1003" height="143" alt="image" src="https://github.com/user-attachments/assets/b16f70e1-77bf-4b36-87c7-d6c7fd4ea728" />
 
-Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz eth0 aparece sin IP.
-La configuración de red se realizará después en el apartado de [Configuración de red](networking.md)
+Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz no obtiene IP automáticamente.
+La configuración de red se realiza manualmente en el apartado de [Configuración de red](networking.md)
+
+```md
+Se utiliza LVM para permitir redimensionado dinámico y snapshots en fases posteriores del laboratorio.
