@@ -50,7 +50,7 @@ Con esta configuración lograremos lo siguiente:
 
 
 ## 6. Probar acceso
-Verifico desde la maquina Windows 11 que entra con la clave sin la contraseña.
+Verifico el acceso a la maquina Windows 11 con la clave y sin que pida contraseña.
 
 <img width="1091" height="113" alt="image" src="https://github.com/user-attachments/assets/e18b7187-cabf-475c-8c14-fc7187ffae6d" />
 
