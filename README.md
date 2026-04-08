@@ -1,176 +1,79 @@
 # Linux Sysadmin Lab
 
-Este repositorio contiene un laboratorio práctico de administración de sistemas Linux que simula una infraestructura similar a la de un entorno empresarial.
+Laboratorio práctico de administración de sistemas Linux que simula una infraestructura real de empresa.
 
-El objetivo es mostrar cómo se configuran, aseguran y mantienen distintos servicios (red, contenedores, monitorización, backups, etc.) en un entorno similar al de una empresa.
-
+Diseñado para demostrar despliegue, seguridad, monitorización, automatización y resolución de incidencias en múltiples servidores.
 
 ---
 
-## Arquitectura general
+## Tecnologías y áreas trabajadas
 
-El laboratorio está formado por varios servidores, cada uno con un rol específico:
+- Administración Linux (Rocky / Ubuntu)
+- Seguridad: SELinux, firewalls, hardening
+- Redes y servicios
+- Contenedores (Docker)
+- Monitorización (Prometheus, Grafana)
+- Backups y recuperación
+- Automatización (Ansible, scripts)
+- Troubleshooting real
+- Integración Windows/Linux
+
+---
+
+## Arquitectura del laboratorio
 
 | Servidor | Distro | Rol |
-|----------|--------|------|
-| core-linux | Rocky Linux 9 | Servicios base, seguridad, Samba, LVM, Nginx, backups |
-| docker-host | Ubuntu 22.04 | Docker, Docker Compose, microservicios, firewall |
-| monitoring | Ubuntu 22.04 | Prometheus, Grafana, centralización de logs |
-| win-client | Windows Server 2022 | Pruebas de Samba y PXE |
-| fog-server | Ubuntu 22.04 | FOG, PXE, TFTP, DHCP |
-| ansible-controller | Rocky Linux 9 | Automatización con Ansible |
+|----------|--------|-----|
+| core-linux | Rocky Linux 9 | Servicios base, seguridad, almacenamiento |
+| docker-host | Ubuntu 22.04 | Contenedores y microservicios |
+| monitoring | Ubuntu 22.04 | Monitorización y logs |
+| win-client | Windows Server 2022 | Cliente de pruebas |
+| fog-server | Ubuntu 22.04 | PXE y despliegues |
+| ansible-controller | Rocky Linux 9 | Automatización |
 
-Los diagramas de red y servicios están en la carpeta `architecture/`.
-
----
-
-## Notas de diseño
-
-En el laboratorio se utilizan distintos sistemas de firewall (firewalld, UFW, iptables y nftables) de forma intencionada.
-
-El objetivo es trabajar con herramientas habituales en diferentes distribuciones Linux y entender sus diferencias, configuración y casos de uso en entornos reales.
+Diagramas en `architecture/`
 
 ---
 
-## core-linux (Rocky Linux 9)
+## Servidores del laboratorio
 
-Servidor principal orientado a seguridad, servicios y almacenamiento.
+### core-linux
+Servidor central: seguridad, servicios y almacenamiento  
+[Ver documentación](core-linux/README.md)
 
-**Incluye:**
-- Gestión de usuarios y sudoers  
-- SSH endurecido  
-- firewalld  
-- SELinux en modo enforcing  
-- Fail2ban  
-- Samba con ACLs  
-- Nginx con HTTPS (Let’s Encrypt)  
-- Virtual hosts  
-- LVM (PV, VG, LV, snapshots, ampliación de volúmenes)  
-- Configuración de logrotate  
-- Backups con rsync (incrementales), tar (archivos y configuraciones) y dd (copias completas de discos/particiones) 
-- Cron jobs  
-- Hardening general  
-- Auditoría con auditd  
-- Análisis con Lynis  
+### docker-host
+Entorno de contenedores y aplicaciones  
+[Ver documentación](docker-host/README.md)
 
-**Incidencias documentadas:**
-- Disco lleno  
-- Bloqueos por SELinux  
-- Reglas de firewall incorrectas  
-- Servicio caído  
-- Problemas de permisos en Samba  
+### monitoring
+Monitorización, métricas y logs  
+[Ver documentación](monitoring/README.md)
+
+### win-client
+Cliente Windows para integración  
+[Ver documentación](win-client/README.md)
+
+### fog-server
+Despliegue de sistemas por red (PXE)  
+[Ver documentación](fog-server/README.md)
+
+### ansible-controller
+Automatización y configuración centralizada  
+[Ver documentación](ansible-controller/README.md)
 
 ---
 
-## docker-host (Ubuntu 22.04)
+## Enfoque del laboratorio
 
-Servidor dedicado a contenedores y servicios desplegados con Docker.
+Cada servidor incluye incidencias reales simuladas para practicar:
 
-**Incluye:**
-- Docker Engine  
-- Docker Compose  
-- Contenedor Nginx  
-- Contenedor de aplicación  
-- Redes internas  
-- Volúmenes persistentes  
-- Healthchecks  
-- Nftables  
-
-**Incidencias documentadas:**
-- Contenedor detenido  
-- Volumen corrupto  
-- Puerto bloqueado  
-- Imagen dañada  
+- Diagnóstico
+- Análisis de logs
+- Resolución de problemas
+- Prevención
 
 ---
 
-## monitoring (Ubuntu 22.04)
+## Estado
 
-Servidor de monitorización y observabilidad.
-
-**Incluye:**
-- Prometheus  
-- Node Exporter en todos los servidores  
-- Grafana  
-- Dashboards personalizados  
-- Alertas básicas desde Grafana
-- Iptables
-- Centralización de logs con rsyslog   
-
-**Incidencias documentadas:**
-- Exporter no disponible  
-- Scrape fallido  
-- Dashboard con errores  
-- Logs no recibidos  
-
----
-
-## win-client (Windows Server 2022)
-
-Servidor Windows para pruebas de integración.
-
-**Incluye:**
-- Pruebas de Samba  
-- Acceso a servicios web  
-- Cliente PXE para FOG  
-- Scripts PowerShell básicos  
-
----
-
-## fog-server (Ubuntu 22.04)
-
-Servidor para despliegues masivos mediante FOG.
-
-**Incluye:**
-- Instalación de FOG  
-- TFTP  
-- PXE boot  
-- DHCP  
-- Captura y despliegue de imágenes  
-- Scripts de automatización
-- UFW
-
-**Incidencias documentadas:**
-- PXE no arranca  
-- TFTP bloqueado  
-- Problemas con DHCP  
-- Imagen corrupta  
-
----
-
-## ansible-controller (Rocky Linux 9)
-
-Servidor para automatizar tareas en el laboratorio.
-
-**Incluye:**
-- Inventario  
-- Playbooks  
-- Roles básicos (nginx, firewalld, docker, node_exporter, usuarios)  
-
----
-
-## Gestión de incidencias
-
-Cada servidor incluye una carpeta `incidents/` con problemas provocados para practicar diagnóstico y resolución.  
-Cada incidencia documenta:
-
-- Qué ocurrió  
-- Cómo se detectó  
-- Logs relevantes  
-- Comandos utilizados  
-- Solución aplicada  
-- Medidas preventivas  
-
----
-
-## Tecngologías y areas trabajadas en el laboratorio
-
-- Administración Linux  
-- Seguridad (SELinux, firewalls, hardening, auditoría)  
-- Redes y servicios  
-- Contenedores  
-- Monitorización  
-- Backups y restauración  
-- Automatización  
-- Troubleshooting  
-- Integración Windows/Linux  
+Proyecto completo, funcional y documentado.
