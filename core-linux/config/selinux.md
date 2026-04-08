@@ -20,7 +20,7 @@ Se comprueba el modo en el que está SELinux:
 
 -También se revisa el log general ```sudo cat /var/log/audit/audit.log``` auqnue no se encuentra ningun error relacionado con SElinux.
 
-- Actualmente no aparece ningun bloqueo, ya que estamos en la configuración inicial. Cuando se configuren servicios como Samba o Nginx, si SELinux bloquea algo se documentará en [Bloqueos de SELinux](core-linux/incidents/selinux-block.md)
+- Actualmente no aparece ningun bloqueo, ya que estamos en la configuración inicial. Cuando se configuren servicios como Samba o Nginx, si SELinux bloquea algo se documentará en [Bloqueos de SELinux](linux_sysadmin-lab/core-linux/incidents/selinux-block.md)
 
 
 
