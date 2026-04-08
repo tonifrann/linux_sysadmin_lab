@@ -10,10 +10,7 @@ Se comprueba el modo en el que está SELinux:
 
 <img width="992" height="223" alt="image" src="https://github.com/user-attachments/assets/0ca78663-ee3e-4de1-878b-8a8730be69c2" />
 
-
-## 2. Alertas de SELinux
-
-- Se revisan posibles bloqueos:
+No hay alertas en este punto:
 
 <img width="998" height="52" alt="image" src="https://github.com/user-attachments/assets/fd32e35d-dc46-4e1f-a654-4126ceb37102" />
 
