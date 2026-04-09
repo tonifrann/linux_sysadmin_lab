@@ -28,15 +28,16 @@ Se revisan las reglas que hay configuradas.
 <img width="996" height="163" alt="image" src="https://github.com/user-attachments/assets/7047c98d-22c4-4db8-904f-9672566f3bd5" />
 
 
+Una vez configurado SAmba, se permite también su servicio:
+
+<img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/f83013fb-6edb-4ba2-b5cf-3e7cee99b207" />
+
+
 ## 5. Verificación de las reglas
 
 Se comprueba que los servicios estan correctamente configurados.
 
 <img width="1004" height="257" alt="image" src="https://github.com/user-attachments/assets/767f2801-45b8-45e4-adaa-a30e920c2d2a" />
-
-Una vez configurado SAmba, se permite también su servicio:
-
-<img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/f83013fb-6edb-4ba2-b5cf-3e7cee99b207" />
 
 
 ## 6. Consideraciones de seguridad
