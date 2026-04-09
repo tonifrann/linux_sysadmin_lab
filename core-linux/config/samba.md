@@ -10,7 +10,7 @@ Para instalar Samba ejecutamos ```sudo dnf install samba samba-common samba-clie
 <img width="1018" height="101" alt="image" src="https://github.com/user-attachments/assets/084a973b-5696-49e5-8de2-47c4d387892b" />
 
 
-## 2. Servicio
+## 2. Configuración del servicio
 
 Se habilitan y arrancan los servicios:
 
@@ -28,7 +28,7 @@ Se crea la carpeta y se le dan los permisos necesarios. Se le ha permisos de set
 <img width="992" height="67" alt="image" src="https://github.com/user-attachments/assets/efd7c64f-d337-4cde-85d0-221d0ca90864" />
 
 
-## 4. 4. Configuración del grupo y del usuario
+## 4. Configuración del grupo y del usuario
 
 Se crea un grupo `smbgroup` y se añade al usuario `juan` para que tenga acceso al recurso compartido.
 
@@ -52,7 +52,7 @@ Se permite el trafico de samba con [firewalld](firewalld.md)
 
 <img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/23383db7-b768-430d-bba7-8be137d2d144" />
 
-
+## 8. SELinux
 
 
 
