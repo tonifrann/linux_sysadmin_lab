@@ -50,7 +50,7 @@ Se comprueba en un navegador que funciona correctamente:
 <img width="1335" height="128" alt="image" src="https://github.com/user-attachments/assets/5809d865-2c66-4892-95bd-a70ec505aeff" />
 
 
-> NOTA:  Durante prueba desde el navegador, Nginx no mostraba el contenido debido a un error en la ruta (`/svr/web` en lugar de `/srv/web`). Una vez corregido, el servicio funcionó correctamente.
+> NOTA:  En la primera prueba desde el navegador, Nginx no mostraba el contenido debido a un error de escritura en la ruta (`/svr/web` en lugar de `/srv/web`). Una vez corregido, el servicio funcionó correctamente.
 
 
 
