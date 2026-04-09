@@ -46,7 +46,7 @@ Se edita el archivo de configuración de samba ```nano /etc/samba/smb.conf``` y 
 
 <img width="997" height="112" alt="image" src="https://github.com/user-attachments/assets/edc13e0e-4456-4737-bc0f-d7699dedaea0" />
 
-## 8. Firewall
+## 7. Firewall
 
 Se permite el trafico de samba con [firewalld](firewalld.md) 
 
@@ -58,7 +58,7 @@ Se revisa el contexto del directorio compartido:
 
 <img width="992" height="33" alt="image" src="https://github.com/user-attachments/assets/f46ec3b7-68df-4bd7-9e04-4bafaac7e6b1" />
 
-No aparece ningun contexto, asi que se lo configuramos manualmente:
+No aparece ningun contexto, ya que está vacio. Se configura manualmente para que Samba pueda acceder correctamente:
 
 <img width="991" height="50" alt="image" src="https://github.com/user-attachments/assets/d1062728-da49-4e83-bba6-d1ef3a55ebec" />
 
@@ -89,7 +89,7 @@ Se revisan los logs de Samba para verificar que no hay ningun problema:
 <img width="979" height="128" alt="image" src="https://github.com/user-attachments/assets/7c32b093-fb3a-4412-9294-809d3ae61751" />
 
 
-## 10. Estado final
+## 12. Estado final
 
 - Samba instalado y funcionando
 
