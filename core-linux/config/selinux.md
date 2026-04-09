@@ -15,7 +15,7 @@ No hay alertas en este punto:
 <img width="998" height="52" alt="image" src="https://github.com/user-attachments/assets/fd32e35d-dc46-4e1f-a654-4126ceb37102" />
 
 
--También se revisa el log general:
+También se revisa el log general:
 
 ```sudo cat /var/log/audit/audit.log``` 
 
@@ -31,32 +31,11 @@ Actualmente no aparece ningún bloqueo, ya que estamos en la configuración inic
 ---
 
  
-## Configuración después de instalar los servicios
+## 3. SELinux en los servicios Samba y Nginx
 
-Una vez desplegados servicios como Samba y Nginx, SELinux puede bloquear accesos si los contextos no están bien definidos.
+Una vez se han instalado los servicios, se deben configurar los contextos SELinux para permitir el acceso.
 
-Aquí se revisarán las rutas de los servicios para asegurar que SELinux está correctamente configurado.
+La configuración se documenta en cada servicio:
 
-
-## 3. Ajustes en Samba
-
-``` Nota para más tarde: “Aquí debo configurar semanage fcontext, restorecon, etc. Sin incidencias por ahora, ya que se documentarán en /incidents”.
-
-📸 Captura recomendada después de aplicar cambios: contexto de /srv/share con ls -Z.
-
-## 6. Ajustes en Nginx
-
-Se revisan los contextos de los directorios web y logs:
-
-ls -Z /srv/app
-ls -Z /var/log/nginx
-
-📸 Captura recomendada: contextos de /srv/app y /var/log/nginx.
-
-Si fuera necesario, se aplicarían comandos como:
-
-restorecon -Rv /srv/app
-semanage fcontext -a -t httpd_sys_content_t "/srv/app(/.*)?"
-
-📸 Captura recomendada: salida de restorecon mostrando cambios aplicados. ```
-
+- [Configuración de Samba](samba.md)
+- [Configuración de Nginx](nginx.md)
