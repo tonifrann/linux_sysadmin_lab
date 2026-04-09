@@ -25,7 +25,7 @@ Se configura [firewalld](firewalld.md) para que se permita el trafico de HTTP/HT
 
 ## 4. Estructura de directorios
 
-Se ha creado `/srv/web` como directorio de la aplicación web. Esto permite gestionar mejor los permisos, backups y contextos SELinux.
+Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el contexto para segurarnos de que SElinux funcione correctamente y lo hago recursivo.
 
 <img width="987" height="99" alt="image" src="https://github.com/user-attachments/assets/ee787166-0ec7-46b4-989c-9655b41cac7f" />
 
