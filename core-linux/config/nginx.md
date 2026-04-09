@@ -27,7 +27,7 @@ Se configura [firewalld](firewalld.md) para que se permita el trafico de HTTP/HT
 
 ## 4. Estructura de directorios
 
-Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el contexto para segurarnos de que SElinux funcione correctamente y lo hago recursivo.
+Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el contexto para asegurarnos de que SElinux funcione correctamente y lo hago recursivo.
 
 <img width="987" height="99" alt="image" src="https://github.com/user-attachments/assets/ee787166-0ec7-46b4-989c-9655b41cac7f" />
 
@@ -62,6 +62,10 @@ Se comprueba el contexto SELinux del directorio web:
 
 El contexto es correcto (httpd_sys_content_t), por lo que Nginx puede acceder al contenido sin problemas.
 
+No se ha detectado ningun bloqueo en SElinux relacionados con nginx:
+
+<img width="990" height="45" alt="image" src="https://github.com/user-attachments/assets/527cceda-6311-4b7a-9a00-633ed8e83009" />
+
 
 ## 8. Logs
 
@@ -71,3 +75,11 @@ Se revisan los logs de acceso y error para verificar el funcionamiento del servi
 - sudo tail -10 /var/log/nginx/error.log
 
 No aparecen errores y las peticiones de http aparecen correctamente en el archivo access.log
+
+
+## 9. Estado final
+
+- Nginx instalado y funcionando correctamente
+- Firewall configurado
+- SELinux con el contexto correcto
+- Logs sin errores
