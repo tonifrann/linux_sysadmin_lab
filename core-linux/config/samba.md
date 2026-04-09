@@ -30,9 +30,9 @@ Se crea la carpeta y se le dan los permisos necesarios. Se le ha permisos de set
 
 ## 4. 4. Configuración del grupo y del usuario
 
-Se crea un grupo y se añade al usuario 'toni' para que tenga acceso al recurso compartido.
+Se crea un grupo 'smbgroup' y se añade al usuario 'juan' para que tenga acceso al recurso compartido.
 
-<img width="990" height="67" alt="image" src="https://github.com/user-attachments/assets/d276399e-f510-4ef2-a5ea-7edd5c15c419" />
+<img width="990" height="80" alt="image" src="https://github.com/user-attachments/assets/a6862830-2f15-4ea1-ad0e-abb53c02ce8d" />
 
 
 ## 5. Configuración de Samba
