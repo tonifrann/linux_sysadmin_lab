@@ -48,7 +48,7 @@ Se edita el archivo de configuración de samba ```nano /etc/samba/smb.conf``` y 
 
 ## 8. Firewall
 
-Se permite el trafico de samba: 
+Se permite el trafico de samba con [firewalld](firewalld.md) 
 
 <img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/23383db7-b768-430d-bba7-8be137d2d144" />
 
