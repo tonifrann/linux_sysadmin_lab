@@ -34,7 +34,7 @@ Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el cont
 
 ## 5. Configuración básica
 
-Se edita el archivo de configuración de nginx para que encuentr la ruta que hemos creado con ```nano /etc/nginx/nginx.conf```
+Se edita el archivo de configuración de nginx ```nano /etc/nginx/nginx.conf``` y modifico el bloque 'server' para que apunte al directorio raiz.
 
 <img width="983" height="174" alt="image" src="https://github.com/user-attachments/assets/100ea541-6b32-43db-a0b0-4a352c17fe81" />
 
@@ -50,7 +50,24 @@ Se comprueba en un navegador que funciona correctamente:
 <img width="1335" height="128" alt="image" src="https://github.com/user-attachments/assets/5809d865-2c66-4892-95bd-a70ec505aeff" />
 
 
+> NOTA:  Durante prueba desde el navegador, Nginx no mostraba el contenido debido a un error en la ruta (`/svr/web` en lugar de `/srv/web`). Una vez corregido, el servicio funcionó correctamente.
 
 
 
+## 7. SELinux comprobación
 
+Se comprueba el contexto SELinux del directorio web:
+
+<img width="990" height="46" alt="image" src="https://github.com/user-attachments/assets/2ffc785e-0d1c-4aa0-8aaf-ad4cbdfec0b1" />
+
+El contexto es correcto (httpd_sys_content_t), por lo que Nginx puede acceder al contenido sin problemas.
+
+
+## 8. Logs
+
+Se revisan los logs de acceso y error para verificar el funcionamiento del servicio:
+
+- sudo tail -10 /var/log/nginx/access.log
+- sudo tail -10 /var/log/nginx/error.log
+
+No aparecen errores y las peticiones de http aparecen correctamente en e lacces.log
