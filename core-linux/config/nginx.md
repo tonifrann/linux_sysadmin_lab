@@ -54,7 +54,7 @@ Se comprueba en un navegador que funciona correctamente:
 
 
 
-## 7. SELinux comprobación
+## 7. SELinux
 
 Se comprueba el contexto SELinux del directorio web:
 
