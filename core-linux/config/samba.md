@@ -60,6 +60,9 @@ Se revisa el contexto del directorio compartido:
 
 No aparece ningun contexto, asi que se lo configuramos manualmente:
 
+<img width="991" height="50" alt="image" src="https://github.com/user-attachments/assets/d1062728-da49-4e83-bba6-d1ef3a55ebec" />
+
+
 
 
 
