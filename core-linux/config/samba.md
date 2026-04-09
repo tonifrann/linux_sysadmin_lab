@@ -42,6 +42,18 @@ Se edita el archivo de configuración de samba ```nano /etc/samba/smb.conf``` y 
 <img width="988" height="127" alt="image" src="https://github.com/user-attachments/assets/170d204d-8cd3-4d0b-af6f-3286a59fbfbf" />
 
 
+## 6. Crear el usuario de Samba
+
+<img width="997" height="112" alt="image" src="https://github.com/user-attachments/assets/edc13e0e-4456-4737-bc0f-d7699dedaea0" />
+
+## 8. Firewall
+
+Se permite el trafico de samba: 
+
+<img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/23383db7-b768-430d-bba7-8be137d2d144" />
+
+
+
 
 
 
