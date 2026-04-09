@@ -22,10 +22,31 @@ Se habilita y arranca Nginx:
 
 Se configura [firewalld](firewalld.md) para que se permita el trafico de HTTP/HTTPS
 
+<img width="995" height="115" alt="image" src="https://github.com/user-attachments/assets/a44d0d48-63fa-4776-a5f5-77d5928bca48" />
+
 
 ## 4. Estructura de directorios
 
 Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el contexto para segurarnos de que SElinux funcione correctamente y lo hago recursivo.
 
 <img width="987" height="99" alt="image" src="https://github.com/user-attachments/assets/ee787166-0ec7-46b4-989c-9655b41cac7f" />
+
+
+## 5. Configuración básica
+
+Se edita el archivo de configuración de nginx para que encuentr la ruta que hemos creado con ```nano /etc/nginx/nginx.conf```
+
+<img width="990" height="97" alt="image" src="https://github.com/user-attachments/assets/4e87cc5e-12e4-40ff-b5df-8f1338f7169e" />
+
+
+## 6. Prueba de funcionamiento
+
+Se crea un archivo html simple y se recarga nginx.
+
+<img width="993" height="68" alt="image" src="https://github.com/user-attachments/assets/971bd644-c193-4470-bbfa-b5b0292ee54c" />
+
+
+
+
+
 
