@@ -2,7 +2,7 @@
 
 ## 1. Descarga de la ISO
 
-La ISO descargada desde la página oficial de Rocky Linux.
+La ISO se ha descargado desde la página oficial de Rocky Linux.
 
 ## 2. Configuración de la máquina virtual
 
