@@ -54,7 +54,7 @@ Se permite el trafico de samba con [firewalld](firewalld.md)
 
 ## 8. SELinux
 
-Se revisa el contexto de [SELinux](../selinux.md) del directorio compartido:
+Se revisa el contexto de [SELinux](selinux.md) del directorio compartido:
 
 <img width="992" height="33" alt="image" src="https://github.com/user-attachments/assets/f46ec3b7-68df-4bd7-9e04-4bafaac7e6b1" />
 
