@@ -25,10 +25,12 @@ Se revisan las reglas que hay configuradas.
 
 ## 4. Permitir servicios necesarios
 
+Se añaden los servicios que queremos permitir.
+
 <img width="996" height="163" alt="image" src="https://github.com/user-attachments/assets/7047c98d-22c4-4db8-904f-9672566f3bd5" />
 
 
-Una vez configurado SAmba, se permite también su servicio:
+Una vez configurado Samba, se permite también su servicio en el firewall.
 
 <img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/f83013fb-6edb-4ba2-b5cf-3e7cee99b207" />
 
