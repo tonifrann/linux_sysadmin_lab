@@ -1,1 +1,40 @@
-# Configuración de Samba con ACLs
+# Configuración de Samba
+
+Se instala y configura Samba para compartir recursos en red y permitir el acceso entre sistemas Linux y Windows.
+
+
+## 1. Instalación
+
+Para instalar Samba ejecutamos ```sudo dnf install samba samba-common samba-client -y```
+
+<img width="1018" height="101" alt="image" src="https://github.com/user-attachments/assets/084a973b-5696-49e5-8de2-47c4d387892b" />
+
+
+## 2. Servicio y firewall
+
+Se habilitan y arrancan los servicios:
+
+<img width="989" height="47" alt="image" src="https://github.com/user-attachments/assets/2e8adf19-201f-4c4e-ac66-871fce4eb935" />
+
+Se comprueba el estado:
+
+<img width="986" height="269" alt="image" src="https://github.com/user-attachments/assets/9a9e692a-7218-418e-b09f-2e47f4fca12c" />
+
+
+## 3. Creación del recurso compartido
+
+Se crea la carpeta y se le dan los permisos necesarios. Se le ha permisos de setgid para que los archivos que se creen hereden los permisos del directorio.
+
+<img width="992" height="67" alt="image" src="https://github.com/user-attachments/assets/efd7c64f-d337-4cde-85d0-221d0ca90864" />
+
+
+## 4. 4. Configuración del grupo y del usuario
+
+Se crea un grupo y se añade al usuario 'toni' para que tenga acceso al recurso compartido.
+
+<img width="990" height="67" alt="image" src="https://github.com/user-attachments/assets/d276399e-f510-4ef2-a5ea-7edd5c15c419" />
+
+
+## 5. Configuración de Samba
+
+
