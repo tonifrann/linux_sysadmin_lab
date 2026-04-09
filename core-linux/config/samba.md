@@ -37,4 +37,10 @@ Se crea un grupo y se añade al usuario 'toni' para que tenga acceso al recurso 
 
 ## 5. Configuración de Samba
 
+Se edita el archivo de configuración de samba ```nano /etc/samba/smb.conf``` y se añade al final:
+
+<img width="986" height="124" alt="image" src="https://github.com/user-attachments/assets/d32f6ecc-7195-4bc0-954c-4d3deb77dbb9" />
+
+
+
 
