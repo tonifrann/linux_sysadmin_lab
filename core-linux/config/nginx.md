@@ -53,7 +53,6 @@ Se comprueba en un navegador que funciona correctamente:
 > NOTA:  En la primera prueba desde el navegador, Nginx no mostraba el contenido debido a un error de escritura en la ruta (`/svr/web` en lugar de `/srv/web`). Una vez corregido, el servicio funcionó correctamente.
 
 
-
 ## 7. SELinux
 
 Se comprueba el contexto SELinux del directorio web:
