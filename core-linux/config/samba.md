@@ -5,7 +5,7 @@ Se instala y configura Samba para compartir recursos en red y permitir el acceso
 
 ## 1. Instalación
 
-Para instalar Samba ejecutamos ```sudo dnf install samba samba-common samba-client -y```
+Para instalar Samba se ejecuta ```sudo dnf install samba samba-common samba-client -y```
 
 <img width="1018" height="101" alt="image" src="https://github.com/user-attachments/assets/084a973b-5696-49e5-8de2-47c4d387892b" />
 
@@ -23,7 +23,7 @@ Se comprueba el estado:
 
 ## 3. Creación del recurso compartido
 
-Se crea la carpeta y se le dan los permisos necesarios. Se le ha permisos de setgid para que los archivos que se creen hereden los permisos del directorio.
+Se crea la carpeta y se le dan los permisos necesarios. Se le da permisos de setgid para que los archivos que se creen hereden los permisos del directorio.
 
 <img width="992" height="67" alt="image" src="https://github.com/user-attachments/assets/efd7c64f-d337-4cde-85d0-221d0ca90864" />
 
