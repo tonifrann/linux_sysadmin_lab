@@ -39,7 +39,8 @@ Se crea un grupo `smbgroup` y se añade al usuario `juan` para que tenga acceso 
 
 Se edita el archivo de configuración de samba ```nano /etc/samba/smb.conf``` y se añade al final:
 
-<img width="986" height="124" alt="image" src="https://github.com/user-attachments/assets/d32f6ecc-7195-4bc0-954c-4d3deb77dbb9" />
+<img width="988" height="127" alt="image" src="https://github.com/user-attachments/assets/170d204d-8cd3-4d0b-af6f-3286a59fbfbf" />
+
 
 
 
