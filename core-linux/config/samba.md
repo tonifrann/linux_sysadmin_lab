@@ -10,7 +10,7 @@ Para instalar Samba ejecutamos ```sudo dnf install samba samba-common samba-clie
 <img width="1018" height="101" alt="image" src="https://github.com/user-attachments/assets/084a973b-5696-49e5-8de2-47c4d387892b" />
 
 
-## 2. Servicio y firewall
+## 2. Servicio
 
 Se habilitan y arrancan los servicios:
 
