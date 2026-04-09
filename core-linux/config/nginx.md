@@ -45,6 +45,8 @@ Se crea un archivo html simple y se recarga nginx.
 
 <img width="993" height="68" alt="image" src="https://github.com/user-attachments/assets/971bd644-c193-4470-bbfa-b5b0292ee54c" />
 
+Se comprueba en un navegador que funciona correctamente:
+
 <img width="949" height="163" alt="image" src="https://github.com/user-attachments/assets/fcb1c2e4-8bb8-4886-81a2-a2f02c293b4f" />
 
 
