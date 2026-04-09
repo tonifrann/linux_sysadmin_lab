@@ -62,7 +62,24 @@ No aparece ningun contexto, asi que se lo configuramos manualmente:
 
 <img width="991" height="50" alt="image" src="https://github.com/user-attachments/assets/d1062728-da49-4e83-bba6-d1ef3a55ebec" />
 
+Se comprueba que se ha aplicado correctamente:
 
+<img width="988" height="53" alt="image" src="https://github.com/user-attachments/assets/cab52128-f1c8-4929-af8b-8c6541b5c69a" />
+
+## 9. Reinicio del servicio
+
+<img width="989" height="35" alt="image" src="https://github.com/user-attachments/assets/62814699-5510-4615-813a-012b2374ef8a" />
+
+
+## 10. Prueba de funcionamiento
+
+Comprobación desde el servidor:
+
+<img width="985" height="176" alt="image" src="https://github.com/user-attachments/assets/17b8652b-5e47-4ea1-9d8f-a1eeba0099af" />
+
+Comprobación desde un cliente windows:
+
+<img width="1634" height="199" alt="image" src="https://github.com/user-attachments/assets/ee6fff70-1d07-4b02-be97-83bc11a2b7f9" />
 
 
 
