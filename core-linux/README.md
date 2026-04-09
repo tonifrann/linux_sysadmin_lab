@@ -20,7 +20,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 ### 2. Instalación y configuración base
 - [Instalación del sistema](config/installation.md)
 - [Configuración de red (nmcli)](config/networking.md)
-- [Hardening SSH](config/ssh.md)
+- [Configuración de SSH](config/ssh.md)
 - [Firewall (firewalld)](config/firewalld.md)
 - [SELinux](config/selinux.md)
 
