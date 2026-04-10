@@ -33,7 +33,6 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 
 ### 4. Arquitectura del laboratorio
 - [Diagrama](architecture/diagram.png)
-- [Notas de diseño](architecture/design-notes.md)
 
 ### 5. Automatización
 - [Scripts del servidor](scripts/)
