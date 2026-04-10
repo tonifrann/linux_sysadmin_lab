@@ -15,7 +15,7 @@ Diseñado para demostrar despliegue, seguridad, monitorización, automatización
 - Monitorización (Prometheus, Grafana)
 - Backups y recuperación
 - Automatización (Ansible, scripts)
-- Troubleshooting real
+- Troubleshooting
 - Integración Windows/Linux
 
 ---
