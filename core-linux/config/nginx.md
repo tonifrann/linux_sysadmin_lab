@@ -36,7 +36,9 @@ Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el cont
 
 En lugar de modificar el archivo principal nginx.conf, se crea un archivo de configuración para la web:
 
+```sudo nano /etc/nginx/conf.d/web.conf```
 
+<img width="986" height="117" alt="image" src="https://github.com/user-attachments/assets/8cb91a68-565e-4dfd-b8a5-850137b3800f" />
 
 
 ## 6. Prueba de funcionamiento
