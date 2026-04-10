@@ -14,7 +14,7 @@ Para instalar Samba se ejecuta ```sudo dnf install samba samba-common samba-clie
 
 Se habilitan y arrancan los servicios:
 
-<img width="989" height="47" alt="image" src="https://github.com/user-attachments/assets/2e8adf19-201f-4c4e-ac66-871fce4eb935" />
+<img width="992" height="64" alt="image" src="https://github.com/user-attachments/assets/29cd284d-5e74-4cbc-bdff-738c4a366721" />
 
 Se comprueba el estado:
 
