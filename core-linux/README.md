@@ -25,11 +25,10 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - [SELinux](config/selinux.md)
 
 ### 3. Servicios del servidor
-- [LVM y almacenamiento](config/lvm.md)
 - [Samba con ACLs](config/samba.md)
 - [Nginx con HTTPS](config/nginx.md)
+- [LVM y almacenamiento](config/lvm.md)
 - [Backups (rsync, tar, dd)](config/backups.md)
-- [Hardening general](config/hardening.md)
 
 ### 4. Arquitectura del laboratorio
 - [Diagrama](architecture/diagram.png)
