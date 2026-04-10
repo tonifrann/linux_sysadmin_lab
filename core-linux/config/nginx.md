@@ -34,9 +34,9 @@ Se ha creado `/srv/web` como directorio de la aplicación web. Configuro el cont
 
 ## 5. Configuración básica
 
-Se edita el archivo de configuración de nginx ```nano /etc/nginx/nginx.conf``` y modifico el bloque 'server' para que apunte al directorio raiz.
+En lugar de modificar el archivo principal nginx.conf, se crea un archivo de configuración para la web:
 
-<img width="983" height="174" alt="image" src="https://github.com/user-attachments/assets/100ea541-6b32-43db-a0b0-4a352c17fe81" />
+
 
 
 ## 6. Prueba de funcionamiento
