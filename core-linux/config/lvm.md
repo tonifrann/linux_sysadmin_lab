@@ -45,7 +45,8 @@ Se crea el punto de montaje y se monta:
 
 Se compueba:
 
-<img width="993" height="197" alt="image" src="https://github.com/user-attachments/assets/a4f85438-3119-44ff-b24c-8ab519f9bf9b" />
+<img width="996" height="190" alt="image" src="https://github.com/user-attachments/assets/f55680d2-bc2a-4ee3-800d-2b8f771658d9" />
+
 
 
 ## 6. Montaje persistente (fstab)
