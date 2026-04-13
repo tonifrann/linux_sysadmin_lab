@@ -28,7 +28,7 @@ Se crea el VG usando los dos discos y se comprueba:
 
 Se crea el LV utilizando todo el espacio libre del VG y se comprueba: 
 
-<img width="984" height="132" alt="image" src="https://github.com/user-attachments/assets/68b77f6a-612d-4b3b-a35a-07ae15aca73c" />
+<img width="996" height="91" alt="image" src="https://github.com/user-attachments/assets/79831b25-3fa2-46f1-9557-e511b91177e3" />
 
 
 ## 5. Formateo y montaje
