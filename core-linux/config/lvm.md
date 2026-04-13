@@ -51,7 +51,8 @@ Se compueba:
 
 ## 6. Montaje persistente (fstab)
 
-<img width="1009" height="50" alt="image" src="https://github.com/user-attachments/assets/9670fe8f-7a1b-4172-a869-71997d8925b6" />
+<img width="997" height="46" alt="image" src="https://github.com/user-attachments/assets/1525aef0-6930-4812-a109-f293cd734ef8" />
+
 
 <img width="1009" height="278" alt="image" src="https://github.com/user-attachments/assets/bf736e94-743f-48f1-8ded-c44ac1f82247" />
 
