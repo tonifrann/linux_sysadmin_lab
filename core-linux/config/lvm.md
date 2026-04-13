@@ -51,9 +51,16 @@ Se compueba:
 
 ## 6. Montaje persistente (fstab)
 
+Se obtiene el UUID:
+
 <img width="997" height="46" alt="image" src="https://github.com/user-attachments/assets/1525aef0-6930-4812-a109-f293cd734ef8" />
 
+Se modifica el /etc/fstab:
 
-<img width="1009" height="278" alt="image" src="https://github.com/user-attachments/assets/bf736e94-743f-48f1-8ded-c44ac1f82247" />
+<img width="1004" height="277" alt="image" src="https://github.com/user-attachments/assets/36ca5680-335b-48aa-9b98-5e99cc63712a" />
+
+Se verifica que la nueva entrada en /etc/fstab se ha montado correctamente.
+
+<img width="996" height="35" alt="image" src="https://github.com/user-attachments/assets/4820a04f-b8d9-43f2-b588-65e722e26d37" />
 
 
