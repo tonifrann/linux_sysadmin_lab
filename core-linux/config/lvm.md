@@ -33,9 +33,14 @@ Se crea el LV utilizando todo el espacio libre del VG y se comprueba:
 
 ## 5. Formateo y montaje
 
-Se formatea el volumen y se monta:
+Se formatea el volumen:
 
-<img width="985" height="256" alt="image" src="https://github.com/user-attachments/assets/0c9c3aeb-3d33-409f-9dc1-113ef0485130" />
+<img width="992" height="206" alt="image" src="https://github.com/user-attachments/assets/0af4f477-defa-4081-b04d-d4dc755fa2d3" />
+
+
+Se crea el punto de montaje y se monta:
+
+<img width="992" height="44" alt="image" src="https://github.com/user-attachments/assets/ba34a274-17da-4398-b0b3-ed3b4c72ad8d" />
 
 
 Se compueba:
