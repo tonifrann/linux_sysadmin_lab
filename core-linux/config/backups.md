@@ -1,19 +1,17 @@
 # Backups (rsync, tar, dd)
 
-En este documento se muestran distintas formas de realizar copias de seguridad en Linux, utilizando herramientas habituales según el tipo de backup: incremental, comprimido o a bajo nivel.
+En este documento se muestran las copias de seguridad realizadas en el servidor, utilizando distintos métodos según el caso.
 
-## 1. Introducción
+Se implementan distintos tipos de backups según el caso de uso:
 
-No todos los backups son iguales. Dependiendo del caso, interesa:
-
-Copiar solo cambios → rsync
-Generar un archivo comprimido → tar
-Clonar discos completos → dd
+- rsync para copias incrementales
+- tar para backups comprimidos
+- dd para copias a bajo nivel
 
 
-## 2. Backup incremental con rsync
+## 1. Backup incremental con rsync
 
-Se realiza una copiade seguridad del lvm montado en /mnt/data al directorio /backup utilizando rsync.
+Se realiza una copia de seguridad del lvm montado en /mnt/data al directorio /backup utilizando rsync.
 
 <img width="993" height="113" alt="image" src="https://github.com/user-attachments/assets/25730961-5a6f-491c-8efb-51b1bd142d51" />
 
@@ -24,7 +22,7 @@ Se comprueba que los archivos se han copiado correctamente:
 > NOTA: Se utiliza rsync por su eficiencia al copiar únicamente los cambios.
 
 
-## 3. Backup comprimido con tar
+## 2. Backup comprimido con tar
 
 Se genera un archivo comprimido del directorio /srv/web:
 
@@ -39,7 +37,7 @@ Verificamos que se ha creado correctamente:
 > NOTA: $(date +%F) genera automáticamente la fecha, indicando cuándo se creó cada backup.
 
 
-## 4. Backup de bajo nivel con dd
+## 3. Backup de bajo nivel con dd
 
 Se realiza una copia a bajo nivel de un disco a un archivo de imagen.
 
@@ -49,12 +47,12 @@ Se comprueba el tamaño del archivo generado:
 
 <img width="990" height="97" alt="image" src="https://github.com/user-attachments/assets/19d1d55d-47e0-4333-af59-3ca330979893" />
 
-> NOTA: Herramienta potente pero peligrosa: un error en if o of puede sobrescribir datos.
+> NOTA: Herramienta potente pero peligrosa, si se usa mal puede sobrescribir datos.
 
 
 ## 4. Restauración 
 
-Se realizan pruebas de restauración para verificar que los backups han funcionado.
+Se valida que los datos restaurados coinciden con los originales.
 
 - rsync:
 
@@ -73,7 +71,7 @@ Se realizan pruebas de restauración para verificar que los backups han funciona
 
 ## 5. Automatización de backups
 
-Accedor como root para crear un crontab del sistema para hacer backups incrementales diarios por la noche.
+Se configura una tarea programada en el crontab de root para realizar backups incrementales diarios.
 
 <img width="988" height="49" alt="image" src="https://github.com/user-attachments/assets/7684ebe9-f41b-42d5-83a3-f0bbd504c0c3" />
 
