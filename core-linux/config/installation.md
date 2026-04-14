@@ -35,8 +35,8 @@ La ISO se ha descargado desde la página oficial de Rocky Linux.
 
 
 > Nota: Hyper‑V NAT no proporciona DHCP, por lo que la interfaz no obtiene IP automáticamente.
-
+>
 > La configuración de red se realiza manualmente en el apartado de [Configuración de red](networking.md)
-
+>
 >  Se utiliza LVM automático para la instalación inicial, aunque más adelante se configurará manualmente.
 
