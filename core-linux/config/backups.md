@@ -13,7 +13,7 @@ Clonar discos completos → dd
 
 ## 2. Backup incremental con rsync
 
-Se utiliza rsync para copiar directorios de forma eficiente, copiando solo los cambios. Ideal para backups periódicos, ya que reduce tiempo y consumo de espacio.
+Se utiliza rsync para copiar directorios de forma eficiente, copiando solo los cambios.
 
 <img width="993" height="113" alt="image" src="https://github.com/user-attachments/assets/25730961-5a6f-491c-8efb-51b1bd142d51" />
 
@@ -24,8 +24,12 @@ Se verifica:
 
 ## 3. Backup comprimido con tar
 
-Se utiliza tar para generar un archivo comprimido con el contenido de un directorio.
+Se utiliza tar para generar un archivo comprimido con el contenido de un directorio. Útil para almacenar backups.
 
 <img width="994" height="82" alt="image" src="https://github.com/user-attachments/assets/037902e4-e754-432e-a1f9-37c9b79ab9f3" />
 
-Nota: $(date +%F) genera automáticamente la fecha en formato YYYY-MM-DD, lo que facilita identificar cuándo se creó cada backup.
+> Nota: $(date +%F) genera automáticamente la fecha en formato YYYY-MM-DD, lo que facilita identificar cuándo se creó cada backup.
+
+
+## 4. Backup de bajo nivel con dd
+
