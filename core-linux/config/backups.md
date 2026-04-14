@@ -77,5 +77,8 @@ Accedor como root para crear un crontab del sistema para hacer backups increment
 
 <img width="988" height="49" alt="image" src="https://github.com/user-attachments/assets/7684ebe9-f41b-42d5-83a3-f0bbd504c0c3" />
 
+<img width="999" height="31" alt="image" src="https://github.com/user-attachments/assets/c324117a-b7ee-49c1-9d84-457b6ebd0813" />
+
+
 
 
