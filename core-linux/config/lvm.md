@@ -64,3 +64,21 @@ Se verifica que la nueva entrada en /etc/fstab se ha montado correctamente.
 <img width="996" height="35" alt="image" src="https://github.com/user-attachments/assets/4820a04f-b8d9-43f2-b588-65e722e26d37" />
 
 
+## 7. Ampliación del LV con un nuevo disco
+
+Se añade un disco nuevo de 5GB y se verifica:
+
+<img width="991" height="227" alt="image" src="https://github.com/user-attachments/assets/3b97ef78-1ee8-4d14-84df-609959e1ff90" />
+
+
+Se inicializa el disco, se añade al VG y se amplia el LV:
+
+<img width="991" height="305" alt="image" src="https://github.com/user-attachments/assets/b709489a-7a81-4715-bc19-132289caca3a" />
+
+
+Se verifica que se ha ampliado correctamente:
+
+<img width="993" height="189" alt="image" src="https://github.com/user-attachments/assets/3e93fb65-dd88-4392-a52b-f93d57774a56" />
+
+
+
