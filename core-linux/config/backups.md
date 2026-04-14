@@ -34,6 +34,8 @@ Verificamos que se ha creado correctamente:
 
 <img width="991" height="84" alt="image" src="https://github.com/user-attachments/assets/3f22f7b6-8c74-455f-890d-19fc1bcb39c0" />
 
+<img width="1000" height="68" alt="image" src="https://github.com/user-attachments/assets/0914878b-45c8-486f-848f-893a504b3169" />
+
 > NOTA: $(date +%F) genera automáticamente la fecha en formato YYYY-MM-DD, lo que facilita identificar cuándo se creó cada backup.
 
 
@@ -53,6 +55,9 @@ Se comprueba el tamaño del archivo generado:
 ## 4. Verificación de backups
 
 Se valida que los backups generados contienen la información esperada.
+
+<img width="1000" height="68" alt="image" src="https://github.com/user-attachments/assets/0914878b-45c8-486f-848f-893a504b3169" />
+
 
 
 
