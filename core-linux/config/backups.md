@@ -52,15 +52,13 @@ Se comprueba el tamaño del archivo generado:
 > NOTA: Herramienta potente pero peligrosa: un error en if o of puede sobrescribir datos.
 
 
-## 4. Verificación de backups
-
-Se valida que los backups generados contienen la información esperada.
-
-<img width="1000" height="68" alt="image" src="https://github.com/user-attachments/assets/0914878b-45c8-486f-848f-893a504b3169" />
-
-
-
-
-## 5. Restauración 
+## 4. Restauración 
 
 Se realizan pruebas de restauración para verificar que los backups son funcionales.
+
+- rsync:
+- 
+
+- tar
+
+- dd
