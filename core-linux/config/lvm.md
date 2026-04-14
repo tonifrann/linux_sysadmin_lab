@@ -86,5 +86,4 @@ Se verifica que se ha ampliado correctamente:
 
 ## 8. Snapshots en LVM
 
-LVM también ofrece la posibilidad de crear snapshots, muy útiles antes de aplicar cambios críticos.
-En este laboratorio no se han utilizado para mantener el foco en la gestión y ampliación del almacenamiento.
+Los snapshots LVM son útiles para pruebas o cambios críticos, pero no sustituyen a un sistema de backup real. En este laboratorio no se han utilizado para mantener el foco en la gestión del almacenamiento.
