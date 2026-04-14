@@ -36,7 +36,7 @@ Verificamos que se ha creado correctamente:
 
 <img width="1000" height="68" alt="image" src="https://github.com/user-attachments/assets/0914878b-45c8-486f-848f-893a504b3169" />
 
-> NOTA: $(date +%F) genera automáticamente la fecha en formato YYYY-MM-DD, lo que facilita identificar cuándo se creó cada backup.
+> NOTA: $(date +%F) genera automáticamente la fecha, indicando cuándo se creó cada backup.
 
 
 ## 4. Backup de bajo nivel con dd
