@@ -30,7 +30,7 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 <img width="994" height="96" alt="image" src="https://github.com/user-attachments/assets/636e9339-77d1-4fc1-9be6-8f938a287648" />
 
-Nota: Si lo en vez de windows, se hubiera utilizado un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no se hubiera tenido que crear las carpetas manualmente.
+> Nota: Si lo en vez de windows, se hubiera utilizado un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no se hubiera tenido que crear las carpetas manualmente.
 
 
 ## 4. Configuración del servicio SSH
