@@ -13,11 +13,11 @@ Clonar discos completos → dd
 
 ## 2. Backup incremental con rsync
 
-Se utiliza rsync para copiar directorios de forma eficiente, copiando solo los cambios.
+Se realiza una copia del directorio /srv/web al directorio /backup utilizando rsync.
 
 <img width="993" height="113" alt="image" src="https://github.com/user-attachments/assets/25730961-5a6f-491c-8efb-51b1bd142d51" />
 
-Se verifica:
+Se comprueba que los archivos se han copiado correctamente:
 
 <img width="992" height="65" alt="image" src="https://github.com/user-attachments/assets/272345f8-a85e-436e-92c1-cb3a40eebcc2" />
 
@@ -33,3 +33,8 @@ Se utiliza tar para generar un archivo comprimido con el contenido de un directo
 
 ## 4. Backup de bajo nivel con dd
 
+Se utiliza dd para copiar discos o particiones completas.
+
+<img width="995" height="97" alt="image" src="https://github.com/user-attachments/assets/658c41f4-2614-40df-8a9a-1158af1fa4de" />
+
+> Nota: Herramienta potente pero peligrosa: un error en if o of puede sobrescribir datos.
