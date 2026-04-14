@@ -54,11 +54,28 @@ Se comprueba el tamaño del archivo generado:
 
 ## 4. Restauración 
 
-Se realizan pruebas de restauración para verificar que los backups son funcionales.
+Se realizan pruebas de restauración para verificar que los backups han funcionado.
 
 - rsync:
-- 
+
+<img width="991" height="131" alt="image" src="https://github.com/user-attachments/assets/9cff1fa2-e02a-4dc4-af39-652827c1ef8f" />
+
 
 - tar
 
+<img width="994" height="66" alt="image" src="https://github.com/user-attachments/assets/97b04644-f852-46b1-8a7a-c9281b5b5248" />
+
+
 - dd
+
+<img width="987" height="69" alt="image" src="https://github.com/user-attachments/assets/c7000996-e3d2-4352-b648-538de2c99bba" />
+
+
+## 5. Automatización de backups
+
+Accedor como root para crear un crontab del sistema para hacer backups incrementales diarios por la noche.
+
+<img width="988" height="49" alt="image" src="https://github.com/user-attachments/assets/7684ebe9-f41b-42d5-83a3-f0bbd504c0c3" />
+
+
+
