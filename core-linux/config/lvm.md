@@ -55,7 +55,7 @@ Se obtiene el UUID:
 
 <img width="997" height="46" alt="image" src="https://github.com/user-attachments/assets/1525aef0-6930-4812-a109-f293cd734ef8" />
 
-NOTA: El uso de UUID garantiza que el montaje sea estable incluso si cambian los nombres de los dispositivos.
+> NOTA: El uso de UUID garantiza que el montaje sea estable incluso si cambian los nombres de los dispositivos.
 
 
 Se modifica el /etc/fstab:
