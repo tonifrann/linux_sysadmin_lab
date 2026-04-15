@@ -24,22 +24,7 @@ Asigno la IP 192.168.100.10/24, gateway y el DNS
 ## 4. Configuración persistente
 Todo ha quedado guardado en el archivo /etc/NetworkManager/system-connections/eth0.nmconnection
 
-## 5. Estado final
-
-La red queda configurada con:
-
-IP: 192.168.100.10/24
-
-Gateway: 192.168.100.1
-
-DNS: 8.8.8.8
-
-Interfaz: eth0
-
-Método: manual
-
----
 
 > Nota: El servidor ya tiene acceso a Internet y ya se puede actualizar el sistema con:
 
-```dnf update -y```
+> ```dnf update -y```
