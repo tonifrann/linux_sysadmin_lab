@@ -6,6 +6,8 @@ Se simula un problema en la configuración del firewall que impide el acceso a s
 
 No es posible acceder al servidor web desde la red, aunque el servicio está funcionando correctamente.
 
+> NOTA: El problema se ha provocado eliminando las reglas de HTTP/HTTPS en firewalld para simular un error de configuración.
+
 
 ## 2. Síntomas
 
@@ -34,7 +36,7 @@ Se revisa la configuración del firewall:
 
 ## 4. Causa
 
-El firewqall no está permitiendo el trafico HTTP/HTTPS, y bloqua el acceso aunque el servicio de nginx está activo.
+El firewall no está permitiendo el trafico HTTP/HTTPS, y bloquea el acceso aunque el servicio de nginx está activo.
 
 
 ## 5. Solución
@@ -61,6 +63,3 @@ También desde el navegador:
 - Comprobar conectividad desde cliente y servidor
 - Documentar puertos necesarios por servicio
 - Evitar cambios sin antes validar el funcionamiento
-
-> El problema se ha provocado eliminando las reglas de HTTP/HTTPS en firewalld para simular un error común de configuración.
-
