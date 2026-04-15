@@ -16,6 +16,7 @@ No es posible acceder al servidor web desde la red, aunque el servicio está fun
 - El servicio está activo en el servidor
 
 Se comprueba que no funciona el acceso web desde un navegador:
+
 <img width="466" height="196" alt="image" src="https://github.com/user-attachments/assets/a75df44f-1be7-47b4-b477-ea1030b420ab" />
 
 
