@@ -87,16 +87,3 @@ Comprobación desde un cliente windows:
 Se revisan los logs de Samba para verificar que no hay ningun problema:
 
 <img width="979" height="128" alt="image" src="https://github.com/user-attachments/assets/7c32b093-fb3a-4412-9294-809d3ae61751" />
-
-
-## 12. Estado final
-
-- Samba instalado y funcionando
-
-- Firewall configurado
-
-- Usuario creado
-
-- SELinux configurado
-
-- Acceso desde Linux y Windows funcionando coerractamente
