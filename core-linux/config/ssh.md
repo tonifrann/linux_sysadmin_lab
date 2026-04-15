@@ -57,12 +57,3 @@ Verifico el acceso a la maquina Windows 11 con la clave y sin que pida contrase√
 Verifico que root no puede acceder.
 
 <img width="1098" height="110" alt="image" src="https://github.com/user-attachments/assets/9ad9fac2-054d-4a38-a985-3a572ce21974" />
-
-
-## 7. Estado final
-SSH queda configurado de forma segura:
-
-- Acceso solo con claves
-- Root deshabilitado
-- Usuario administrador con sudo
-- Intentos limitados
