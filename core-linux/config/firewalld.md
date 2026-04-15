@@ -41,8 +41,3 @@ Se comprueba que los servicios estan correctamente configurados.
 
 <img width="1004" height="257" alt="image" src="https://github.com/user-attachments/assets/767f2801-45b8-45e4-adaa-a30e920c2d2a" />
 
-
-## 6. Consideraciones de seguridad
-
-- Solo se permiten los servicios necesarios.
-- Se evita abrir puertos si existe el servicio.
