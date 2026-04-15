@@ -76,11 +76,3 @@ Se revisan los logs de acceso y error para verificar el funcionamiento del servi
 - sudo tail -10 /var/log/nginx/error.log
 
 No aparecen errores y las peticiones de http aparecen correctamente en el archivo access.log
-
-
-## 9. Estado final
-
-- Nginx instalado y funcionando correctamente
-- Firewall configurado
-- SELinux con el contexto correcto
-- Logs sin errores
