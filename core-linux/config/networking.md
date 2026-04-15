@@ -26,5 +26,4 @@ Todo ha quedado guardado en el archivo /etc/NetworkManager/system-connections/et
 
 
 > Nota: El servidor ya tiene acceso a Internet y ya se puede actualizar el sistema con:
-
 > ```dnf update -y```
