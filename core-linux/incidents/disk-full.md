@@ -4,12 +4,16 @@ Se simula una situación en la que el sistema se queda sin espacio en disco, pro
 
 ## 1. Problema
 
-Se simula una situación en la que el LVM se queda sin espacio en disco, provocando fallos en servicios.
+Se simula una situación en la que el disco de sistema se queda sin espacio en disco.
 
-<img width="994" height="49" alt="{90A1A8BD-3BA1-4C1C-B2FD-26698B56D0D9}" src="https://github.com/user-attachments/assets/803f92a2-97c2-4c1e-99b7-d2099a51fa36" />
-<img width="998" height="49" alt="image" src="https://github.com/user-attachments/assets/d5f492e7-66ab-421f-a1bb-479b37f67e64" />
+<img width="991" height="33" alt="image" src="https://github.com/user-attachments/assets/7ac128e9-0d4d-42df-bac9-0499161917f4" />
 
-Se comprueba el disco y se ve que esta el 100% en uso:
 
-<img width="997" height="220" alt="image" src="https://github.com/user-attachments/assets/8fba6253-5337-4835-9e00-484f26c86abf" />
+Se comprueba el disco y se ve que la raiz esta el 100% de uso:
+
+<img width="989" height="65" alt="image" src="https://github.com/user-attachments/assets/f2f8105a-05ae-454f-b6c2-a32634fc464a" />
+
+
+
+
 
