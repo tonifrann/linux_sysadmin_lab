@@ -36,9 +36,16 @@ Se revisa la configuración:
 <img width="998" height="37" alt="image" src="https://github.com/user-attachments/assets/c592b96c-e2a7-414c-82c6-4211a629b557" />
 
 
+## 4. Causa
+
+El servicio SSH no arranca debido a un error en la configuración del archivo /etc/ssh/sshd_config.
+
+Se ha modificado un puerto incorrecto, haciendo que el servicio falle.
+
+
 ## 5. Solución
 
-Se corrige el error en el archivo de configuración (puerto incorrecto):
+Se corrige el error en el archivo de configuración:
 
 <img width="991" height="17" alt="image" src="https://github.com/user-attachments/assets/2b3797aa-1b8e-4f50-86a5-84638ceede1b" />
 
