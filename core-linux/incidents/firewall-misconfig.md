@@ -1,19 +1,14 @@
 # Incidencia: Error de firewall
 
-Se simula un problema en la configuración del firewall que impide el acceso a servicios que deberían estar disponibles.
+Se detecta un problema en la configuración del firewall que impide el acceso a servicios que deberían estar disponibles.
+
 
 ## 1. Problema
 
 No es posible acceder al servidor web desde la red, aunque el servicio está funcionando correctamente.
 
-> NOTA: El problema se ha provocado eliminando las reglas de HTTP/HTTPS en firewalld para simular un error de configuración.
-
 
 ## 2. Síntomas
-
-- No se puede acceder a la web desde el navegador
-- Timeout o conexión rechazada
-- El servicio está activo en el servidor
 
 Se comprueba que no funciona el acceso web desde un navegador:
 
@@ -63,4 +58,3 @@ También desde el navegador:
 - Verificar reglas de firewall después de configurar servicios
 - Comprobar conectividad desde cliente y servidor
 - Documentar puertos necesarios por servicio
-- Evitar cambios sin antes validar el funcionamiento
