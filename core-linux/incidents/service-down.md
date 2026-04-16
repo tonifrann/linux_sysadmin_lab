@@ -1,7 +1,6 @@
-# Incidencia: Servicio SSH caído (sshd)
+# Incidencia: SSH no arranca tras cambios en la configuración
 
-Tras realizar cambios en la configuración de SSH, el servicio deja de arrancar correctamente, impidiendo el acceso remoto al servidor.
-
+Después de modificar la configuración de SSH, el servicio y el acceso remoto dejaron de funcionar.
 
 ## 1. Problema
 
@@ -34,7 +33,7 @@ Se revisan los logs en busca del fallo:
 
 Se revisa la configuración:
 
-<img width="999" height="47" alt="image" src="https://github.com/user-attachments/assets/ec4c73ce-f5ab-48e2-8633-b36adce8583f" />
+<img width="998" height="37" alt="image" src="https://github.com/user-attachments/assets/c592b96c-e2a7-414c-82c6-4211a629b557" />
 
 
 ## 5. Solución
@@ -45,3 +44,24 @@ Se corrige el error en el archivo de configuración (puerto incorrecto):
 
 <img width="996" height="146" alt="image" src="https://github.com/user-attachments/assets/1af555e1-222b-4796-8c9d-4a804db25ca0" />
 
+Se valida la configuración: 
+
+<img width="994" height="34" alt="image" src="https://github.com/user-attachments/assets/8de418cf-32f2-42ce-8395-93a8e3312114" />
+
+
+## 6. Verificación
+
+Se comprueba que el servicio está activo:
+
+<img width="993" height="224" alt="image" src="https://github.com/user-attachments/assets/b561168a-faf0-47a8-b1e7-02da2ab3d593" />
+
+Se comprueba que hay conexión desde el cliente de Windows:
+
+<img width="1030" height="66" alt="image" src="https://github.com/user-attachments/assets/e14b7513-cf05-4adb-9e66-fb08a54f9456" />
+
+
+## 7. Prevención
+
+- Validar siempre la configuración con sshd -t después de cambios y antes de reiniciar
+- Mantener una sesión SSH abierta mientras se realizan cambios
+- Documentar parámetros modificados en /etc/ssh/sshd_config
