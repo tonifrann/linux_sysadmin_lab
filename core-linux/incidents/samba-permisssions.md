@@ -26,4 +26,13 @@ Se comprueba que el servicio de Samba está activo:
 
 <img width="988" height="274" alt="image" src="https://github.com/user-attachments/assets/a65d9fd0-dd17-49ab-8a7b-bcbd16bfab46" />
 
-<img width="991" height="200" alt="image" src="https://github.com/user-attachments/assets/xxx" />
+Se revisa la configuración del recurso compartido:
+
+<img width="987" height="141" alt="image" src="https://github.com/user-attachments/assets/0a89d4db-544e-4b81-9164-a1cd773c4c20" />
+
+<img width="987" height="98" alt="image" src="https://github.com/user-attachments/assets/e3cfa49e-2c3c-4a01-be1d-9a5c622c43f4" />
+
+Se detecta que el recurso compartido no tiene correctamente configurado el grupo:
+
+<img width="989" height="64" alt="image" src="https://github.com/user-attachments/assets/a879f3d7-3d06-4946-b72e-cd11b629601d" />
+
