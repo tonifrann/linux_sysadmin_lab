@@ -1,7 +1,8 @@
 # Incidencia: Servicio caído
 
-Un servicio del sistema deja de funcionar, afectando al acceso desde la red.
+Se detecta la que el servicio SSH deja de funcionar, impidiendo el acceso remoto al servidor.
 
 ## 1. Problema
 
-Se detecta que el servicio de Nginx ha dejado de funcionar 
+No es posible acceder al servidor por SSH desde la red.
+El cliente muestra error de conexión o timeout.
