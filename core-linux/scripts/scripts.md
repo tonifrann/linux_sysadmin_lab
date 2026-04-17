@@ -38,4 +38,5 @@ Se ejecuta:
 
 Se programan los scripts con crontab para que se ejecuten automátizamente:
 
-<img width="1000" height="135" alt="image" src="https://github.com/user-attachments/assets/60664ff7-f305-462a-b8d3-d0402b4435aa" />
+<img width="1007" height="135" alt="image" src="https://github.com/user-attachments/assets/14105ec6-2ba0-4646-856f-4cf1acac91f6" />
+
