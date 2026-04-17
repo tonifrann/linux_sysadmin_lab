@@ -34,7 +34,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - [Diagrama](architecture/diagram.png)
 
 ### 5. Automatización
-- [Scripts del servidor](scripts/)
+- [Scripts del servidor](scripts/scripts.md)
 
 ### 6. Incidencias simuladas
 - [Disco lleno](incidents/disk-full.md)
