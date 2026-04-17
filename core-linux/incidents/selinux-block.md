@@ -16,3 +16,8 @@ El recurso existe, pero no se puede acceder:
 
 - Desde Windows se ve la carpeta pero no se puede acceder
 - Desde Linux los permisos y la configuración de ```/etc/samba/smb.conf``` parece correcta.
+
+
+
+
+<img width="988" height="67" alt="image" src="https://github.com/user-attachments/assets/523620d4-830c-40f9-803d-c75ed91f94dc" />
