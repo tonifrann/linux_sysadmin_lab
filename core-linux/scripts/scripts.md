@@ -18,7 +18,7 @@ Se ejecuta:
 
 ## 2. Limpieza de logs antiguos
 
-Elimina logs rotados que se van acumulando en /var/log:
+Elimina logs antiguos rotados que se van acumulando en /var/log:
 
 <img width="1008" height="51" alt="image" src="https://github.com/user-attachments/assets/5549c858-280b-4676-bfb7-de0e120608b7" />
 
