@@ -34,7 +34,7 @@ Se ejecuta:
 <img width="1003" height="177" alt="image" src="https://github.com/user-attachments/assets/0be7db10-f0e1-4228-9556-e6a13adf30dd" />
 
 
-## Automatización
+## 5. Automatización
 
 Se programan los scripts con crontab para que se ejecuten automátizamente:
 
