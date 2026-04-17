@@ -7,7 +7,7 @@ Se guardan en /usr/local/bin y se ejecutan con crontab automaticamente.
 
 ## 1. Backup del recurso Samba
 
-Copia del contenido del recurso compartido /srv/share en un directorio para backups:
+Se copia el contenido del recurso compartido /srv/share en un directorio de backups:
 
 <img width="1009" height="112" alt="image" src="https://github.com/user-attachments/assets/647116b0-1370-462e-bc5e-504d9c6d47cf" />
 
@@ -32,5 +32,3 @@ Muestra el uso del disco y los directorios que más ocupan.
 Se ejecuta:
 
 <img width="1003" height="177" alt="image" src="https://github.com/user-attachments/assets/0be7db10-f0e1-4228-9556-e6a13adf30dd" />
-
-
