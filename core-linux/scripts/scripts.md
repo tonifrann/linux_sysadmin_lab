@@ -32,3 +32,10 @@ Muestra el uso del disco y los directorios que más ocupan.
 Se ejecuta:
 
 <img width="1003" height="177" alt="image" src="https://github.com/user-attachments/assets/0be7db10-f0e1-4228-9556-e6a13adf30dd" />
+
+
+## Automatización
+
+Se programan los scripts con crontab para que se ejecuten automátizamente:
+
+<img width="1000" height="135" alt="image" src="https://github.com/user-attachments/assets/60664ff7-f305-462a-b8d3-d0402b4435aa" />
