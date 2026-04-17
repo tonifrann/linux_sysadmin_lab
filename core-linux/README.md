@@ -38,7 +38,6 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 
 ### 6. Incidencias simuladas
 - [Disco lleno](incidents/disk-full.md)
-- [Bloqueo por SELinux](incidents/selinux-block.md)
 - [Error de firewall](incidents/firewall-misconfig.md)
 - [Permisos Samba](incidents/samba-permissions.md)
 - [Servicio caído](incidents/service-down.md)
