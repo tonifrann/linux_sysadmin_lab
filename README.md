@@ -50,8 +50,7 @@ Monitorización, métricas y logs
 [Ver documentación](monitoring/README.md)
 
 ### win-client
-Cliente Windows para integración  
-[Ver documentación](win-client/README.md)
+Cliente Windows utilizado únicamente para pruebas de acceso (Samba, SSH, Nginx).  
 
 ### fog-server
 Despliegue de sistemas por red (PXE)  
