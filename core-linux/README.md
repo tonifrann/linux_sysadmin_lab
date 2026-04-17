@@ -18,7 +18,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - [Descripción general](#descripción-general)
 
 ### 2. Instalación y configuración base
-- [Instalación del sistema](config/installation.md)
+- [Instalación del sistema](config/instalation.md)
 - [Configuración de red (nmcli)](config/networking.md)
 - [Configuración de SSH](config/ssh.md)
 - [Firewall (firewalld)](config/firewalld.md)
