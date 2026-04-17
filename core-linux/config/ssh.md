@@ -1,4 +1,4 @@
-# Configuración de SSH (sshd_config)
+# Configuración de SSH
 
 Este documento describe la configuración básica y segura del servicio SSH en Rocky Linux 9.
 
