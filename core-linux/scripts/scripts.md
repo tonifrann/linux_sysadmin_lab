@@ -23,4 +23,5 @@ Elimina logs rotados que se van acumulando en /var/log:
 
 Muestra el uso del disco y los directorios que más ocupan.
 
-<img width="1007" height="117" alt="image" src="https://github.com/user-attachments/assets/0adc56f1-ef10-4bf3-90c4-3b7515a28673" />
+<img width="1005" height="111" alt="image" src="https://github.com/user-attachments/assets/cdc53950-f3b3-45c7-b208-37b9e8794e98" />
+
