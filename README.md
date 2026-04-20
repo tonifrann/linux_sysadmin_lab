@@ -27,7 +27,7 @@ Incluye despliegue de servicios, seguridad, automatización, monitorización y r
 | core-linux | Rocky Linux 9 | Servicios base, seguridad, almacenamiento |
 | docker-host | Ubuntu 22.04 | Contenedores y microservicios |
 | monitoring | Ubuntu 22.04 | Monitorización y logs |
-| win-client | Windows Server 2022 | Cliente de pruebas |
+| win-client | Windows 11 | Cliente de pruebas |
 | fog-server | Ubuntu 22.04 | PXE y despliegues |
 | ansible-controller | Rocky Linux 9 | Automatización |
 
