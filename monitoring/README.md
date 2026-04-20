@@ -1,16 +1,19 @@
 
 # monitoring (Ubuntu 22.04)
 
-Servidor de monitorización, orientado a la recogida de métricas, visualización y control del estado de los sistemas.
+Servidor de monitorización central del laboratorio, encargado de la recolección, almacenamiento y visualización de métricas del entorno Linux.
+
+Permite supervisar el estado de los sistemas, detectar incidencias y analizar el rendimiento de la infraestructura.
+
 
 ## Que se ha implementado en el servidor
 
 - Monitorización centralizada con Prometheus
-- Métricas del sistema con Node Exporter
-- Visualización mediante Grafana
-- Integración con core-linux y docker-host
-- Comprobación del estado de servicios y recursos
-- Resolución de incidencias
+- Recolección de métricas del sistema con Node Exporter
+- Visualización de datos mediante Grafana
+- Supervisión de core-linux y docker-host
+- Monitorización de CPU, RAM, disco y red
+- Detección de servicios caídos (UP/DOWN)
 
 ## Índice
 
