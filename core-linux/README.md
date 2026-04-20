@@ -4,13 +4,13 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 
 ## Que se ha implementado en el servidor
 
-- Hardening real: SSH, SELinux (enforcing), firewalld
+- Hardening: SSH, SELinux (enforcing), firewalld
 - Gestión avanzada de almacenamiento con LVM (snapshots y ampliación)
 - Servicios en producción: Samba (ACLs) y Nginx (HTTPS)
 - Estrategias de backup: rsync, tar y dd
 - Auditoría y seguridad: auditd, logrotate, Lynis
 - Automatización con scripts y cron
-- Resolución de incidencias reales simuladas
+- Resolución de incidencias
 
 ## Índice
 
