@@ -23,6 +23,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - [Configuración de SSH](config/ssh.md)
 - [Firewall (firewalld)](config/firewalld.md)
 - [SELinux](config/selinux.md)
+- [Auditoría y seguridad](config/security-audit.md)
 
 ### 3. Servicios del servidor
 - [Samba con ACLs](config/samba.md)
