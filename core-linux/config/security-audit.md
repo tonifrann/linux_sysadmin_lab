@@ -20,6 +20,7 @@ Se revisan los comandos ejecutados:
 <img width="993" height="192" alt="image" src="https://github.com/user-attachments/assets/6ea3e245-d833-47a0-a628-ce41925b0b87" />
 
 
+
 ## logrotate
 
 Se configura logrotate para evitar el crecimiento descontrolado de logs.
