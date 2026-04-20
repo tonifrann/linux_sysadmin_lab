@@ -50,6 +50,3 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - `scripts/` → Scripts utilizados en el servidor.
 - `incidents/` → Incidencias simuladas y su resolución.
 
-## Estado
-Proyecto completo y documentado. Base del laboratorio.
-
