@@ -1,10 +1,11 @@
 # Auditoría y seguridad
 
-Este documento recoge la configuración básica de auditoría y seguridad aplicada en el servidor.  
-Incluye auditd, rotación de logs y un análisis de seguridad con Lynis.
+Este documento se implementan  algunas herramientas para auditar el sistema, controlar logs y detectar posibles problemas de seguridad.
 
 
 ## 1. auditd
+
+Se utiliza auditd para registrar eventos relevantes del sistema.
 
 Se revisa el estado del servicio:
 
