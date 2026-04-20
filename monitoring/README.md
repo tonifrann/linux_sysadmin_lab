@@ -29,7 +29,7 @@ Servidor de monitorización, orientado a la recogida de métricas, visualizació
 ### 4. Arquitectura del sistema
 - [Diagrama](architecture/diagram.png)
 
-### 5. Incidencias simuladas
+### 5. Incidencias
 - [Target DOWN](incidents/target-down.md)
 - [Error en prometheus.yml](incidents/prometheus-config-error.md)
 
