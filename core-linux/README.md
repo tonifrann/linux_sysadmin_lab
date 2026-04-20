@@ -36,7 +36,7 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 ### 5. Automatización
 - [Scripts del servidor](scripts/scripts.md)
 
-### 6. Incidencias simuladas
+### 6. Incidencias
 - [Disco lleno](incidents/disk-full.md)
 - [Error de firewall](incidents/firewall-misconfig.md)
 - [Permisos Samba](incidents/samba-permissions.md)
