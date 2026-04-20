@@ -8,12 +8,12 @@ En este servidor se ejecuta como servicio principal del stack de monitorización
 
 Se comprueba que Prometheus está instalado, activo y escuchando en el puerto correspondiente:
 
-systemctl status prometheus
-ss -tulnp | grep 9090
+<img width="1021" height="432" alt="image" src="https://github.com/user-attachments/assets/c12f7fa1-f37a-4d55-acd9-596e7ad07877" />
+
 
 ## 2. Configuración principal 
    
-Se configura:
+Se configuran los targets ```core-linux``` y ```:
 /etc/prometheus/prometheus.yml
 
 Se valida:
