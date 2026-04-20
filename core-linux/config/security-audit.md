@@ -15,13 +15,15 @@ Se revisan las autenticaciones registradas:
 
 <img width="1001" height="289" alt="image" src="https://github.com/user-attachments/assets/0df2846f-4dc3-4187-a4e2-0851b379cc78" />
 
+Se revisa la ejecución de comandos en el sistema:
+
+<img width="1002" height="190" alt="image" src="https://github.com/user-attachments/assets/3b121d46-062c-49cf-9d2f-2a7536495c7b" />
+
 
 
 ## logrotate
 
 Se revisa la configuración de rotación de logs en servicios como Samba y Nginx para evitar crecimiento descontrolado.
-
-<img width="997" height="390" alt="image" src="https://github.com/user-attachments/assets/e81c73df-519a-4b8b-bbc3-5f6f579073ae" />
 
 Se comprueba la configuración de logrotate en Samba: 
 
@@ -31,8 +33,8 @@ Se comprueba la configuración de logrotate en Nginx:
 
 <img width="994" height="228" alt="image" src="https://github.com/user-attachments/assets/37218b10-d68f-467a-87af-64614daa17d8" />
 
-Se fuerza una rotación manual: 
+Se fuerza una rotación manual para validar su funcionamiento: 
 
 <img width="994" height="178" alt="image" src="https://github.com/user-attachments/assets/f4160823-f6f9-47bf-b3e5-cc42b1af6f3d" />
 
-> NOTA: algunos archivos no se ahn rotado porque ya existen rotaciones creadas automáticamente por el sistema. Esto confirma que logrotate está funcionando correctamente.
+> NOTA: algunos archivos no se han rotado porque ya existen rotaciones creadas automáticamente por el sistema. Esto confirma que logrotate está funcionando correctamente.
