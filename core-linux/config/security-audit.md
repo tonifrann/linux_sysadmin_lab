@@ -5,7 +5,7 @@ Este documento se implementan  algunas herramientas para auditar el sistema, con
 
 ## 1. auditd
 
-Se utiliza auditd para registrar actividad del sistema como inicios de sesión, comandos ejecutados y accesos a archivos.
+Se utiliza auditd para registrar actividad del sistema como inicios de sesión, comandos ejecutados, accesos a archivos, con el objetivo de de tectar comportamientos anómalos.
 
 Se revisa el estado del servicio:
 
@@ -13,16 +13,13 @@ Se revisa el estado del servicio:
 
 Se revisan las autenticaciones registradas:
 
-<img width="997" height="193" alt="image" src="https://github.com/user-attachments/assets/7f79bdb0-b0c2-4e99-9d3a-5dd5cf688dcd" />
+<img width="1001" height="289" alt="image" src="https://github.com/user-attachments/assets/0df2846f-4dc3-4187-a4e2-0851b379cc78" />
 
-Se revisan los comandos ejecutados:
-
-<img width="993" height="192" alt="image" src="https://github.com/user-attachments/assets/6ea3e245-d833-47a0-a628-ce41925b0b87" />
 
 
 ## logrotate
 
-Se configura logrotate para evitar el crecimiento descontrolado de logs del sistema.
+Se revisa la configuración de rotación de logs en servicios como Samba y Nginx para evitar crecimiento descontrolado.
 
 <img width="997" height="390" alt="image" src="https://github.com/user-attachments/assets/e81c73df-519a-4b8b-bbc3-5f6f579073ae" />
 
