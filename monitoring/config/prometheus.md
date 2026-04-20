@@ -13,7 +13,7 @@ Se comprueba que Prometheus está instalado, activo y escuchando en el puerto co
 
 ## 2. Configuración principal 
    
-Se configuran los targets ```core-linux``` y ```:
+Se configuran los targets ```core-linux``` y ```docker-host```:
 /etc/prometheus/prometheus.yml
 
 Se valida:
