@@ -36,10 +36,18 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 - [Target DOWN](incidents/target-down.md)
 - [Error en prometheus.yml](incidents/prometheus-config-error.md)
 
----
 
 ## Estructura del repositorio
 - `architecture/` → Diagramas y notas de diseño.
 - `config/` → Configuración de servicios de monitorización.
 - `integration/` → Integración con otros sistemas y dashboards.
 - `incidents/` → Incidencias y resolución.
+
+
+## Flujo de monitorización
+
+Los servidores (core-linux, docker-host) exponen métricas con Node Exporter
+Prometheus recoge esas métricas automáticamente
+Grafana las usa para mostrarlas en dashboards
+
+La frecuencia de recogida se define en ```prometheus.yml```
