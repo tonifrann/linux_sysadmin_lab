@@ -8,7 +8,9 @@ Servidor de monitorización, orientado a la recogida de métricas, visualizació
 - Monitorización centralizada con Prometheus
 - Métricas del sistema con Node Exporter
 - Visualización mediante Grafana
-- Inte
+- Integración con core-linux y docker-host
+- Comprobación del estado de servicios y recursos
+- Resolución de incidencias durante la configuración
 
 ## Índice
 
