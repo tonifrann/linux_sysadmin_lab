@@ -17,11 +17,7 @@ Se configuran los targets ```core-linux``` y ```docker-host```:
 
 <img width="995" height="20" alt="image" src="https://github.com/user-attachments/assets/dca2ae9d-7270-4dc3-a5f7-d21ce3ec6df1" />
 
-
 <img width="990" height="87" alt="image" src="https://github.com/user-attachments/assets/2c217103-a341-407c-b41e-1b1f15936817" />
-
-
-
 
 Se valida:
 
