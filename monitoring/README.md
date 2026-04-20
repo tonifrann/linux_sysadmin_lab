@@ -10,7 +10,7 @@ Servidor de monitorización, orientado a la recogida de métricas, visualizació
 - Visualización mediante Grafana
 - Integración con core-linux y docker-host
 - Comprobación del estado de servicios y recursos
-- Resolución de incidencias durante la configuración
+- Resolución de incidencias
 
 ## Índice
 
@@ -40,6 +40,3 @@ Servidor de monitorización, orientado a la recogida de métricas, visualizació
 - `config/` → Configuración de servicios de monitorización.
 - `integration/` → Integración con otros sistemas y dashboards.
 - `incidents/` → Incidencias y resolución.
-
-## Estado
-Servidor operativo y monitorizando sistemas.
