@@ -11,16 +11,31 @@ Se revisa el estado del servicio:
 
 <img width="998" height="261" alt="image" src="https://github.com/user-attachments/assets/394ea6fa-179b-4add-8d11-98b2fcab0630" />
 
-Se añaden algunas reglas para auditar cambios sensibles en el suistema.
+Se revisan logins:
 
-<img width="992" height="19" alt="image" src="https://github.com/user-attachments/assets/dc5e6569-a03e-4b31-b1e4-718fc9bd66ac" />
+<img width="997" height="193" alt="image" src="https://github.com/user-attachments/assets/7f79bdb0-b0c2-4e99-9d3a-5dd5cf688dcd" />
 
-<img width="1009" height="315" alt="image" src="https://github.com/user-attachments/assets/1cedf6d1-281b-4b12-904a-1c72bdf41c94" />
+Se revisan los comandos ejecutados:
 
+<img width="993" height="192" alt="image" src="https://github.com/user-attachments/assets/6ea3e245-d833-47a0-a628-ce41925b0b87" />
 
 
 ## logrotate
 
-Se ha configurado una rotación para los Backups
+Se configura logrotate para evitar el crecimiento descontrolado de logs.
 
-<img width="1006" height="131" alt="image" src="https://github.com/user-attachments/assets/a2999ab4-8614-4629-ad67-7f03f06161be" />
+<img width="997" height="390" alt="image" src="https://github.com/user-attachments/assets/e81c73df-519a-4b8b-bbc3-5f6f579073ae" />
+
+Se comprueba la configuración de logrotate en Samba: 
+
+<img width="994" height="177" alt="image" src="https://github.com/user-attachments/assets/01edea81-dafa-4da9-b218-4b0e7bc7642c" />
+
+Se comprueba la configuración de logrotate en Nginx: 
+
+<img width="994" height="228" alt="image" src="https://github.com/user-attachments/assets/37218b10-d68f-467a-87af-64614daa17d8" />
+
+Se fuera una rotación manual: 
+
+<img width="994" height="178" alt="image" src="https://github.com/user-attachments/assets/f4160823-f6f9-47bf-b3e5-cc42b1af6f3d" />
+
+> NOTA: algunos archivos no se ahn rotado porque ya existen rotaciones creadas automáticamente por el sistema. Esto confirma que logrotate está funcionando correctamente.
