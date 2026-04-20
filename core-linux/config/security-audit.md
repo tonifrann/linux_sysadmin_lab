@@ -26,15 +26,18 @@ Se configura logrotate para evitar el crecimiento descontrolado de logs.
 
 <img width="997" height="390" alt="image" src="https://github.com/user-attachments/assets/e81c73df-519a-4b8b-bbc3-5f6f579073ae" />
 
+
 Se comprueba la configuración de logrotate en Samba: 
 
 <img width="994" height="177" alt="image" src="https://github.com/user-attachments/assets/01edea81-dafa-4da9-b218-4b0e7bc7642c" />
+
 
 Se comprueba la configuración de logrotate en Nginx: 
 
 <img width="994" height="228" alt="image" src="https://github.com/user-attachments/assets/37218b10-d68f-467a-87af-64614daa17d8" />
 
-Se fuera una rotación manual: 
+
+Se fuerza una rotación manual: 
 
 <img width="994" height="178" alt="image" src="https://github.com/user-attachments/assets/f4160823-f6f9-47bf-b3e5-cc42b1af6f3d" />
 
