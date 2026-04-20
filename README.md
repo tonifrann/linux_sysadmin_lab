@@ -2,7 +2,7 @@
 
 Laboratorio práctico de administración de sistemas Linux que simula una infraestructura real de empresa.
 
-Diseñado para demostrar despliegue, seguridad, monitorización, automatización y resolución de incidencias en múltiples servidores.
+Incluye despliegue de servicios, seguridad, automatización, monitorización y resolución de incidencias reales.
 
 ---
 
@@ -50,8 +50,7 @@ Monitorización, métricas y logs
 [Ver documentación](monitoring/README.md)
 
 ### win-client
-Cliente Windows para integración  
-[Ver documentación](win-client/README.md)
+Cliente Windows utilizado únicamente para pruebas de acceso (Samba, SSH, Nginx).  
 
 ### fog-server
 Despliegue de sistemas por red (PXE)  
