@@ -24,16 +24,23 @@ Se valida que el archivo de configuración funcione correctamente:
 <img width="994" height="55" alt="image" src="https://github.com/user-attachments/assets/e6dd40eb-a9eb-4ea1-8eb4-b42fdf1f5708" />
 
 
-## 3. Comprobación de targets
+## 3. Node Exporter
+
+Para que los targets aparezcan en estado UP, es necesario instalar Node Exporter.
+
+[node_exporter.md](../node_exporter/node_exporter.md)
+
+
+## 4. Comprobación de targets
 Se revisa el estado de los targets desde la interfaz web:
 http://<IP>:9090/targets
 
-## 4. Métricas disponibles
+## 5. Métricas disponibles
 
 Se validan métricas desde la interfaz:
 
 
-## 5. Logs del servicio
+## 6. Logs del servicio
 
 Se revisan logs para detectar errores o fallos de configuración:
 journalctl -u prometheus -xe
