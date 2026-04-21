@@ -42,3 +42,15 @@ Se validan métricas desde la interfaz:
 
 Se revisan logs para detectar errores o fallos de configuración:
 journalctl -u prometheus -xe
+
+
+## 7. Integración
+Prometheus se integra con:
+
+Node Exporter → métricas de servidores
+
+Grafana → visualización
+
+Alertmanager → alertas (si está configurado)
+
+📸 Captura: Prometheus como datasource en Grafana
