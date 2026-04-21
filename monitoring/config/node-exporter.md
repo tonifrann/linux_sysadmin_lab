@@ -3,9 +3,14 @@
 Node Exporter se utiliza para exponer métricas del sistema (CPU, RAM, disco, red)  para Prometheus.
 
 
-## 1. Instalación
+## 1. Instalación desde el binario oficial
 
-### Descarga e intalación del binario oficial:
+Se desinstala el node explorer que se habia instalado automaticamente como dependencia de prometheus desde apt:
+
+<img width="1018" height="337" alt="image" src="https://github.com/user-attachments/assets/edf6406b-b69a-4af2-9eb0-78f88c54eaac" />
+
+
+Descarga e intalación del binario oficial:
 
 <img width="1021" height="99" alt="image" src="https://github.com/user-attachments/assets/27bd2793-23f6-4deb-94fd-3b96d79a507f" />
 
