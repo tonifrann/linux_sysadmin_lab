@@ -29,8 +29,10 @@ Se ccrea un usuario sin shell para el funcionamiento de node exporter:
 
 Se crea el servicio y se añade la configuración:
 
-<img width="1023" height="12" alt="image" src="https://github.com/user-attachments/assets/5a0b2628-2305-4238-8643-1e3ab300e148" />
+<img width="1021" height="15" alt="image" src="https://github.com/user-attachments/assets/56e4a3d9-e453-41fc-96d4-da2dffe79199" />
+
 ---
+
 <img width="1020" height="183" alt="image" src="https://github.com/user-attachments/assets/723b4f05-e646-40aa-89d0-368508ffe862" />
 
 
