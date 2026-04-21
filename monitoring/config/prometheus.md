@@ -13,9 +13,10 @@ Se comprueba que Prometheus está instalado, activo y escuchando en el puerto co
 
 ## 2. Configuración principal 
    
-Se configuran los targets ```core-linux``` y ```docker-host```:
+Se configuran los targets ```core-linux```, ```monitoring``` y ```docker-host```:
 
-<img width="995" height="20" alt="image" src="https://github.com/user-attachments/assets/dca2ae9d-7270-4dc3-a5f7-d21ce3ec6df1" />
+<img width="1014" height="74" alt="image" src="https://github.com/user-attachments/assets/e5fd3e4a-a4d8-441b-859f-af75529b96d5" />
+
 
 <img width="990" height="87" alt="image" src="https://github.com/user-attachments/assets/2c217103-a341-407c-b41e-1b1f15936817" />
 
