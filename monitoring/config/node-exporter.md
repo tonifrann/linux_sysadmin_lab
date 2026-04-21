@@ -2,15 +2,21 @@
 
 Node Exporter se utiliza para exponer métricas del sistema (CPU, RAM, disco, red)  para Prometheus.
 
+Se instala en los servidores:
+
+- **core-linux** (192.168.100.10)  
+- **monitoring** (192.168.100.11)  
+- **docker-host** (192.168.100.12)
+  
 
 ## 1. Instalación desde el binario oficial
 
-Se desinstala el node explorer que se habia instalado automaticamente como dependencia de prometheus desde apt:
+Se elimina el paquete `prometheus-node-exporter` que venía instalado automáticamente como dependencia:
 
 <img width="1018" height="337" alt="image" src="https://github.com/user-attachments/assets/edf6406b-b69a-4af2-9eb0-78f88c54eaac" />
 
 
-Descarga e intalación del binario oficial:
+Descarga y se descomprime el binario oficial:
 
 <img width="1021" height="99" alt="image" src="https://github.com/user-attachments/assets/27bd2793-23f6-4deb-94fd-3b96d79a507f" />
 
@@ -19,7 +25,7 @@ Descarga e intalación del binario oficial:
 
 ## 2. Creación de un usuario dedicado
 
-Se ccrea un usuario sin shell para el funcionamiento de node exporter:
+Se crea un usuario sin shell para el funcionamiento de node exporter:
 
 <img width="1020" height="48" alt="image" src="https://github.com/user-attachments/assets/4b8bf689-2c36-4aad-a01f-592a57399725" />
 
