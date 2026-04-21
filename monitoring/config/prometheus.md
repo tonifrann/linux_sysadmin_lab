@@ -26,9 +26,7 @@ Se valida que el archivo de configuración funcione correctamente:
 
 ## 3. Node Exporter
 
-Para que los targets aparezcan en estado UP, es necesario instalar Node Exporter.
-
-[node_exporter.md](../node_exporter/node_exporter.md)
+Para que los targets aparezcan en estado UP, es necesario instalar [node_exporter(../node-exporter.md)
 
 
 ## 4. Comprobación de targets
