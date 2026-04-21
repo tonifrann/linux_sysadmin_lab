@@ -25,8 +25,8 @@ Incluye despliegue de servicios, seguridad, automatización, monitorización y r
 | Servidor | IP | Distro | Rol |
 |----------|----|--------|-----|
 | core-linux | 192.168.100.10 | Rocky Linux 9 | Servicios base, seguridad, almacenamiento |
-| docker-host | 192.168.100.12 | Ubuntu 22.04 | Contenedores y microservicios |
 | monitoring | 192.168.100.11 | Ubuntu 22.04 | Monitorización y logs |
+| docker-host | 192.168.100.12 | Ubuntu 22.04 | Contenedores y microservicios |
 | fog-server | 192.168.100.13 | Ubuntu 22.04 | PXE y despliegues |
 | ansible-controller | 192.168.100.14 | Rocky Linux 9 | Automatización |
 | win-client | 192.168.100.50 | Windows 11 | Cliente de pruebas |
