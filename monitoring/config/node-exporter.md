@@ -40,9 +40,20 @@ Se recargan los servicios, se habilita y se arranca el servicio:
 <img width="1021" height="382" alt="image" src="https://github.com/user-attachments/assets/7c00aa33-6b97-4518-959c-96c5b6276586" />
 
 
-INCIDENCIAS:
-Imagen de ssystemctl status. El error es pq el usuario y grupo de node_exporter no tienen permisos en la carpeta /opt/node_exporter
-<img width="1024" height="301" alt="image" src="https://github.com/user-attachments/assets/c6cea5f2-135c-4fd8-b28e-bc37919f3f18" />
+## 3. Validación
 
-permisos: 
-<img width="1017" height="98" alt="image" src="https://github.com/user-attachments/assets/2c741ffa-b068-4b4d-a52a-a245b300e7d9" />
+Se revisa que node explorer recogiendo metricas via web desde el cliente de Windows 11:
+
+<img width="1549" height="323" alt="image" src="https://github.com/user-attachments/assets/8a2213d9-1c9a-4941-a9ab-acf91aff4ca8" />
+
+Se prueba desde el terminal:
+
+<img width="1022" height="15" alt="image" src="https://github.com/user-attachments/assets/aa55dc2c-cae4-4895-a8c6-029e8c1db14e" />
+
+---
+
+<img width="1023" height="257" alt="image" src="https://github.com/user-attachments/assets/66191314-1e7c-4043-964a-35672d3864c7" />
+
+
+## 4. Integración con prometheus
+
