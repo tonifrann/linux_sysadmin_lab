@@ -17,8 +17,6 @@ Se configuran los targets ```core-linux```, ```monitoring``` y ```docker-host```
 
 <img width="1022" height="18" alt="image" src="https://github.com/user-attachments/assets/ae2796f2-cc8d-4e0e-a997-7f14186bdbaf" />
 
----
-
 <img width="1021" height="82" alt="image" src="https://github.com/user-attachments/assets/9da12f53-2b73-4dd1-9104-956be7951a1d" />
 
 
