@@ -36,12 +36,14 @@ Diagrama en [`architecture/`](architecture/diagram-explained.png)
 ---
 
 ## Red del laboratorio
-Servidor	IP
-core-linux	192.168.100.10
-monitoring	192.168.100.11
-docker-host	192.168.100.12
-fog-server	192.168.100.13
-ansible-controller	192.168.100.14
+
+| **Servidor** | **IP** |
+| :--- | :--- |
+| core-linux | 192.168.100.10 |
+| monitoring | 192.168.100.11 |
+| docker-host | 192.168.100.12 |
+| fog-server | 192.168.100.13 |
+| ansible-controller | 192.168.100.14 |
 
 ## Servidores del laboratorio
 
