@@ -5,6 +5,7 @@ Servidor de monitorización central del laboratorio, encargado de la recolecció
 
 Permite supervisar el estado de los sistemas, detectar incidencias y analizar el rendimiento de la infraestructura.
 
+---
 
 ## Que se ha implementado en el servidor
 
@@ -36,6 +37,7 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 - [Target DOWN](incidents/target-down.md)
 - [Error en prometheus.yml](incidents/prometheus-config-error.md)
 
+---
 
 ## Estructura del repositorio
 - `architecture/` → Diagramas y notas de diseño.
@@ -43,6 +45,7 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 - `integration/` → Integración con otros sistemas y dashboards.
 - `incidents/` → Incidencias y resolución.
 
+---
 
 ## Flujo de monitorización
 
