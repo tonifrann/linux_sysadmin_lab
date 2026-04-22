@@ -22,7 +22,7 @@ Se configuran los targets ```core-linux```, ```monitoring``` y ```docker-host```
 
 Se valida que el archivo de configuración funcione correctamente:
 
-<img width="994" height="55" alt="image" src="https://github.com/user-attachments/assets/e6dd40eb-a9eb-4ea1-8eb4-b42fdf1f5708" />
+<img width="1023" height="77" alt="image" src="https://github.com/user-attachments/assets/5f56a7be-6b21-4586-add4-165ac71f090a" />
 
 
 ## 3. Node Exporter
