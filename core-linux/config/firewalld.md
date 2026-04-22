@@ -46,5 +46,6 @@ Node Exporter expone métricas en el puerto 9100/tcp, por lo que es necesario pe
 
 Se comprueba que los servicios estan correctamente configurados.
 
-<img width="1004" height="257" alt="image" src="https://github.com/user-attachments/assets/767f2801-45b8-45e4-adaa-a30e920c2d2a" />
+<img width="997" height="260" alt="image" src="https://github.com/user-attachments/assets/00c01193-9057-4dc4-b41f-ed7183e45a48" />
+
 
