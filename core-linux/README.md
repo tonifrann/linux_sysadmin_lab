@@ -2,6 +2,8 @@
 
 Servidor principal del laboratorio, orientado a seguridad, servicios base y almacenamiento. Actúa como nodo central para pruebas de red, autenticación, backups y servicios web.
 
+---
+
 ## Que se ha implementado en el servidor
 
 - Hardening: SSH, SELinux (enforcing), firewalld
@@ -11,6 +13,8 @@ Servidor principal del laboratorio, orientado a seguridad, servicios base y alma
 - Auditoría y seguridad: auditd, logrotate, Lynis
 - Automatización con scripts y cron
 - Resolución de incidencias
+
+---
 
 ## Índice
 
