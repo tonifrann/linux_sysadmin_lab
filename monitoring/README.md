@@ -16,6 +16,8 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 - Monitorización de CPU, RAM, disco y red
 - Detección de servicios caídos (UP/DOWN)
 
+---
+
 ## Índice
 
 ### 1. Introducción
