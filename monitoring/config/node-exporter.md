@@ -23,12 +23,11 @@ Descarga y se descomprime el binario oficial:
 <img width="1024" height="205" alt="image" src="https://github.com/user-attachments/assets/29cd17dd-bc9c-4a6e-a5b4-498de977b4e4" />
 
 
-## 2. Creación de un usuario dedicado
+## 2. Creación de un usuario dedicado y permisos
 
-Se crea un usuario sin shell para ejecutar node exporter:
+Se crea un usuario sin shell para ejecutar node exporter, se añade a un grupo con el mismo nombre y se le asignan permisos al directorio:
 
-<img width="1020" height="48" alt="image" src="https://github.com/user-attachments/assets/4b8bf689-2c36-4aad-a01f-592a57399725" />
-
+<img width="1021" height="132" alt="image" src="https://github.com/user-attachments/assets/f85118d4-fee0-42c9-ad5a-37ef256c595c" />
 
 
 ## 3. Creación del servicio
