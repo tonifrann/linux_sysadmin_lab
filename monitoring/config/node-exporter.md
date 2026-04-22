@@ -74,6 +74,7 @@ Se valida desde el terminal:
 <img width="1023" height="257" alt="image" src="https://github.com/user-attachments/assets/66191314-1e7c-4043-964a-35672d3864c7" />
 
 
-## 4. Integración con prometheus
+---
 
 
+La integración con Prometheus se documenta en detalle en [prometheus.md](./prometheus.md).
