@@ -36,7 +36,9 @@ Para que los targets aparezcan en estado UP, es necesario instalar [node_exporte
 
 ## 4. Comprobación de targets
 Se revisa el estado de los targets desde la interfaz web:
-http://<IP>:9090/targets
+
+<img width="1419" height="777" alt="image" src="https://github.com/user-attachments/assets/d26ed25d-9682-4b93-a503-6ca7ddb5f51f" />
+
 
 ## 5. Métricas disponibles
 
