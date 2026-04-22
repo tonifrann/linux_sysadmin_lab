@@ -19,6 +19,10 @@ Se configuran los targets ```core-linux```, ```monitoring``` y ```docker-host```
 
 <img width="1022" height="78" alt="image" src="https://github.com/user-attachments/assets/a80faa8c-aa57-42b0-b4ef-84f9fe48b799" />
 
+Se configuran los targets por nombre en lugar de por IP para facilitar la gestión desde Prometheus.  Los nombres añaden en `/etc/hosts` del servidor de monitorización.
+
+<img width="1021" height="213" alt="image" src="https://github.com/user-attachments/assets/b5c3147e-71e7-4295-929b-23421c859255" />
+
 
 Se valida que el archivo de configuración funcione correctamente:
 
