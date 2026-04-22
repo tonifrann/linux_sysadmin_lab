@@ -35,7 +35,14 @@ Una vez configurado Samba, se permite también su servicio en el firewall.
 <img width="988" height="86" alt="image" src="https://github.com/user-attachments/assets/f83013fb-6edb-4ba2-b5cf-3e7cee99b207" />
 
 
-## 5. Verificación de las reglas
+## 5. Apertura del puerto 9100/tcp (Node Exporter)
+
+Node Exporter expone métricas en el puerto 9100/tcp, por lo que es necesario permitirlo en firewalld:
+
+<img width="1003" height="82" alt="image" src="https://github.com/user-attachments/assets/e6f98b33-7802-4ee9-9b59-233e2ac80140" />
+
+
+## 6. Verificación de las reglas
 
 Se comprueba que los servicios estan correctamente configurados.
 
