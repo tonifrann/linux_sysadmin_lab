@@ -42,7 +42,9 @@ Se revisa el estado de los targets desde la interfaz web:
 
 ## 5. Métricas disponibles
 
-Se validan métricas desde la interfaz:
+Se validan métricas desde la interfaz web:
+
+<img width="1911" height="728" alt="image" src="https://github.com/user-attachments/assets/d1f03b2d-ee28-481e-947c-6d0728153d70" />
 
 
 ## 6. Logs del servicio
