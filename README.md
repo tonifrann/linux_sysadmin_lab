@@ -41,13 +41,13 @@ Diagrama en [`architecture/`](architecture/diagram-explained.png)
 Servidor principal: seguridad, servicios y almacenamiento  
 [Ver documentación](core-linux/README.md)
 
-### docker-host
-Entorno de contenedores y aplicaciones  
-[Ver documentación](docker-host/README.md)
-
 ### monitoring
 Monitorización, métricas y logs  
 [Ver documentación](monitoring/README.md)
+
+### docker-host
+Entorno de contenedores y aplicaciones  
+[Ver documentación](docker-host/README.md)
 
 ### fog-server
 Despliegue de sistemas por red (PXE)  
