@@ -76,4 +76,4 @@ Se valida desde el terminal:
 ---
 
 
-La integración con Prometheus se documenta en detalle en [prometheus.md](./prometheus.md).
+La integración con Prometheus se documenta en [prometheus.md](./prometheus.md).
