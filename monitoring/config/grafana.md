@@ -3,12 +3,13 @@
 Grafana es el servicio encargado de visualizar métricas.  
 Se utiliza para representar gráficamente las métricas recogidas por Prometheus.
 
----
 
 ## 1. Instalación
 
 Se descarga y descomprime el binario oficial de Grafana:
-📸 *Captura: descarga y extracción del binario*
+
+<img width="1022" height="232" alt="image" src="https://github.com/user-attachments/assets/ea9e7d89-88ca-4d32-ba84-187d27d4bad0" />
+
 
 Se crea el usuario dedicado:
 
