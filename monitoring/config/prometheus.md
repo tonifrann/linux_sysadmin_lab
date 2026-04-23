@@ -13,8 +13,7 @@ Se comprueba que Prometheus está instalado, activo y escuchando en el puerto co
 
 ## 2. Configuración principal 
    
-Se configuran los targets ```core-linux```, ```monitoring``` y ```docker-host```:
-
+Se configuran los targets ```core-linux``, ```monitoring``` y ```docker-host```:
 <img width="1022" height="18" alt="image" src="https://github.com/user-attachments/assets/ae2796f2-cc8d-4e0e-a997-7f14186bdbaf" />
 
 <img width="1020" height="85" alt="image" src="https://github.com/user-attachments/assets/73e85694-196e-40ee-af14-a02a98b44879" />
@@ -49,17 +48,12 @@ Se consultan algunas métricas desde la interfaz web para validar su funcionamie
 
 ## 6. Logs del servicio
 
-Se revisan logs para detectar errores o fallos de configuración:
-journalctl -u prometheus -xe
+Se revisan logs para detectar errores o fallos de configuración con el comando ```journalctl -u prometheus -xe``` pero no se muestra ningun error.
 
 
-## 7. Integración
-Prometheus se integra con:
+## 7. Validación del sistema
 
-Node Exporter → métricas de servidores
-
-Grafana → visualización
-
-Alertmanager → alertas (si está configurado)
-
-📸 Captura: Prometheus como datasource en Grafana
+- Prometheus accesible en http://192.168.100.11:9090
+- Targets en estado UP
+- Métricas disponibles
+- Sin errores en logs
