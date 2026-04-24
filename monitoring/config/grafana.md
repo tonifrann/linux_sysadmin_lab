@@ -18,39 +18,30 @@ Se habilita, arranca el servicio y se revisa su status:
 
 ## 2. Acceso web
 
-Grafana queda accesible en:
-http://<IP>:3000
+Se accede a Grafana via web: 
+<img width="1463" height="843" alt="image" src="https://github.com/user-attachments/assets/0247b38b-3099-42a0-ac09-fcb8956adaf5" />
 
-
-Usuario por defecto: `admin`  
+Usuario y contraseña por defecto: `admin`
 Se solicita cambio de contraseña en el primer acceso.
 
-📸 *Captura: login inicial*
+<img width="1905" height="606" alt="image" src="https://github.com/user-attachments/assets/271a8b9d-7b7a-4148-b2be-c929d4f97cfa" />
 
----
+
 
 ## 3. Añadir Prometheus como datasource
 
 Se añade Prometheus como datasource principal:
 
-- URL: `http://localhost:9090`
-- Access: Server
-- Save & Test → OK
+<img width="1884" height="780" alt="image" src="https://github.com/user-attachments/assets/a418d455-ecc4-431d-9074-ae5fbd339a17" />
 
-📸 *Captura: configuración del datasource*
-
----
 
 ## 4. Importar dashboard Node Exporter (ID 1860)
 
-Se importa el dashboard oficial para visualizar métricas de los servidores:
+Se importa el dashboard oficial (ID 1860) para visualizar métricas de los servidores:
 
-- Dashboard ID: **1860**
-- Datasource: Prometheus
+<img width="1178" height="1048" alt="image" src="https://github.com/user-attachments/assets/dcefa452-6eca-409c-b40a-4423b9fb973f" />
 
-📸 *Captura: dashboard funcionando*
 
----
 
 ## 5. Organización
 
