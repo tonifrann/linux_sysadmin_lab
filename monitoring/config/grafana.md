@@ -6,28 +6,15 @@ Se utiliza para representar gráficamente las métricas recogidas por Prometheus
 
 ## 1. Instalación
 
-Se descarga y descomprime el binario oficial de Grafana:
+Se descarga un paquete .deb desde la web oficial de grafana y se instala:
 
 <img width="1022" height="232" alt="image" src="https://github.com/user-attachments/assets/ea9e7d89-88ca-4d32-ba84-187d27d4bad0" />
 
 
-Se crea el usuario dedicado:
+Se habilita, arranca el servicio y se revisa su status:
 
-<img width="1021" height="65" alt="image" src="https://github.com/user-attachments/assets/344bed2b-90d9-4c8d-a6ac-fad23bc46e57" />
+<img width="1021" height="431" alt="image" src="https://github.com/user-attachments/assets/72512908-bd7b-4eeb-8973-ceec5f647f4f" />
 
-
-Se configura el servicio systemd:
-
-<img width="1022" height="23" alt="image" src="https://github.com/user-attachments/assets/79a3bcf0-aa91-423f-81ee-6d32fc5547cd" />
-
-<img width="1023" height="278" alt="image" src="https://github.com/user-attachments/assets/30fb8a1f-3924-430e-8e71-85a3bf2f153f" />
-
-
-Se habilita y arranca el servicio:
-
-📸 *Captura: enable + start*
-
----
 
 ## 2. Acceso web
 
