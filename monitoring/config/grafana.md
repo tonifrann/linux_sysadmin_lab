@@ -42,3 +42,10 @@ Se importa el dashboard oficial (ID 1860) para visualizar métricas de los servi
 
 <img width="1178" height="1048" alt="image" src="https://github.com/user-attachments/assets/dcefa452-6eca-409c-b40a-4423b9fb973f" />
 
+
+## 5. Validación del sistema
+
+- Grafana accesible desde http://192.168.100.11:3000
+- Datasource Prometheus conectado correctamente
+- Dashboards mostrando métricas en tiempo real
+
