@@ -15,7 +15,7 @@ Todos los targets estan en UP:
 
 ## Estado de los targets
 
-- Todo los targets se encuentran en estado UP, lo que indica que Prometheus puede acceder correctamente a sus métricas.
+- Prometheus accede correctamente a las métricas de todos los nodos.
 - Los targets se resuelven por hostname en `/etc/hosts`.
 - Todos los nodos exponen métricas en `:9100`.
 - La lista se puede ampliar al añadir nuevos servidores.
