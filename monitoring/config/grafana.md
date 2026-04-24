@@ -19,7 +19,8 @@ Se habilita, arranca el servicio y se revisa su status:
 ## 2. Acceso web
 
 Se accede a Grafana via web: 
-<img width="1463" height="843" alt="image" src="https://github.com/user-attachments/assets/0247b38b-3099-42a0-ac09-fcb8956adaf5" />
+<img width="1178" height="769" alt="image" src="https://github.com/user-attachments/assets/531ee087-6de4-4721-b1dd-d6df203c3952" />
+
 
 Usuario y contraseña por defecto: `admin`
 Se solicita cambio de contraseña en el primer acceso.
