@@ -6,7 +6,7 @@ Se utiliza para representar gráficamente las métricas recogidas por Prometheus
 
 ## 1. Instalación
 
-Se descarga un paquete .deb desde la web oficial de grafana y se instala:
+Se descarga e instala Grafana desde un paquete .deb de su web oficial:
 
 <img width="1022" height="232" alt="image" src="https://github.com/user-attachments/assets/ea9e7d89-88ca-4d32-ba84-187d27d4bad0" />
 
