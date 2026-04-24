@@ -27,6 +27,7 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 - [Prometheus](config/prometheus.md)
 - [Node Exporter](config/node-exporter.md)
 - [Grafana](config/grafana.md)
+- [Firewall (firewalld)](config/firewalld.md)
 
 ### 3. Integración
 - [Targets monitorizados](integration/targets.md)
