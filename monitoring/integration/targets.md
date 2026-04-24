@@ -8,6 +8,8 @@ Prometheus monitoriza los siguientes nodos del laboratorio mediante Node Exporte
 | monitoring    | Nodo local             | 9100/tcp  |
 | docker-host   | Host de contenedores   | 9100/tcp  |
 
+Todos los targets estan en UP:
+
 <img width="1914" height="794" alt="image" src="https://github.com/user-attachments/assets/0c7e3e4e-e115-4f94-83e0-4e4e52506b46" />
 
 
