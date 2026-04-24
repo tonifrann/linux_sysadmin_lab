@@ -13,11 +13,15 @@ Se descarga y descomprime el binario oficial de Grafana:
 
 Se crea el usuario dedicado:
 
-📸 *Captura: creación del usuario `grafana`*
+<img width="1021" height="65" alt="image" src="https://github.com/user-attachments/assets/344bed2b-90d9-4c8d-a6ac-fad23bc46e57" />
+
 
 Se configura el servicio systemd:
 
-📸 *Captura: creación del archivo `grafana.service`*
+<img width="1022" height="23" alt="image" src="https://github.com/user-attachments/assets/79a3bcf0-aa91-423f-81ee-6d32fc5547cd" />
+
+<img width="1023" height="278" alt="image" src="https://github.com/user-attachments/assets/30fb8a1f-3924-430e-8e71-85a3bf2f153f" />
+
 
 Se habilita y arranca el servicio:
 
