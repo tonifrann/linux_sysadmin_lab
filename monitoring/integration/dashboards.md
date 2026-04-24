@@ -20,11 +20,8 @@ Grafana utiliza los siguientes dashboards para visualizar las métricas del labo
 <img width="1908" height="1143" alt="image" src="https://github.com/user-attachments/assets/4487b399-7ae3-4d96-8ad3-24dfe486cc98" />
 
 
-
-
-
-## Notas
+## Estado
 
 - El dashboard utiliza Prometheus como datasource.
-- Se ampliará la lista conforme se añadan nuevos dashboards al entorno.
+- La lista se ampliará a medida que se añadan nuevos servidores.
 
