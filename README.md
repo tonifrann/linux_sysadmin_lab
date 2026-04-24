@@ -64,7 +64,7 @@ Cliente Windows utilizado únicamente para pruebas de acceso (Samba, SSH, Nginx)
 
 ## Enfoque del laboratorio
 
-Cada servidor incluye incidencias reales simuladas para practicar:
+Cada servidor incluye incidencias:
 
 - Diagnóstico y Resolución de problemas
 - Análisis de logs
