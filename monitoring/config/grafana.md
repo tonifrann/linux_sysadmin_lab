@@ -44,10 +44,6 @@ Se importa el dashboard oficial (ID 1860) para visualizar métricas de los servi
 
 
 
-## 5. Organización
-
-Se crea una carpeta `Monitoring` para agrupar dashboards relacionados.
-
 📸 *Captura opcional*
 
 ---
