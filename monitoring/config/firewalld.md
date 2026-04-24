@@ -11,4 +11,5 @@ Se instala firewalld desde apt y se abren unicamente los puertos para los servic
 - Node Exporter --> 9100/tcp
 - Grafana --> 3000/tcp
 
-<img width="1021" height="388" alt="image" src="https://github.com/user-attachments/assets/215854a7-7bf3-405c-8f44-23db822564b6" />
+<img width="1022" height="160" alt="image" src="https://github.com/user-attachments/assets/d7f9086b-b5e0-4a9e-887d-ba58915ca0eb" />
+
