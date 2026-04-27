@@ -1,9 +1,9 @@
 
 # monitoring (Ubuntu 22.04)
 
-Servidor de monitorización central del laboratorio, encargado de la recolección, almacenamiento y visualización de métricas del entorno Linux.
+El servidor de monitorización es el encargado de recopilar, almacenar y mostrar métricas del entorno Linux.
 
-Permite supervisar el estado de los sistemas, detectar incidencias y analizar el rendimiento de la infraestructura.
+Este servidor permite supervisar el estado de los sistemas, detectar cualquier incidencia y analizar el rendimiento de la infraestructura.
 
 ---
 
@@ -52,8 +52,8 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 
 ## Flujo de monitorización
 
-Los servidores (core-linux, docker-host) exponen métricas con Node Exporter
-Prometheus recoge esas métricas automáticamente
-Grafana las usa para mostrarlas en dashboards
+- Los servidores (core-linux, docker-host) proporcionan métricas a través de Node Exporter.
+- Prometheus recoge esas métricas automáticamente
+- Grafana utiliza estas métricas para mostrarlas en cuadros de mando.
 
-La frecuencia de recogida se define en ```prometheus.yml```
+La frecuencia con la que se recogen las métricas se define en el archivo ```prometheus.yml```
