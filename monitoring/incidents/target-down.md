@@ -1,7 +1,5 @@
 # Incidencia: Target DOWN
 
-El target `docker-host:9100` aparece en estado DOWN en Prometheus.
-
 ## 1. Problema
 
 Prometheus muestra el target `docker-host` como **DOWN**, impidiendo la recolección de métricas.
