@@ -1,7 +1,5 @@
 # Incidencia: Error en la configuración de Prometheus
 
-Prometheus muestra un error al validar el archivo `prometheus.yml`, haciendo que el servicio no funcione correctamente.
-
 
 ## 1. Problema
 
