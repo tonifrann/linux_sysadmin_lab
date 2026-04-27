@@ -1,6 +1,6 @@
 # Gestión de LVM y ampliación de almacenamiento
 
-En este documento, se mostrará la creación del LVM en el servidor y su posterior ampliación añadiendo un nuevo disco.
+Se crea el LVM en el servidor y se amplía posteriormente añadiendo un nuevo disco.
 
 
 ## 1. Verificación de los discos
