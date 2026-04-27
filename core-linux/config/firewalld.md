@@ -1,6 +1,6 @@
 # Configuración de Firewall (firewalld)
 
-Este entorno está configurado ```firewalld```, aunque en otros servidores del laboratorio se configuraran con ```ufw```, ```iptables``` y ```nftables``` para trabajar distintos tipos de configuración en firewalls.
+Este entorno está configurado ```firewalld```, aunque en otros servidores del laboratorio se configuraran con ```ufw``` e ```iptables``` para trabajar distintos tipos de configuración en firewalls.
 
 ## 1. Estado del servicio
 
