@@ -1,8 +1,8 @@
 # Backups (rsync, tar, dd)
 
-En este documento se muestran las copias de seguridad realizadas en el servidor, utilizando distintos métodos según el caso.
+En este documento mostraran las copias de seguridad realizadas en el servidor, utilizando distintos métodos según el caso.
 
-Se implementan distintos tipos de backups según el caso de uso:
+Se utilizan distintos tipos de backups dependiendo de la situación:
 
 - rsync para copias incrementales
 - tar para backups comprimidos
