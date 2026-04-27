@@ -7,7 +7,7 @@ Permite supervisar el estado de los sistemas, detectar incidencias y analizar el
 
 ---
 
-## Que se ha implementado en el servidor
+## Caracteristicas del servidor
 
 - Monitorización centralizada con Prometheus
 - Recolección de métricas del sistema con Node Exporter
