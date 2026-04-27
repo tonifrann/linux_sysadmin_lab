@@ -1,6 +1,6 @@
 # Configuración de red (nmcli)
 
-E neste documento, se configurará la red manualmente con `nmcli`.
+En este documento, se configurará la red manualmente con `nmcli`.
 
 ## 1. Comprobar el estado inicial de la interfaz
 <img width="995" height="178" alt="image" src="https://github.com/user-attachments/assets/9db5d60d-48c0-4fe6-80a1-32fb0231bf76" />
