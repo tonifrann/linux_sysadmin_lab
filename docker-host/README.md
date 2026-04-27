@@ -1,10 +1,10 @@
 # docker-host (Ubuntu 22.04)
 
-Servidor dedicado a la ejecución de contenedores Docker. Permite desplegar servicios aislados, realizar pruebas con Docker Engine y gestionar aplicaciones con Docker Compose.
+Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desplegar servicios aislados, hacer pruebas con Docker Engine y gestionar aplicaciones con Docker Compose.
 
 ---
 
-## Qué se ha implementado en el servidor
+## Caracteristicas del servidor
 
 - Instalación de Docker Engine
 - Instalación de Docker Compose
