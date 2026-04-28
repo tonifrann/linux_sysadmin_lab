@@ -1,7 +1,8 @@
 # Grafana
 
-Grafana es el servicio encargado de visualizar métricas.  
-Se utiliza para representar gráficamente las métricas recogidas por Prometheus.
+Grafana es el servicio que nos permite ver las métricas de manera gráfica.
+
+Se utiliza para mostrar en gráficos las métricas que recoge Prometheus.
 
 
 ## 1. Instalación
@@ -45,7 +46,7 @@ Se importa el dashboard oficial (ID 1860) para visualizar métricas de los servi
 
 ## 5. Validación del sistema
 
-- Grafana accesible desde http://192.168.100.11:3000
-- Datasource Prometheus conectado correctamente
-- Dashboards mostrando métricas en tiempo real
+- La dirección para acceder a Grafana es http://192.168.100.11:3000
+- El Datasource de Prometheus está conectado correctamente
+- Los Dashboards están mostrando métricas en tiempo real
 
