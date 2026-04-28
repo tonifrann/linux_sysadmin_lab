@@ -23,7 +23,7 @@ Se comprueba el estado:
 
 ## 3. Creación del recurso compartido
 
-Se crea la carpeta y se le dan los permisos necesarios. Se le da permisos de setgid para que los archivos que se creen hereden los permisos del directorio.
+Se crea la carpeta y se le asignan los permisos necesarios. Se le da permisos de setgid para que los archivos que se creen hereden los permisos de la carpeta.
 
 <img width="992" height="67" alt="image" src="https://github.com/user-attachments/assets/efd7c64f-d337-4cde-85d0-221d0ca90864" />
 
