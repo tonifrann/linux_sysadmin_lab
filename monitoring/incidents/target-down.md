@@ -2,17 +2,17 @@
 
 ## 1. Problema
 
-Prometheus muestra el target `docker-host` como **DOWN**, impidiendo la recolección de métricas.
+Prometheus está teniendo problemas con el target `docker-host`, que aparece como **DOWN**. Esto está impidiendo que se recopilen las métricas
 
 <img width="1913" height="809" alt="image" src="https://github.com/user-attachments/assets/bc778469-055f-4f6d-9844-e193befd0121" />
 
 
 ## 2. Síntomas
 
-- El panel `/targets` indica fallo de conexión.
+- El panel `/targets` muestra un fallo de la conexión.
 - No se reciben métricas del nodo.
-- El resto de targets están en estado UP.
-- En Grafana no se muestran datos del servidor.
+- Todoslos demás targets están en funcionando correctamente, en estado UP.
+- En Grafana no se puede ver ningun dato del servidor.
 
 
 ## 3. Diagnóstico
@@ -44,4 +44,4 @@ El target pasa a UP en el panel /targets.
 
 - Habilitar el servicio para que arranque automáticamente.
 - Monitorizar el estado del servicio desde Prometheus.
-- Revisar que el servicio no se pare despues de un reinicio o actualizacion.
+- Revisar que el servicio no se pare despues de un reinicio o de una actualizacion.
