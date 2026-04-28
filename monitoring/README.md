@@ -52,8 +52,8 @@ Este servidor permite supervisar el estado de los sistemas, detectar cualquier i
 
 ## Flujo de monitorización
 
-- Los servidores (core-linux, docker-host) proporcionan métricas a través de Node Exporter.
-- Prometheus recoge esas métricas automáticamente
+- Los servidores (core-linux, docker-host) envian métricas a través de Node Exporter.
+- Prometheus se encarga de recopilar esas métricas automáticamente
 - Grafana utiliza estas métricas para mostrarlas en cuadros de mando.
 
-La frecuencia con la que se recogen las métricas se define en el archivo ```prometheus.yml```
+La frecuencia con la que se recogen las métricas se configura en el archivo ```prometheus.yml```
