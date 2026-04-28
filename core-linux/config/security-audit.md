@@ -1,11 +1,11 @@
 # Auditoría y seguridad
 
-Este documento se implementan  algunas herramientas para auditar el sistema, controlar logs y detectar posibles problemas de seguridad.
+Se implementaran algunas herramientas para auditar el sistema, controlar logs y detectar posibles problemas de seguridad.
 
 
 ## 1. auditd
 
-Se utiliza auditd para registrar actividad del sistema como inicios de sesión, comandos ejecutados, accesos a archivos, con el objetivo de de tectar comportamientos anómalos.
+Se utiliza auditd para registrar la actividad del sistema, como cuando alguien inicia sesión, ejecuta comandos o accede a archivos, con el objetivo de detectar comportamientos inadecuados.
 
 Se revisa el estado del servicio:
 
@@ -23,7 +23,7 @@ Se revisa la ejecución de comandos en el sistema:
 
 ## logrotate
 
-Se revisa la configuración de rotación de logs en servicios como Samba y Nginx para evitar crecimiento descontrolado.
+Se revisa la configuración de rotación de logs en servicios como Samba y Nginx para evitar los logs crezcan demasiado y casen problemas.
 
 Se comprueba la configuración de logrotate en Samba: 
 
@@ -37,4 +37,4 @@ Se fuerza una rotación manual para validar su funcionamiento:
 
 <img width="994" height="178" alt="image" src="https://github.com/user-attachments/assets/f4160823-f6f9-47bf-b3e5-cc42b1af6f3d" />
 
-> NOTA: algunos archivos no se han rotado porque ya existen rotaciones creadas automáticamente por el sistema. Esto confirma que logrotate está funcionando correctamente.
+> NOTA: Algunos archivos no han rotaron porque ya hay rotaciones creadas automáticamente por el sistema. Esto confirma que logrotate funciona correctamente.
