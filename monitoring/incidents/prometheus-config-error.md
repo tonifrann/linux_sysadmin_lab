@@ -3,15 +3,18 @@
 
 ## 1. Problema
 
-El servicio de Prometheus no arranca por culpa de un error en el archivo de configuración.
+El servicio de Prometheus no se inicia debido a un error en el archivo de configuración.
 
 
 ## 2. Síntomas
 
-- El servicio aparece como *failed* al intentar iniciarlo.
-- `systemctl status prometheus` muestra errores relacionados con la configuración.
-- El comando de validación devuelve un error de sintaxis.
-- La interfaz web no carga.
+- El servicio de Prometheus falla al intentar iniciarlo.
+
+- Al ejecutar `systemctl status prometheus`, se muestran errores relacionados con la configuración.
+
+- El comando para validar la configuración indica un error de sintaxis.
+
+- La interfaz web de Prometheus no carga correctamente.
 
 
 ## 3. Diagnóstico
