@@ -55,6 +55,6 @@ También desde el navegador:
 
 ## 7. Prevención
 
-- Verificar reglas de firewall después de configurar los servicios
+- Verificar las reglas del firewall después de configurar los servicios
 - Comprobar la conectividad desde el cliente y el servidor
 - Documentar los puertos necesarios para cada servicio.
