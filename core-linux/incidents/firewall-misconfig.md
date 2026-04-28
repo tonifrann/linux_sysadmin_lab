@@ -1,16 +1,16 @@
 # Incidencia: Error de firewall
 
-Se detecta un problema en la configuración del firewall que impide el acceso a servicios que deberían estar disponibles.
+Se detecta un problema en la configuración del firewall, que hace que no se pueda acceder a servicios que deberían estar disponibles.
 
 
 ## 1. Problema
 
-No es posible acceder al servidor web desde la red, aunque el servicio está funcionando correctamente.
+No se puede acceder al servidor web desde la red, aunque el servicio está funcionando correctamente.
 
 
 ## 2. Síntomas
 
-Se comprueba que no funciona el acceso web desde un navegador:
+No funciona el acceso web desde un navegador:
 
 <img width="466" height="196" alt="image" src="https://github.com/user-attachments/assets/a75df44f-1be7-47b4-b477-ea1030b420ab" />
 
@@ -55,6 +55,6 @@ También desde el navegador:
 
 ## 7. Prevención
 
-- Verificar reglas de firewall después de configurar servicios
-- Comprobar conectividad desde cliente y servidor
-- Documentar puertos necesarios por servicio
+- Verificar reglas de firewall después de configurar los servicios
+- Comprobar la conectividad desde el cliente y el servidor
+- Documentar los puertos necesarios para cada servicio.
