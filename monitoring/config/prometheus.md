@@ -1,12 +1,13 @@
 # Prometheus
 
-Prometheus es el servicio encargado de recolectar y almacenar métricas del laboratorio.  
-En este servidor se ejecuta como servicio principal del stack de monitorización.
+Prometheus es el servicio que se encarga de recopilar y guardar las métricas del laboratorio.
+
+Este servicio es el principal en el grupo de herramientas de monitorización y se ejecuta en este servidor.
 
 
 ## 1. Estado del servicio
 
-Se comprueba que Prometheus está instalado, activo y escuchando en el puerto correspondiente:
+Se verifica que Prometheus está instalado, activo y escuchando en el puerto que le corresponde:
 
 <img width="1021" height="432" alt="image" src="https://github.com/user-attachments/assets/c12f7fa1-f37a-4d55-acd9-596e7ad07877" />
 
@@ -30,7 +31,7 @@ Se valida que el archivo de configuración funcione correctamente:
 
 ## 3. Node Exporter
 
-Para que los targets aparezcan en estado UP, es necesario instalar [node_exporter](./node-exporter.md)
+Para que los targets aparezcan en estado UP, se debe instalar [node_exporter](./node-exporter.md)
 
 
 ## 4. Comprobación de targets
@@ -48,12 +49,12 @@ Se consultan algunas métricas desde la interfaz web para validar su funcionamie
 
 ## 6. Logs del servicio
 
-Se revisan logs para detectar errores o fallos de configuración con el comando ```journalctl -u prometheus -xe``` pero no se muestra ningun error.
+Se revisan los logs para buscar errores o problemas de configuración con el comando ```journalctl -u prometheus -xe``` pero no apareció ninguno.
 
 
 ## 7. Validación del sistema
 
-- Prometheus accesible en http://192.168.100.11:9090
-- Targets en estado UP
-- Métricas disponibles
-- Sin errores en logs
+- Se puede acceder a Prometheus desde http://192.168.100.11:9090
+- Targets estan funcionando correctamente
+- Hay Métricas disponibles
+- No hay errores en los logs
