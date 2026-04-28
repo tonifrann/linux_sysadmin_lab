@@ -1,19 +1,19 @@
 # Incidencia: Permisos en Samba
 
-No se puede acceder a un recurso compartido en Samba debido a una mala configuración de permisos.
+Hay un problema con los permisos en Samba que impide acceder a un recurso compartido.
 
 
 ## 1. Problema
 
-Un usuario no puede acceder a un recurso compartido de Samba. El recurso se monta correctamente, pero no permite acceder ni escribir (acceso denegado).
+Un usuario no puede acceder a un recurso compartido de Samba. El recurso se monta correctamente, no s epuede acceder ni escribir en él porque el acceso está denegado.
 
 <img width="515" height="209" alt="image" src="https://github.com/user-attachments/assets/fcd57441-60ad-485c-b48d-a22345889f66" />
 
 
 ## 2. Síntomas
 
-- Windows muestra acceso denegado
-- Desde Linux tampoco se puede escribir en el directorio
+- Desde Windows, aparece un mensaje de acceso denegado cuando se intenta acceder al directorio compartido.
+- Desde Linux tampoco se puede escribir en el directorio compartido
 
 
 ## 3. Diagnóstico
@@ -60,8 +60,8 @@ Se comprueba también desde Linux:
 
 ## 7. Prevención
 
-- Definir correctamente usuarios y grupos en los directorios
-- Validar acceso desde Linux y Windoes cuando se hagan cambios
-- Mantener coherencia entre permisos Linux y configuración de Samba
+- Definir correctamente los usuarios y grupos en los directorios
+- Validar el acceso desde Linux y Windows cuando se hagan cambios
+- Mantener la coherencia entre los permisos de Linux y la configuración de Samba
 - Utilizar ACLs cuando sea necesario
 - Documentar que usuarios y grupos tienen acceso
