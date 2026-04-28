@@ -1,6 +1,6 @@
 # Configuración de SELinux
 
-Este servidor utiliza SELinux en modo *enforcing* por defecto. 
+Este servidor tiene configurado SELinux en modo *enforcing* por defecto. 
 
 ---
 
@@ -19,23 +19,20 @@ También se revisa el log general:
 
 ```sudo cat /var/log/audit/audit.log``` 
 
-Actualmente no aparece ningún bloqueo, ya que estamos en la configuración inicial.
+Actualmente no aparece ningún bloqueo, ya que se esta empezando a configurar todo.
 
 
 ## 2. Consideraciones
 
-- SELinux se mantiene en modo enforcing durante todo el laboratorio, no se desactiva.
-- Los bloqueos reales se documentarán en el apartado de [incidencias](../incidents/selinux-block.md)
+-  SELinux siempre está activado en modo enforcing y no se desactivará en ningun momento durante el laboratorio.
+- Cualquier bloqueo que haya se documentarán en el apartado de [incidencias](../incidents/selinux-block.md)
 
 
----
-
- 
 ## 3. SELinux en los servicios Samba y Nginx
 
-Una vez se han instalado los servicios, se deben configurar los contextos SELinux para permitir el acceso.
+Después de instalar los servicios, hay que configurar SELinux para que permita el acceso a estos servicios.
 
-La configuración se documenta en cada servicio:
+La configuración se explica en cada uno de los servicios:
 
 - [Configuración de Samba](samba.md)
 - [Configuración de Nginx](nginx.md)
