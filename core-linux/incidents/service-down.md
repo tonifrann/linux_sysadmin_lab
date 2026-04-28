@@ -1,10 +1,11 @@
 # Incidencia: SSH no arranca tras cambios en la configuración
 
-Después de modificar la configuración de SSH, el servicio y el acceso remoto dejaron de funcionar.
+Después de cambiar la configuración de SSH, el servicio y el acceso remoto han dejado de funcionar.
+
 
 ## 1. Problema
 
-No es posible conectarse al servidor por SSH después de hacer cambios en la configuración.
+No es se puede realizar la conexión al servidor por SSH después de hacer cambios en la configuración.
 
 La conexión es rechazada desde el cliente de Windows:
 
@@ -13,7 +14,7 @@ La conexión es rechazada desde el cliente de Windows:
 
 ## 2. Síntomas
 
-- No se puede establecer conexión SSH
+- No se puede establecer una conexión SSH
 - No hay acceso remoto al servidor
 
 
@@ -69,6 +70,6 @@ Se comprueba que hay conexión desde el cliente de Windows:
 
 ## 7. Prevención
 
-- Validar siempre la configuración con sshd -t después de cambios y antes de reiniciar
-- Mantener una sesión SSH abierta mientras se realizan cambios
-- Documentar parámetros modificados en /etc/ssh/sshd_config
+- Validar siempre la configuración con `sshd -t` después de hacer cambios y antes de reiniciar
+- Mantener una sesión SSH abierta mientras se realizan los cambios
+- Documentar los parámetros que se han modificado en /etc/ssh/sshd_config
