@@ -1,12 +1,12 @@
 # Configuración de SSH
 
-Este documento describe la configuración básica y segura del servicio SSH en Rocky Linux 9.
+Se configurará el servicio SSH.
 
 ---
 
 ## 1. Crear un usuario administrador
 
-SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo `admins` para permitir sudo.
+No es recomendable utilizar SSH con el usuario root, asi que primero hay que crear un usuario normal y agregarlo al grupo `admins` para que tenga permisos de sudo.
 
 <img width="996" height="178" alt="image" src="https://github.com/user-attachments/assets/dcddf278-62af-4bc4-96e4-cad2ad87f353" />
 
@@ -19,7 +19,7 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 ## 3. Configurar claves SSH
 
-- Para crear la clave desde un PC Windows ejecuto:
+- Para crear la clave desde un PC Windows se ejecuta:
   ```ssh-keygen -t ed25519```
   
 - Para copiar la clave al Servidor:
@@ -30,7 +30,7 @@ SSH no debe usarse con root. Primero creo un usuario normal y lo añado al grupo
 
 <img width="994" height="96" alt="image" src="https://github.com/user-attachments/assets/636e9339-77d1-4fc1-9be6-8f938a287648" />
 
-> Nota: Si lo en vez de windows, se hubiera utilizado un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no se hubiera tenido que crear las carpetas manualmente.
+> Nota: Si en vez de windows, se hubiera utilizado un cliente Linux, hubiera utilizado ```ssh-copy-id``` para copiar la clave al servidor, y no se hubiera tenido que crear las carpetas manualmente.
 
 
 ## 4. Configuración del servicio SSH
@@ -39,21 +39,28 @@ Ejecutamos ```sudo nano /etc/ssh/sshd_config``` y añadimos las siguientes linea
 
 <img width="1009" height="502" alt="image" src="https://github.com/user-attachments/assets/024b4397-56f0-4346-9053-e4048a32b3db" />
 
-Con esta configuración lograremos lo siguiente:
-- Evitar que se acceda como root desde SSH.
-- Que no se pueda acceder con contraseña, unicamente con claves SSH.
-- Solo el usuario toni tiene acceso.
-- El maximo numero de intentos fallidos es 3, asi reducimos la posibilidad de fuerza bruta.
+Con esta configuración podremos lograr lo siguiente:
+
+- No se permitirá que nadie acceda como root desde SSH.
+
+- Solo se podrá acceder con claves SSH, no con contraseñas.
+
+- Solo el usuario toni tendrá acceso.
+
+- El número máximo de intentos fallidos es de 3. Esto nos ayudará a reducir la posibilidad de ataques de fuerza bruta.
+- 
 
 ## 5. Reiniciar SSH y verificar su status
+
 <img width="999" height="304" alt="image" src="https://github.com/user-attachments/assets/c0681d62-ebbd-4fe1-9b08-ed6c009b9cee" />
 
 
 ## 6. Probar acceso
-Verifico el acceso a la maquina Windows 11 con la clave y sin que pida contraseña.
+
+Se verifica el acceso a la maquina Windows 11 con la clave y sin que pida contraseña.
 
 <img width="1091" height="113" alt="image" src="https://github.com/user-attachments/assets/e18b7187-cabf-475c-8c14-fc7187ffae6d" />
 
-Verifico que root no puede acceder.
+Se verifica que root no puede acceder.
 
 <img width="1098" height="110" alt="image" src="https://github.com/user-attachments/assets/9ad9fac2-054d-4a38-a985-3a572ce21974" />
