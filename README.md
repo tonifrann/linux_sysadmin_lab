@@ -1,8 +1,8 @@
 # Linux Sysadmin Lab
 
-Este es un laboratorio práctico de administración de sistemas Linux que simula una infraestructura de empresa real.
+Este es un laboratorio práctico de administración de sistemas Linux, como si fuera una empresa real.
 
-Se incluye el despliegue de los servicios, la seguridad, la automatización, la monitorización y la resolución de algunos problemas comunes.
+Se incluye el despliegue de servicios, seguridad, automatización, monitorización y la resolución de algunos problemas comunes.
 
 ---
 
