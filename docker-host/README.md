@@ -8,6 +8,8 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 
 - Instalación de Docker Engine
 - Instalación de Docker Compose
+- Redes internas con Docker Networks
+- Persistencia mediante volúmenes Docker
 - Node Exporter para Prometheus
 - Configuración del firewall
 - Integración con el servidor de monitorización
@@ -23,6 +25,8 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 ### 2. Servicios del servidor
 - [Docker Engine](config/docker-engine.md)
 - [Docker Compose](config/docker-compose.md)
+- [Docker Networks](config/docker-networks.md)
+- [Volúmenes y persistencia](config/volumes.md)
 - [Firewall](config/firewall.md)
 
 ### 3. Contenedores
