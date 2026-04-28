@@ -20,14 +20,14 @@ Se habilita y arranca Nginx:
 
 ## 3. Firewall
 
-Se configura [firewalld](firewalld.md) para que se permita el trafico de HTTP/HTTPS
+Se configura [firewalld](firewalld.md) para permitir el trafico de HTTP/HTTPS
 
 <img width="995" height="115" alt="image" src="https://github.com/user-attachments/assets/a44d0d48-63fa-4776-a5f5-77d5928bca48" />
 
 
 ## 4. Estructura de directorios
 
-Se ha creado `/srv/web` como directorio de la aplicación web. Se configura el contexto para asegurarnos de que SElinux funcione correctamente y lo hago recursivo.
+Se crea `/srv/web` como directorio de la aplicación web. Después se configura el contexto para asegurar de que SElinux funcione correctamente y lo hago recursivo.
 
 <img width="987" height="99" alt="image" src="https://github.com/user-attachments/assets/ee787166-0ec7-46b4-989c-9655b41cac7f" />
 
@@ -52,7 +52,7 @@ Se comprueba en un navegador que funciona correctamente:
 <img width="1335" height="128" alt="image" src="https://github.com/user-attachments/assets/5809d865-2c66-4892-95bd-a70ec505aeff" />
 
 
-> NOTA:  En la primera prueba desde el navegador, Nginx no mostraba el contenido debido a un error de escritura en la ruta (`/svr/web` en lugar de `/srv/web`). Una vez corregido, el servicio funcionó correctamente.
+> NOTA:  En la primera prueba desde el navegador, Nginx no mostraba el contenido por culpa a un error al escribr la ruta (`/svr/web` en lugar de `/srv/web`). Una vez corregido el error, el servicio ha funcionado correctamente.
 
 
 ## 7. SELinux
@@ -61,18 +61,18 @@ Se comprueba el contexto SELinux del directorio web:
 
 <img width="990" height="46" alt="image" src="https://github.com/user-attachments/assets/2ffc785e-0d1c-4aa0-8aaf-ad4cbdfec0b1" />
 
-El contexto es correcto (httpd_sys_content_t), por lo que Nginx puede acceder al contenido sin problemas.
+El contexto es correcto (httpd_sys_content_t), ai que Nginx puede acceder al contenido sin problemas.
 
-No se ha detectado ningun bloqueo en SElinux relacionados con nginx:
+No se ha detectado ningun bloqueo en SElinux relacionado con nginx:
 
 <img width="990" height="45" alt="image" src="https://github.com/user-attachments/assets/527cceda-6311-4b7a-9a00-633ed8e83009" />
 
 
 ## 8. Logs
 
-Se revisan los logs de acceso y error para verificar el funcionamiento del servicio:
+Se revisan los logs de acceso y error para verificar que el servicio funciona correctamente:
 
 - sudo tail -10 /var/log/nginx/access.log
 - sudo tail -10 /var/log/nginx/error.log
 
-No aparecen errores y las peticiones de http aparecen correctamente en el archivo access.log
+No se ven errores y las peticiones de http se muestran correctamente en el archivo access.log
