@@ -31,4 +31,4 @@ Se revisa la configuración de la red y los contenedores asociados:
 
 ---
 
-Se confirma que el contenedor está conectado a la red personalizada y que Docker esta gestionanando el aislamiento y la comunicación interna de manera correcta.
+El contenedor aparece asociado a la red y tiene conectividad dentro del entorno.
