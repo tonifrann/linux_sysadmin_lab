@@ -11,20 +11,18 @@ Se añade el repositorio de Docker para poder descargar las versiones estables y
 <img width="1020" height="17" alt="image" src="https://github.com/user-attachments/assets/dbfac7ba-a72c-4405-9cab-fe9b16716252" />
 
 
-
-<img width="1021" height="18" alt="image" src="https://github.com/user-attachments/assets/3e461544-a5d9-48ae-9675-1669cde04ec2" />
-
-
-
 <img width="1020" height="97" alt="image" src="https://github.com/user-attachments/assets/2b22ba57-e090-45c7-9353-cbbf7d77cc89" />
 
 
+<img width="1023" height="51" alt="image" src="https://github.com/user-attachments/assets/c25ea139-2627-4525-bd14-97cb2a22dcb8" />
+
+<img width="1023" height="36" alt="image" src="https://github.com/user-attachments/assets/1a8bd7df-dd46-4f3a-a382-867467378557" />
 
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
-echo \
+cho \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
   https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" \
-  | sudo tee /etc/apt/sources.list.d/docker.list > /dev/nullsudo inta
+  | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
