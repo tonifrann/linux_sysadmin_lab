@@ -29,6 +29,6 @@ Se revisa la configuración de la red y los contenedores asociados:
 <img width="1022" height="14" alt="image" src="https://github.com/user-attachments/assets/147b8e10-b26b-48cd-bd70-3f33e28ed462" />
 <img width="1021" height="754" alt="image" src="https://github.com/user-attachments/assets/ecda637d-458d-448e-918c-9d1aa8adfa9c" />
 
+---
 
-
-> NOTA: Se confirma que el contenedor está conectado a la red personalizada y que Docker esta gestionanando el aislamiento y la comunicación interna de manera correcta.
+Se confirma que el contenedor está conectado a la red personalizada y que Docker esta gestionanando el aislamiento y la comunicación interna de manera correcta.
