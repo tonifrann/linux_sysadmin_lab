@@ -14,7 +14,7 @@ Se comprueba que la red ha sido creada correctamente:
 <img width="1023" height="96" alt="image" src="https://github.com/user-attachments/assets/d0a84e09-003f-464a-b4d0-493658ae4393" />
 
 
-## 3. Conexión de contenedor a la red
+## 2. Conexión de contenedor a la red
 
 Se lanza un contenedor y se conecta a la red que hemos creado:
 
@@ -22,7 +22,7 @@ Se lanza un contenedor y se conecta a la red que hemos creado:
 
 
 
-## 4. Revisión de la red
+## 3. Revisión de la red
 
 Se revisa la configuración de la red y los contenedores asociados:
 
