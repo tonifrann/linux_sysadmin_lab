@@ -16,7 +16,6 @@ Se añade el repositorio de Docker para poder descargar las versiones estables y
 
 <img width="1023" height="51" alt="image" src="https://github.com/user-attachments/assets/c25ea139-2627-4525-bd14-97cb2a22dcb8" />
 
-<img width="1023" height="36" alt="image" src="https://github.com/user-attachments/assets/1a8bd7df-dd46-4f3a-a382-867467378557" />
 
 <img width="1023" height="49" alt="image" src="https://github.com/user-attachments/assets/45eef2f7-cd1f-4246-bf54-f852283a3a1b" />
 
