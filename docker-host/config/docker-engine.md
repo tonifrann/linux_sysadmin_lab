@@ -18,11 +18,8 @@ Se añade el repositorio de Docker para poder descargar las versiones estables y
 
 <img width="1023" height="36" alt="image" src="https://github.com/user-attachments/assets/1a8bd7df-dd46-4f3a-a382-867467378557" />
 
-sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
-cho \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
-  https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" \
-  | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+## 2. Instalación de Docker Engine
+
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
