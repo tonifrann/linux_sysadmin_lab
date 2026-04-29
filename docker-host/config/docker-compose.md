@@ -14,7 +14,7 @@ Se verifica que se ha instalado correctamente:
 <img width="1022" height="50" alt="image" src="https://github.com/user-attachments/assets/03180bd6-81ee-407a-9ef2-97cf34e47ca3" />
 
 
-## 2. Despliegue de servicio con Docker Compose
+## 2. Despliegue de un servicio con Docker Compose
 
 Se crea un archivo docker-compose.yml para desplegar un contenedor Nginx como servicio de prueba y asi poder validar que funciona Docker Compose:
 
