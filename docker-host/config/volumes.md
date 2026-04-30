@@ -30,7 +30,8 @@ Se lanza un contenedor (Nginx que se descarga automáticamente) y se monta el vo
 
 Se accede al contenedor para verificar de que se ha montado correctamente:
 
-<img width="1023" height="48" alt="image" src="https://github.com/user-attachments/assets/b8182ba2-76ec-452a-a872-5c29da22906c" />
+<img width="1021" height="46" alt="image" src="https://github.com/user-attachments/assets/ab3d7155-7ab9-40fd-95e6-b4f5334204c2" />
+
 
 
 ## 3. Persistencia de datos
