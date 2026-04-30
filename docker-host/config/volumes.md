@@ -43,7 +43,8 @@ Se accede al contenedor y se crean datos de prueba dentro del volumen:
 
 Se detiene y se elimina el contenedor:
 
-<img width="1022" height="79" alt="image" src="https://github.com/user-attachments/assets/c85aefc0-d7e5-442c-8d0f-0430fb055d05" />
+<img width="1022" height="76" alt="image" src="https://github.com/user-attachments/assets/7d0bd578-73a2-4190-b13d-13357ab77761" />
+
 
 Se crea un nuevo contenedor usando el mismo volumen:
 
