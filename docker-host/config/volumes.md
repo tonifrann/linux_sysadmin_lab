@@ -24,7 +24,8 @@ Se comprueba la información del volumen:
 
 Se lanza un contenedor (Nginx que se descarga automáticamente) y se monta el volumen creado en el directorio de datos:
 
-<img width="1022" height="47" alt="image" src="https://github.com/user-attachments/assets/d882f5bb-033d-4baa-8cb1-231dc46e0ced" />
+<img width="1021" height="46" alt="image" src="https://github.com/user-attachments/assets/2452acbe-3894-4460-8daa-d285d4159b5a" />
+
 
 
 Se accede al contenedor para verificar de que se ha montado correctamente:
