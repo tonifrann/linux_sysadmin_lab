@@ -38,7 +38,8 @@ Se accede al contenedor para verificar de que se ha montado correctamente:
 
 Se accede al contenedor y se crean datos de prueba dentro del volumen:
 
-<img width="1019" height="33" alt="image" src="https://github.com/user-attachments/assets/d0d60325-a4de-445d-823b-16403a16601e" />
+<img width="1023" height="30" alt="image" src="https://github.com/user-attachments/assets/309213ef-d062-4066-9037-4a4e5d3f60b2" />
+
 
 Se detiene y se elimina el contenedor:
 
