@@ -53,4 +53,4 @@ Se crea un nuevo contenedor usando el mismo volumen y se comprueba que los datos
 
 ## 4. Resultado
 
-Los datos persisten correctamente entre contenedores gracias al uso de volúmenes Docker.
+Los datos han persistido correctamente entre contenedores despues de eliminarlos al utilizar volúmenes Docker. 
