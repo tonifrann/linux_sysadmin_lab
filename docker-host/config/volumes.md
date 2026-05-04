@@ -46,16 +46,11 @@ Se detiene y se elimina el contenedor:
 <img width="1022" height="76" alt="image" src="https://github.com/user-attachments/assets/7d0bd578-73a2-4190-b13d-13357ab77761" />
 
 
-Se crea un nuevo contenedor usando el mismo volumen:
+Se crea un nuevo contenedor usando el mismo volumen y se comprueba que los datos siguen estando, validando así la persistencia:
 
-<img width="1023" height="128" alt="image" src="https://github.com/user-attachments/assets/171eae18-5b63-4c3e-a917-4deb8576f5c9" />
-
-
-Se comprueba que los datos siguen disponibles, validando la persistencia:
-
-<img width="1023" height="64" alt="image" src="https://github.com/user-attachments/assets/54fe273e-e7c2-4623-ae56-3c0ea5bfbead" />
+<img width="1021" height="67" alt="image" src="https://github.com/user-attachments/assets/7bfb72f1-b18a-44cc-b911-12532754f132" />
 
 
-## Resultado
+## 4. Resultado
 
-Se confirma que los datos persisten correctamente entre contenedores gracias al uso de volúmenes Docker.
+Los datos persisten correctamente entre contenedores gracias al uso de volúmenes Docker.
