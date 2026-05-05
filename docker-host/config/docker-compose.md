@@ -1,6 +1,6 @@
 # Docker Compose
 
-Se instala el plugin oficial de Docker Compose y se comprueba su funcionamiento.
+Instalación del plugin oficial de Docker Compose para poder gestionar servicios mediante archivos de configuración YAML.
 
 
 ## 1. Instalación del plugin de Docker Compose
