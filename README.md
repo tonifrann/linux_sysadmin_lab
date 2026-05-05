@@ -49,11 +49,11 @@ Monitorización, métricas y logs
 Entorno de contenedores y aplicaciones  
 [Ver documentación](docker-host/README.md)
 
-### fog-server
+### fog-server (en mantenimiento)
 Despliegue de sistemas por red (PXE)  
 [Ver documentación](fog-server/README.md)
 
-### ansible-controller
+### ansible-controller (en mantenimiento)
 Automatización y configuración centralizada  
 [Ver documentación](ansible-controller/README.md)
 
