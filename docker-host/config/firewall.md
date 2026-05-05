@@ -11,7 +11,11 @@ Se comprueba el estado de las reglas de iptables:
 <img width="1023" height="655" alt="image" src="https://github.com/user-attachments/assets/c6d139de-fb39-4c1b-b2cc-5848cb4a0470" />
 
 
-## 2. Configuracion de reglas
+## 2. Configuracion manual de reglas
+
+Se permite el trafico de todas las conexiones ya establecidas:
+<img width="1024" height="30" alt="image" src="https://github.com/user-attachments/assets/5a4c9316-bd6c-4d05-83ad-1d1248d761ab" />
+
 
 Se permite el acceso al servicio Nginx:
 <img width="1022" height="28" alt="image" src="https://github.com/user-attachments/assets/a522a74f-24cd-4228-ac3f-9f7e491e7171" />
@@ -19,7 +23,20 @@ Se permite el acceso al servicio Nginx:
 Se permite el acceso por SSH:
 <img width="1020" height="32" alt="image" src="https://github.com/user-attachments/assets/d4f1b667-67c6-439e-8e0d-cdf8390681e4" />
 
-Se configura para que sean permanentes despues de un reinicio:
+Se configura una politica restrictiva: 
+<img width="1024" height="30" alt="image" src="https://github.com/user-attachments/assets/8c4313f5-ff3c-4eae-aeb5-74931e0e75d4" />
 
-<img width="1023" height="18" alt="image" src="https://github.com/user-attachments/assets/8f159d67-f291-4245-81ac-a75614197a85" />
+Se configura la cadena FORWARD para que este en ACCEPT, para que docker permita el trafico entre los contenedores e internet:
+
+<img width="1021" height="29" alt="image" src="https://github.com/user-attachments/assets/18ce8189-0343-421d-8f12-1042a6f808a8" />
+
+
+## 3. Persistencia de las reglas
+
+Se configura para que las reglas sean permanentes despues de un reinicio:
+
+<img width="1022" height="14" alt="image" src="https://github.com/user-attachments/assets/7598e631-850c-4805-abed-950efdebdb32" />
+
+<img width="1022" height="418" alt="image" src="https://github.com/user-attachments/assets/83f701f3-722a-4c76-a065-2a793f545cb5" />
+
 
