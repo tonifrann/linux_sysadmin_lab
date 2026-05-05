@@ -1,9 +1,9 @@
 # core-linux (Rocky Linux 9)
 
 Es el servidor principal del laboratorio Está enfocado a la seguridad, los servicios basicos y al almacenamiento. Es el nodo central para realizar pruebas de red, autenticación, backups y servicios web.
----
 
-## Caracteristticas del servidor
+
+## Caracteristicas del servidor
 
 - Hardening: SSH, SELinux (enforcing), firewalld
 - Gestión avanzada de almacenamiento con LVM (snapshots y ampliación)
