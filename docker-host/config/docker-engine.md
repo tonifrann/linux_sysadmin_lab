@@ -1,6 +1,6 @@
 # Docker Engine
 
-Instalación y configuración de Docker Engine en el servidor docker-host.
+Instalación base de Docker Engine en el servidor docker-host para poder realizar la ejecución de contenedores y servicios del laboratorio.
 
 ---
 
