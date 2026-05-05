@@ -51,6 +51,6 @@ Se crea un nuevo contenedor usando el mismo volumen y se comprueba que los datos
 <img width="1021" height="67" alt="image" src="https://github.com/user-attachments/assets/7bfb72f1-b18a-44cc-b911-12532754f132" />
 
 
-
+---
 
 > Los datos han persistido correctamente entre contenedores después de eliminarlos, gracias a que se han utilizado volúmenes Docker. 
