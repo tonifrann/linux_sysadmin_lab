@@ -13,6 +13,10 @@ Se comprueba el estado de las reglas de iptables:
 
 ## 2. Configuracion manual de reglas
 
+Se permite loopback:
+<img width="1022" height="32" alt="image" src="https://github.com/user-attachments/assets/bee20bcb-8877-4d45-b646-cbe591252e0d" />
+
+
 Se permite el trafico de todas las conexiones ya establecidas:
 <img width="1024" height="30" alt="image" src="https://github.com/user-attachments/assets/5a4c9316-bd6c-4d05-83ad-1d1248d761ab" />
 
