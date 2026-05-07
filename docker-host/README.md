@@ -37,7 +37,6 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 
 ### 5. Incidencias
 - [Error en Docker Engine](incidents/docker-engine-error.md)
-- [Permisos en docker.sock](incidents/docker-sock-permissions.md)
 - [Contenedor no arranca](incidents/container-failed.md)
 
 ---
