@@ -2,7 +2,7 @@
 
 ## 1. Problema
 
-El contenedor alpine_tool se detiene de forma inesperada durante su ejecución, pasando a estado Exited (137).
+El contenedor alpine_tool se detiene de forma inesperada durante su ejecución, pasando ha estado Exited (137).
 
 
 ## 2. Síntomas
@@ -12,7 +12,7 @@ Se revisan los contenedores:
 <img width="1022" height="62" alt="image" src="https://github.com/user-attachments/assets/9adee627-2c71-441c-9695-76e18b686ef4" />
 
 
-## 3. Diagnostico
+## 3. Diagnóstico
 
 Se inspecciona el contenedor:
 <img width="1023" height="13" alt="image" src="https://github.com/user-attachments/assets/b4eea43a-901f-4118-be8f-5ccc0492edcd" />
@@ -26,8 +26,8 @@ Se revisan los logs, pero no se muestra ninguna información:
 
 ## 4. Causa
 
-El contenedor esta en estado finalizado con código 137 (SIGKILL).
-No se detecta que no es fallo de memoria (OOMKilled=false), ni hayinformación en los logs, así que no se puede demostrar la causa exacta. Probablemente ha sido una finalización externa o forzada.
+El contenedor se muestra en estado finalizado con código 137 (SIGKILL).
+Se detecta que no es un fallo de memoria (OOMKilled=false), ni hay información en los logs, así que no se puede demostrar la causa exacta. Probablemente ha sido una finalización externa o forzada.
 
 
 ## 5. Solución
@@ -47,5 +47,7 @@ Se comprueba que el contenedor este funcionando:
 ## 7. Prevención
 
 Monitorizar los recursos del host para  detectar picos de consumo.
+
 Revisar los eventos del sistema (dmesg / syslog) en caso de repetirse.
+
 Definir algunos límites de recursos en contenedores (--memory, --cpus).
