@@ -28,12 +28,12 @@ Se revisan los logs del servicio:
 
 ## 4. Causa
 
-El servicio Docker da errores en el arranque del daemon que apuntan a un error en un carácter del archivo /etc/docker/daemon.json.
+El daemon de Docker no se puede inicializar por culpa de un error de sintaxis en el archivo /etc/docker/daemon.json, haciendo que servicio falle al arrancar.
 
 
 ## 5. Solución
 
-Se revisa el archivo /etc/docker/daemon.json, se corrige el error y se reinicia el servicio Docker:
+Se indentifica donde está el erroe en el archivo /etc/docker/daemon.json y se corrige. Después de reinicia el servicio de Docker para que se apliquen los cambios en la configuración:
 
 <img width="1022" height="14" alt="image" src="https://github.com/user-attachments/assets/6fe43a5f-91f9-47e2-b21f-2f6259c0ac59" />
 
