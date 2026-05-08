@@ -19,10 +19,9 @@ Se inspecciona el contenedor:
 
 <img width="1021" height="160" alt="image" src="https://github.com/user-attachments/assets/83de3a82-b25c-4e65-8fce-6c9065fd5ece" />
 
-Se revisan los logs, pero no se detalla ninguna información:
+Se revisan los logs, pero no se muestra ninguna información:
 
 <img width="1020" height="27" alt="image" src="https://github.com/user-attachments/assets/487cfad7-259b-46f7-89f2-e63d4d36e8bc" />
-
 
 
 ## 4. Causa
