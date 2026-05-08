@@ -14,7 +14,7 @@ Se resivan todos los contenedores, incluidos los detenidos:
 <img width="1022" height="61" alt="image" src="https://github.com/user-attachments/assets/7afddf99-b0bf-4193-b04f-e182c3efe70e" />
 
 
-## 2. Creación y gestión del contenedor:
+## 2. Creación del contenedor:
 
 Se crea un contenedor Alpine para poder realizar pruebas. Se utiliza 'sleep inifinty' para mantenerlo en ejecución:
 
