@@ -1,4 +1,4 @@
-# Incidencia: Contenedor finalizado inesperadamente con código 137 (SIGKILL)
+# Incidencia: Contenedor finalizado inesperadamente con código 137
 
 ## 1. Problema
 
