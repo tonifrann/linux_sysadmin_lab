@@ -26,8 +26,8 @@ Se revisan los logs, pero no se muestra ninguna información:
 
 ## 4. Causa
 
-El contenedor ha sido finalizado con código 137 (SIGKILL).
-No se detecta OOM (OOMKilled=false) ni información en logs, por lo que no se puede demostrar la causa exacta. Probablemente ha sido una finalización externa o forzada.
+El contenedor esta en estado finalizado con código 137 (SIGKILL).
+No se detecta que no es fallo de memoria (OOMKilled=false), ni hayinformación en los logs, así que no se puede demostrar la causa exacta. Probablemente ha sido una finalización externa o forzada.
 
 
 ## 5. Solución
