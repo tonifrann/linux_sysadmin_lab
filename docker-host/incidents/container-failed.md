@@ -1,8 +1,8 @@
-# Incidencia: Un contenedor ha dejado de funcionar
+# Incidencia: Contenedor finalizado con código 137 (SIGKILL)
 
 ## 1. Problema
 
-El contenedor alpine_tool aparece detenido con el estado Exited (137), esto indica que su proceso principal se terminó de golpe.
+El contenedor `alpine_tool` se detiene de forma inesperada mostrando estado `Exited (137)`.
 
 
 ## 2. Síntomas
