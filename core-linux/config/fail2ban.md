@@ -62,8 +62,12 @@ Se crea un nuevo filtro para detectar las autenticaciones fallidas:
 <img width="1020" height="18" alt="image" src="https://github.com/user-attachments/assets/0b03020f-bb5d-4314-9e0c-2c130b00ecac" />
 Se configura:
 
+<img width="1025" height="181" alt="image" src="https://github.com/user-attachments/assets/5f86f2a9-5df1-4680-8139-07cf985fe1bd" />
 
 Se crea otro filtro para detectar peticiones maliciosas:
 
 Se configura:
+
+
+
 
