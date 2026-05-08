@@ -54,4 +54,5 @@ Se valida el funcionamiento de Docker:
 ## 7. Prevención
 
 Monitorizar el estado del servicio Docker.
+
 Revisar los logs si hay algun de fallo en el arranque.
