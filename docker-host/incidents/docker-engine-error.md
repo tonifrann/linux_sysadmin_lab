@@ -2,13 +2,14 @@
 
 ## 1. Problema
 
-El servicio Docker Engine no está disponible y no permite gestionar ningún contenedor.
+El servicio Docker Engine no arranca y no se puede gestionar ningún contenedor.
 
 
 ## 2. Síntomas
 
 Se intenta ejecutar un comando de Docker:
 
+<img width="1022" height="45" alt="image" src="https://github.com/user-attachments/assets/1a54f84f-91e8-4a0d-9319-84d8f97dd382" />
 
 Se comprueba el estado del servicio:
 
@@ -32,26 +33,25 @@ El servicio Docker da errores en el arranque del daemon que apuntan a un error e
 
 ## 5. Solución
 
-Se revisa el archivo /etc/docker/daemon.json e nbusca de errores y se reinicia el servicio Docker:
+Se revisa el archivo /etc/docker/daemon.json, se corrige el error y se reinicia el servicio Docker:
 
 <img width="1022" height="14" alt="image" src="https://github.com/user-attachments/assets/6fe43a5f-91f9-47e2-b21f-2f6259c0ac59" />
 
 <img width="1022" height="20" alt="image" src="https://github.com/user-attachments/assets/b3866575-d0c2-4ea0-9f8f-6e31fb0404f8" />
 
 
-
-
 ## 6. Verificación
 
 Se comprueba que el servicio está activo:
-
-
+<img width="1018" height="205" alt="image" src="https://github.com/user-attachments/assets/0bc56880-7c40-46a5-94db-72b73d6b71f1" />
 
 Se valida el funcionamiento de Docker:
+
+<img width="1020" height="65" alt="image" src="https://github.com/user-attachments/assets/cb9a97af-f355-4bb9-8d23-017e32db1dc2" />
 
 
 
 ## 7. Prevención
 
 Monitorizar el estado del servicio Docker.
-Revisar logs en caso de fallo en el arranque.
+Revisar los logs si hay algun de fallo en el arranque.
