@@ -53,6 +53,6 @@ Se valida el funcionamiento de Docker:
 
 ## 7. Prevención
 
-Monitorizar el estado del servicio Docker.
+Validar siempre la sintaxis de los archivos JSON antes de reiniciar un servicio
 
-Revisar los logs si hay algun de fallo en el arranque.
+Revisar los logs de systemd siempre que haya un fallo en el arranque.
