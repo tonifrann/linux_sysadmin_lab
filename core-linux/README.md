@@ -24,6 +24,7 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 - [Instalación del sistema](config/instalation.md)
 - [Configuración de red (nmcli)](config/networking.md)
 - [Configuración de SSH](config/ssh.md)
+- [Fail2ban (Protección SSH y servicios)](config/fail2ban.md)
 - [Firewall (firewalld)](config/firewalld.md)
 - [SELinux](config/selinux.md)
 - [Auditoría y seguridad](config/security-audit.md)
