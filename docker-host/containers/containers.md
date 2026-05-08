@@ -1,4 +1,4 @@
-## Contenedores
+# Contenedores en Docker
 
 Se utiliza el contenedor Alpine como entorno de pruebas para validar en funcionamiento de Docker Engine, las redes internas y la conectividad entre los contenedores.
 
