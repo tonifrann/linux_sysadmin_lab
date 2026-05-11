@@ -1,7 +1,10 @@
 # fog-server (Rocky Linux 9)
 
-Servidor dedicado al despliegue masivo de sistemas operativos mediante PXE (Preboot Execution Environment).  
+Servidor dedicado al despliegue masivo de sistemas operativos mediante PXE (Preboot Execution Environment).
+
 Permite la captura, almacenamiento y despliegue automatizado de imágenes de sistemas operativos en múltiples equipos dentro de la red, centralizando la gestión de estaciones de trabajo.
+
+Además, incorpora automatización mediante scripts SYSTEM, snapins y tareas automatizadas, permitiendo dejar los equipos completamente configurados tras la instalación (software, red, hardening básico y ajustes del entorno).
 
 ---
 
@@ -31,17 +34,20 @@ Permite la captura, almacenamiento y despliegue automatizado de imágenes de sis
 - [TFTP](config/tftp.md)
 - [NFS Storage](config/storage.md)
 - [Firewall](config/firewall.md)
-- [Automatización SYSTEM](config/system-scripts.md)
 
-### 3. Gestión de imágenes
+### 3. Automatización post-despliegue
+- [Scripts SYSTEM](config/system-scripts.md)
+- [Snapins y tareas automatizadas](config/snapins.md)
+
+### 4. Gestión de imágenes
 - [Captura de imágenes](images/capture.md)
 - [Despliegue de imágenes](images/deploy.md)
 
-### 4. Arquitectura del sistema
+### 5. Arquitectura del sistema
 - [Diagrama del entorno](architecture/diagram.png)
 - [Flujo de arranque PXE](architecture/pxe-flow.md)
 
-### 5. Incidencias
+### 6. Incidencias
 - [Error en arranque PXE](incidents/pxe-error.md)
 - [Error en captura de imagen](incidents/capture-failure.md)
 - [Error en despliegue](incidents/deploy-failure.md)
