@@ -58,16 +58,28 @@ Se configura:
 
 ## 5. Configuración de los filtros
 
-Se crea un nuevo filtro para detectar las autenticaciones fallidas:
+Se crea un nuevo filtro para detectar los ataques por feurza bruta:
 <img width="1020" height="18" alt="image" src="https://github.com/user-attachments/assets/0b03020f-bb5d-4314-9e0c-2c130b00ecac" />
 Se configura:
 
 <img width="1025" height="181" alt="image" src="https://github.com/user-attachments/assets/5f86f2a9-5df1-4680-8139-07cf985fe1bd" />
 
-Se crea otro filtro para detectar peticiones maliciosas:
+Se revisa un filtro que ya esá creado, y que sirve para detectar peticiones malformadas o errores 400 (basura):
+<img width="1022" height="20" alt="image" src="https://github.com/user-attachments/assets/2fdc2fe6-a945-4def-97c5-71d0bd3b96e1" />
 
-Se configura:
+Se deja como esta:
 
+<img width="1022" height="274" alt="image" src="https://github.com/user-attachments/assets/887818e9-1170-4ee7-8b3e-4e4cd0e09fb2" />
+
+
+
+## 6. 
+
+## 7. Integracion con firewald
+
+## 8. Validación 
+
+## 9. Logs y troubleshooting
 
 
 
