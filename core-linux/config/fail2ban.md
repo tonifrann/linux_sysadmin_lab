@@ -79,11 +79,26 @@ Se crea el jail para el filtro de los ```ataques por fuerza bruta```:
 Se configura:
 <img width="1026" height="148" alt="image" src="https://github.com/user-attachments/assets/b1324ddf-8bf9-4f3c-a9bf-fe6cca3c5c1f" />
 
+
 ## 7. Integracion con firewald
+Fail2ban aplica los baneos atraves del rich-rules de firewalld:
+<img width="1021" height="66" alt="image" src="https://github.com/user-attachments/assets/838342fc-fcae-45eb-960b-76bc62b57c9a" />
 
 ## 8. Validación 
 
+Se resivas las jails activas:
+<img width="1021" height="79" alt="image" src="https://github.com/user-attachments/assets/eb7cf742-a9d5-4a93-9ebf-34bdb2423794" />
+
+Se fuerza el baneo de una IP:
+<img width="1022" height="49" alt="image" src="https://github.com/user-attachments/assets/1e4a9944-a58d-441e-85e4-0162adc4eef5" />
+
+Comprobar que IP's hay bloqueadas:
+<img width="1024" height="163" alt="image" src="https://github.com/user-attachments/assets/7dbe54de-0ae8-432c-96a7-4f78bd879461" />
+
+
 ## 9. Logs y troubleshooting
 
+Se revisan los logs en tiempo real:
+<img width="1024" height="178" alt="image" src="https://github.com/user-attachments/assets/ac0d69b8-bc7b-4cf4-ac05-223138b42e52" />
 
-
+Se desbloquea una de las IP's manualmente:
