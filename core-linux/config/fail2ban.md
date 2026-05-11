@@ -2,7 +2,7 @@
 
 Fail2ban se utiliza para proteger el servidor de ataques de fuerza bruta.
 
-Fail2ban resiva los logs del sistema y bloquea automáticamente las IP que intentan acceder varias veces con intentos fallidos.
+Fail2ban revisa los logs del sistema y bloquea automáticamente las IP que intentan acceder varias veces con intentos fallidos.
 
 En este servidor Fail2ban se utiliza para proteger:
 
