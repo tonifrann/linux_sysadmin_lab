@@ -58,22 +58,33 @@ Se configura:
 
 ## 5. Configuración de los filtros
 
-Se crea un nuevo filtro para detectar los ataques por feurza bruta:
-<img width="1020" height="18" alt="image" src="https://github.com/user-attachments/assets/0b03020f-bb5d-4314-9e0c-2c130b00ecac" />
-Se configura:
+Se revisa un filtro que ya esá creado, y que sirve para detectar solicitudes incorrectas o errores 400 (basura):
 
-<img width="1025" height="181" alt="image" src="https://github.com/user-attachments/assets/5f86f2a9-5df1-4680-8139-07cf985fe1bd" />
-
-Se revisa un filtro que ya esá creado, y que sirve para detectar peticiones malformadas o errores 400 (basura):
 <img width="1022" height="20" alt="image" src="https://github.com/user-attachments/assets/2fdc2fe6-a945-4def-97c5-71d0bd3b96e1" />
 
 Se deja como esta:
 
 <img width="1022" height="274" alt="image" src="https://github.com/user-attachments/assets/887818e9-1170-4ee7-8b3e-4e4cd0e09fb2" />
 
+Se crea un nuevo filtro para detectar los ataques por feurza bruta:
+
+<img width="1020" height="18" alt="image" src="https://github.com/user-attachments/assets/0b03020f-bb5d-4314-9e0c-2c130b00ecac" />
+
+Se configura:
+
+<img width="1025" height="181" alt="image" src="https://github.com/user-attachments/assets/5f86f2a9-5df1-4680-8139-07cf985fe1bd" />
 
 
-## 6. 
+## 6. Jails que se activan con los filtros
+
+Se crea el jail para el filtro de las ```solicitudes incorrectas```:
+<img width="1022" height="19" alt="image" src="https://github.com/user-attachments/assets/c12d6e52-a460-4877-82b7-623bd480b795" />
+
+Se configura:
+<img width="1024" height="148" alt="image" src="https://github.com/user-attachments/assets/c76fbb67-be7a-4ece-8293-b494ca1d99e3" />
+
+Se crea el jail para el filtro de los ```ataques por fuerza bruta```:
+
 
 ## 7. Integracion con firewald
 
