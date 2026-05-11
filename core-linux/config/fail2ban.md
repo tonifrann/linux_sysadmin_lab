@@ -8,7 +8,7 @@ En este servidor Fail2ban se utiliza para proteger:
 
 - SSH (para evitar accesos no autorizados)
 
-- Nginx (para detener peticiones maliciosas o que se repiten demasiadas veces)
+- Nginx (detección de peticiones repetitivas, errores HTTP sospechosos y posibles intentos de fuerza bruta)
 
 
 ## 1. Instalación
@@ -37,7 +37,7 @@ Se modifica el archivo con los ajustes deseados, el tiempo de baneo de una IP, e
 Se crea el archivo de configuración jail:
 <img width="1023" height="17" alt="image" src="https://github.com/user-attachments/assets/9357fffa-cd3b-4791-a400-68840debe10b" />
 
-Se configura el archivo de manera que se active la protección ssh y se bloqueen las IPs si realizan 3 fallos seguidos:
+Se configura el archivo de manera que se active la protección SSH y se bloqueen las IPs si realizan 3 fallos seguidos:
 <img width="1023" height="112" alt="image" src="https://github.com/user-attachments/assets/15df3e81-8a25-4d37-8054-8e2576a7c1cd" />
 
 
@@ -52,13 +52,13 @@ Se configura:
 
 ## 5. Configuración de los filtros
 
-Se revisa un filtro que ya esá creado, y que sirve para detectar solicitudes incorrectas o errores 400 (basura):
+Se revisa un filtro que ya está creado, y que sirve para detectar solicitudes incorrectas o errores 400 (basura):
 <img width="1022" height="20" alt="image" src="https://github.com/user-attachments/assets/2fdc2fe6-a945-4def-97c5-71d0bd3b96e1" />
 
-Se deja como esta:
+Se deja como está:
 <img width="1022" height="274" alt="image" src="https://github.com/user-attachments/assets/887818e9-1170-4ee7-8b3e-4e4cd0e09fb2" />
 
-Se crea un nuevo filtro para detectar los ataques por feurza bruta:
+Se crea un filtro personalizado de Nginx para detectar patrones repetitivos compatibles con ataques fuerza bruta:
 <img width="1020" height="18" alt="image" src="https://github.com/user-attachments/assets/0b03020f-bb5d-4314-9e0c-2c130b00ecac" />
 
 Se configura:
@@ -81,12 +81,12 @@ Se configura:
 
 
 ## 7. Integracion con firewald
-Fail2ban aplica los baneos atraves del rich-rules de firewalld:
+Fail2ban aplica los baneos a través de rich-rules de firewalld:
 <img width="1021" height="66" alt="image" src="https://github.com/user-attachments/assets/838342fc-fcae-45eb-960b-76bc62b57c9a" />
 
 ## 8. Validación 
 
-Se resivas las jails activas:
+Se revisan las jails activas:
 <img width="1021" height="79" alt="image" src="https://github.com/user-attachments/assets/eb7cf742-a9d5-4a93-9ebf-34bdb2423794" />
 
 Se fuerza el baneo de una IP:
@@ -102,3 +102,12 @@ Se revisan los logs en tiempo real:
 <img width="1024" height="178" alt="image" src="https://github.com/user-attachments/assets/ac0d69b8-bc7b-4cf4-ac05-223138b42e52" />
 
 Se desbloquea una de las IP's manualmente:
+<img width="1023" height="208" alt="image" src="https://github.com/user-attachments/assets/c6977953-7f99-4892-b606-b1658bf8423e" />
+
+
+## 10. Conclusión
+
+La implementación de Fail2ban añade una capa adicional de protección ante a ataques repetitivos y accesos no autorizados.
+
+La integración con firewalld y la creación de filtros personalizados permiten adaptar la protección a los servicios utilizados en el servidor.
+
