@@ -42,11 +42,11 @@ FOG comprueba automáticamente si el host tiene tareas pendientes asignadas.
 FOG muestra el menú de arranque PXE mostrando estas opciones:
 
 - Boot from disk
-- Ejecutar Memtest
-- Registrar un equipo en el inventario
+- Memtest
+- Registro del host en el inventario
 - Deploy Image
-- Unirse a una sesión de multicasting
-- Test de compatibilidad del cliente
+- Multicasting
+- Hardware compatibility test
 
 
 ```Con tareas asignadas```
@@ -59,9 +59,7 @@ FOG omite el menú PXE y ejecuta automáticamente la unas de las siguientes tare
 
 ## 6. Carga del entorno Linux FOS
 
-FOG descarga el entorno Linux FOS (FOG Operating System).
-
-Este entorno temporal permite:
+FOG descarga el entorno Linux FOS (FOG Operating System), un entorno temporal que permite:
 
 - Acceder al disco del cliente
 - Capturar imágenes
@@ -71,7 +69,7 @@ Este entorno temporal permite:
 
 ## 7. Montaje del almacenamiento NFS
 
-El cliente monta el recurso NFS exportado por el servidor FOG. La ruta habitual suele ser ```/images```
+El cliente monta el recurso NFS exportado por el servidor FOG, normalmente en la ruta ```/images```
 
 
 ## 8. Operación de imagen
@@ -87,20 +85,19 @@ Se despliega una imagen existente sobre el equipo cliente.
 
 ## 9. Automatización post-despliegue
 
-Tras finalizar el despliegue, FOG puede ejecutar:
+Al finalizar el despliegue, FOG puede ejecutar:
 
-Snapins
-Scripts SYSTEM
-Instalación automática de software
-Configuración inicial
-Unión al dominio
-Scripts PowerShell o Batch 
+- Snapins de PowerShell y Batch
+- Instalación de software
+- Configuración del sistema (nombre del equipo, red, dominio, etc)
+- Scripts SYSTEM ejecutados sin sesión iniciada
 
-Esto permite automatizar completamente la preparación del equipo.
+
+FOG permite automatizar tareas tanto durante como después del despliegue en cualquier host registrado.
 
 
 ## 10. Finalización
 
 El equipo cliente se reinicia automáticamente tras completar la operación.
 
-El sistema operativo queda preparado y operativo con la imagen desplegada y las automatizaciones aplicadas.
+El sistema operativo queda operativo con la imagen desplegada y las automatizaciones aplicadas.
