@@ -31,7 +31,6 @@ Además, incorpora automatización mediante scripts SYSTEM, snapins y tareas aut
 ### 2. Servicios del servidor
 - [FOG Server](config/fog-installation.md)
 - [PXE / iPXE](config/pxe.md)
-- [TFTP](config/tftp.md)
 - [NFS Storage](config/storage.md)
 - [Firewall](config/firewall.md)
 
