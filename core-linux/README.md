@@ -9,7 +9,8 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 - Gestión avanzada de almacenamiento con LVM (snapshots y ampliación)
 - Servicios en producción: Samba (ACLs) y Nginx (HTTPS)
 - Estrategias de backup: rsync, tar y dd
-- Auditoría y seguridad: auditd, logrotate, Lynis
+- Auditoría y seguridad: auditd y logrotate
+- Servicios de red: DHCP (ISC DHCP) para asignación de direcciones y soporte PXE
 - Automatización con scripts y cron
 - Resolución de incidencias
 
@@ -34,6 +35,7 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 - [Nginx con HTTPS](config/nginx.md)
 - [LVM y almacenamiento](config/lvm.md)
 - [Backups (rsync, tar, dd)](config/backups.md)
+- [DHCP (ISC DHCP)](config/dhcp.md)
 
 ### 4. Arquitectura del laboratorio
 - [Diagrama](architecture/diagram.png)
