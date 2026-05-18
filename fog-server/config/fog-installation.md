@@ -1,17 +1,19 @@
 # Instalación de FOG Project (Rocky Linux 9)
 
-Se instala el servidor FOG en Rocky Linux 9 para gestionar despliegues PXE, capturas y almacenamiento de imágenes.
+Se instala el servidor FOG en Rocky Linux 9 para gestionar despliegues PXE, capturas de imágenes y administración centralizada de equipos.
+
+FOG ofrece servicios de arranque por red, almacenamiento de imágenes, inventario de hosts y automatización de tareas, todo gestionado desde una sola plataforma.
 
 
 ## 1. Instalación del sistema y paquetes necesarios
 
-Se actualiza el sistema:
+Se actualiza el sistema operativo:
 <img width="1022" height="22" alt="image" src="https://github.com/user-attachments/assets/60f0dcad-d39c-42d8-8f6b-fdd1ca0524e2" />
 
-Se habilita el repositorio de EPEL:
+Se habilita el repositorio de EPEL necasario para la instalación de algunos paquetes adicionales:
 <img width="1026" height="283" alt="image" src="https://github.com/user-attachments/assets/945bf890-08ca-4024-bd87-3892571d0b31" />
 
-Se instalan los servicios necesarios para FOG:
+Se instalan los servicios utilizados por FOG:
 <img width="1022" height="25" alt="image" src="https://github.com/user-attachments/assets/f6cda753-f218-42ca-9624-9c0c91c4d85f" />
 
 Se habilitan los servicios principales:
@@ -20,15 +22,18 @@ Se habilitan los servicios principales:
 
 ## 2.Instalación de FOG 
 
-Se descarga el instalador desde el repositorio oficial:
+Se descarga el instalador desde el repositorio oficial de FOG Project:
 <img width="1024" height="145" alt="image" src="https://github.com/user-attachments/assets/2811179c-9849-4b19-92b5-c8838059670a" />
 
 Se ejecuta el instalador:
 <img width="1021" height="387" alt="image" src="https://github.com/user-attachments/assets/a7096b65-125a-4b2f-b9f5-9087af880b19" />
 <img width="1023" height="394" alt="image" src="https://github.com/user-attachments/assets/e3a556f6-6ed2-4347-b162-6c1e3f0c68a0" />
 
-Durante la intalación FOG muestra un mensaje que es necesario completar la instalación via web:
+Durante la intalación FOG es necesario completar la instalación via web:
 <img width="1021" height="99" alt="image" src="https://github.com/user-attachments/assets/92ac0609-9ca1-4882-9a9d-21fdbdbfe256" />
+
+
+## configuración de la base de datos
 
 Se instala la database de FOG via web:
 <img width="1023" height="528" alt="image" src="https://github.com/user-attachments/assets/151339a3-dc0f-4ae0-ac64-81357fe01bd4" />
@@ -38,6 +43,12 @@ Se instala la base de datos via web:
 
 Se finaliza la instalación:
 <img width="1022" height="333" alt="image" src="https://github.com/user-attachments/assets/718fb96e-7935-4828-97b5-b3ff087bf71c" />
+
+
+## 3. Comprobación 
+
+Se comprueba el acceso a la web de gestión: 
+<img width="1021" height="666" alt="image" src="https://github.com/user-attachments/assets/de04661d-4c03-4983-a05f-86302689613f" />
 
 
 
