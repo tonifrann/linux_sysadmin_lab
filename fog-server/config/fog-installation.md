@@ -27,5 +27,13 @@ Se ejecuta el instalador:
 <img width="1021" height="387" alt="image" src="https://github.com/user-attachments/assets/a7096b65-125a-4b2f-b9f5-9087af880b19" />
 <img width="1023" height="394" alt="image" src="https://github.com/user-attachments/assets/e3a556f6-6ed2-4347-b162-6c1e3f0c68a0" />
 
+Se instala la database de FOG antes de acabar la intalación via web:
+<img width="1021" height="99" alt="image" src="https://github.com/user-attachments/assets/92ac0609-9ca1-4882-9a9d-21fdbdbfe256" />
+
+<img width="1023" height="528" alt="image" src="https://github.com/user-attachments/assets/151339a3-dc0f-4ae0-ac64-81357fe01bd4" />
+
+<img width="1019" height="222" alt="image" src="https://github.com/user-attachments/assets/630990a8-1fc2-4cc9-8649-a634e9bd38e5" />
+
+
 
 ## 3. Configuración inicial vía web
