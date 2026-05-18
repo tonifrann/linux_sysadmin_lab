@@ -19,7 +19,15 @@ Se valida la configuración:
 <img width="1022" height="193" alt="image" src="https://github.com/user-attachments/assets/0465bffe-80e8-4157-bf22-eb99ca8b654d" />
 
 
-## Inicialización del servicio
+## 3.Inicialización del servicio
 
 Se habilita el servicio y se revisa su estado:
 <img width="1023" height="402" alt="image" src="https://github.com/user-attachments/assets/119ac369-9b46-44f6-b3cd-8200855f223f" />
+
+
+## 4. Comprobación desde un cliente
+
+Se comprueba que el cliente recibe un IP del rango configurado:
+<img width="973" height="510" alt="image" src="https://github.com/user-attachments/assets/27b694a7-15b0-4c02-983e-73f267b67fd4" />
+
+
