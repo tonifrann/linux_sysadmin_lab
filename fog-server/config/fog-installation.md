@@ -11,7 +11,7 @@ Se actualiza el sistema:
 Se habilita el repositorio de EPEL:
 <img width="1026" height="283" alt="image" src="https://github.com/user-attachments/assets/945bf890-08ca-4024-bd87-3892571d0b31" />
 
-Se instalan los servicios necesarios para el funcionamiento de FOG:
+Se instalan los servicios necesarios para  FOG:
 
 <img width="1022" height="25" alt="image" src="https://github.com/user-attachments/assets/f6cda753-f218-42ca-9624-9c0c91c4d85f" />
 
