@@ -27,7 +27,7 @@ Se habilita el servicio y se revisa su estado:
 
 ## 4. Comprobación desde un cliente
 
-Se comprueba que el cliente recibe un IP del rango configurado:
+Se comprueba que el cliente recibe una IP del rango configurado:
 <img width="973" height="510" alt="image" src="https://github.com/user-attachments/assets/27b694a7-15b0-4c02-983e-73f267b67fd4" />
 
 
