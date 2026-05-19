@@ -5,13 +5,13 @@ El arranque PXE es el proceso inicial que permite a un equipo iniciar desde red 
 
 ## 1. Flujo de arranque PXE
 
-El proceso es el siguiente:
+El proceso de rranque es el siguiente:
 
 1.- El cliente arranca desde red (PXE).
 
-2.-El servidor DHCP externo (core-linux - 192.168.100.10) asigna parámetros de arranque PXE
+2.-El servidor DHCP externo (core-linux - 192.168.100.10) proporciona la configuración de red y los parámetros de arranque.
 
-3.- Se asignan los siguientes paámetros::
+3.- Se asignan los siguientes parámetros::
 
    - Servidor TFTP (Fog server - 192.168.100.13)
 
@@ -66,6 +66,8 @@ Se valida el flujo completo del arranque desde el cliente hasta FOG:
 - Obtiene configuración IP vía DHCP
 
 - Descarga iPXE mediante TFTP
+
+- Conexión con FOG
 
 <img width="1022" height="430" alt="image" src="https://github.com/user-attachments/assets/3659dd6d-5d23-4191-9c55-2a452787bee1" />
 
