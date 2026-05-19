@@ -13,13 +13,13 @@ El proceso es el siguiente:
 
 3.- Se asignan los siguientes paámetros::
 
-    - Servidor TFTP (Fog server - 192.168.100.13)
+   - Servidor TFTP (Fog server - 192.168.100.13)
 
-    - Bootloader 
+   - Bootloader 
             
-            - undionly.kpxe (BIOS Legacy)
+      - undionly.kpxe (BIOS Legacy)
             
-            - ipxe.efi (UEFI)
+      - ipxe.efi (UEFI)
 
 4.- El cliente descarga el iPXE via TFTP.
 
@@ -29,9 +29,9 @@ El proceso es el siguiente:
 
 6.- FOG revisa el estado del host:
 
-    - Si hay tareas asignadas, se ejecutan automáticamente.
+- Si hay tareas asignadas, se ejecutan automáticamente.
 
-    - Sino hay tareas asignadas, se carga el menú de FOG.
+- Sino hay tareas asignadas, se carga el menú de FOG.
 
 
 ## 2. Archivos de arranque PXE
