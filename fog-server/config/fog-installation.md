@@ -47,7 +47,7 @@ Se finaliza la instalación:
 Se comprueba que funcione el acceso a la web de gestión: 
 <img width="1021" height="666" alt="image" src="https://github.com/user-attachments/assets/de04661d-4c03-4983-a05f-86302689613f" />
 
-Se valida que los servicios principales están activos:
+Se valida que los servicios utilizados por FOG funcionan correctamente:
 
 - HTTP / interfaz web
 - Base de datos MariaDB
