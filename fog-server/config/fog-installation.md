@@ -38,17 +38,21 @@ Durante la intalación FOG es necesario completar la instalación via web:
 Se instala la database de FOG via web:
 <img width="1023" height="528" alt="image" src="https://github.com/user-attachments/assets/151339a3-dc0f-4ae0-ac64-81357fe01bd4" />
 
-Se instala la base de datos via web:
+Se finaliza la instalación:
 <img width="1019" height="222" alt="image" src="https://github.com/user-attachments/assets/630990a8-1fc2-4cc9-8649-a634e9bd38e5" />
 
-Se finaliza la instalación:
-<img width="1022" height="333" alt="image" src="https://github.com/user-attachments/assets/718fb96e-7935-4828-97b5-b3ff087bf71c" />
 
+## 4. Validación del servicio
 
-## 3. Comprobación 
-
-Se comprueba el acceso a la web de gestión: 
+Se comprueba que funcione el acceso a la web de gestión: 
 <img width="1021" height="666" alt="image" src="https://github.com/user-attachments/assets/de04661d-4c03-4983-a05f-86302689613f" />
 
+Se valida que los servicios principales están activos:
+
+- HTTP / interfaz web
+- Base de datos MariaDB
+- Servicio PXE / TFTP
+- Compartición NFS para imágenes
+- FOGScheduler
 
 
