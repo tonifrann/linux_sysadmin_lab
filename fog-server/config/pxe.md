@@ -12,52 +12,63 @@ El proceso completo es:
 
 2.- Solicita la configuración de red al servidor DHCP externo (core-linux - 192.168.100.10).
 
-3.- l DHCP entrega:
+3.- El servidor DHCP entrega:
 
-  - IP del cliente
+    - IP del cliente
 
-  - Gateway
+    - Gateway
 
-  - Servidor TFTP (Fog server - 192.168.100.13)
+    - Servidor TFTP (Fog server - 192.168.100.13)
 
-  - Archivo de arranque → undionly.kpxe (BIOS) o ipxe.efi (UEFI)
+    - Archivo de arranque → undionly.kpxe (BIOS) o ipxe.efi (UEFI)
 
-El cliente descarga el bootloader desde TFTP.
+4.-El cliente descarga el bootloader desde TFTP.
 
-El iPXE se ejecuta y se conecta via HTTP a ```http://192.168.100.13/fog/service/ipxe/boot.php```
+5.- El iPXE se ejecuta y se conecta via HTTP:
 
-FOG revisa si el host tiene tareas pendientes.
+```http://192.168.100.13/fog/service/ipxe/boot.php```
 
-Si el host tiene una tarea asignada → se ejecuta automáticamente
+6.- FOG revisa si el host tiene tareas pendientes.
 
-Si no hay tareas → se muestra el menú de FOG
+    - Si el host tiene una tarea asignada → se ejecuta automáticamente
 
-<img width="1021" height="348" alt="image" src="https://github.com/user-attachments/assets/77647bf7-ccdd-4de0-8566-265a5ef3f3d7" />
+    - Si no hay tareas → se muestra el menú de FOG
 
 
 ## 2. Archivos de arranque PXE
 
-Los archivos principales se encuentran en ```/tftpboot/```
+Los archivos principales se encuentran en el servidor FOG:
+
+```/tftpboot/```
 
 - undionly.kpxe → BIOS Legacy
 
 - ipxe.efi → UEFI
 
-- default.ipxe →
+- default.ipxe →Script de arranque iPXE
   
 <img width="1025" height="66" alt="image" src="https://github.com/user-attachments/assets/06b53ac3-c996-4ada-aad0-b3da43b458a7" />
 
 
 ## 3. Configuración DHCP (core-linux)
 
-Como FOG no actúa como DHCP, el servidor DHCP externo debe incluir:
+La configuración del arranque PXE se realiza en el servidor DHCP del sistema principal (core-linux), donde se define la opcion de boot para UEFI.
 
--BIOS (Legacy)
-next-server 192.168.100.13;
-filename "undionly.kpxe";
 
-- UEFI
-next-server 192.168.100.13;
-filename "ipxe.efi";
 
+## 4. Validación del arranque PXE
+
+Para comprobar que el sistema funciona correctamente:
+
+- Cliente arranca en modo PXE
+- Se obtiene una IP por DHCP
+- Carga de iPXE
+- Acceso al menú de FOG
+
+<img width="1022" height="430" alt="image" src="https://github.com/user-attachments/assets/3659dd6d-5d23-4191-9c55-2a452787bee1" />
+
+
+
+
+<img width="798" height="595" alt="image" src="https://github.com/user-attachments/assets/e7da5450-7730-4d4a-9261-c6d49c92be39" />
 
