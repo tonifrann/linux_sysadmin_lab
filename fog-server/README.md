@@ -35,12 +35,10 @@ Además, incorpora automatización mediante scripts SYSTEM, snapins y tareas aut
 - [Firewall](config/firewall.md)
 
 ### 3. Automatización post-despliegue
-- [Scripts SYSTEM](config/system-scripts.md)
-- [Snapins y tareas automatizadas](config/snapins.md)
+- [Snapins y Scripts SYSTEM](config/automation.md)
 
 ### 4. Gestión de imágenes
-- [Captura de imágenes](images/capture.md)
-- [Despliegue de imágenes](images/deploy.md)
+- [Captura y despliegue de imágenes](images/imaging.md)
 
 ### 5. Arquitectura del sistema
 - [Diagrama del entorno](architecture/diagram.png)
