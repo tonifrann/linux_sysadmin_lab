@@ -44,7 +44,7 @@ El almacenamiento interviene en diferentes momentos:
 
 ## 4. Servicios relacionados
 
-El almacenamiento depende de que varios servicios esten en funcionamiento:
+El almacenamiento depende de que los siguientes servicios esten en funcionamiento:
 
 - NFS → compartición de imágenes
 - TFTP → arranque PXE
