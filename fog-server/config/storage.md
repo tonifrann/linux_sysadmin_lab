@@ -28,6 +28,8 @@ De forma interna, se divide en:
 
    - <nombre_de_la_imagen>/ → imágen final ya procesada
 
+<img width="1023" height="117" alt="image" src="https://github.com/user-attachments/assets/17d4ddef-3210-44e2-8ddc-182f604fe7b0" />
+
 
 ## 3. Uso durante el flujo FOG
 
