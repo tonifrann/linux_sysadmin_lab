@@ -33,7 +33,7 @@ Durante la intalación FOG es necesario completar la instalación via web:
 <img width="1021" height="99" alt="image" src="https://github.com/user-attachments/assets/92ac0609-9ca1-4882-9a9d-21fdbdbfe256" />
 
 
-## 3. Configuración de la base de datos
+## 3. Instalación de la base de datos
 
 Se instala la database de FOG via web:
 <img width="1023" height="528" alt="image" src="https://github.com/user-attachments/assets/151339a3-dc0f-4ae0-ac64-81357fe01bd4" />
