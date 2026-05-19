@@ -67,12 +67,10 @@ Se valida el flujo completo del arranque desde el cliente hasta FOG:
 
 - Descarga iPXE mediante TFTP
 
-- Accede al entorno FOG
-
 <img width="1022" height="430" alt="image" src="https://github.com/user-attachments/assets/3659dd6d-5d23-4191-9c55-2a452787bee1" />
 
 - Se carga el menú de FOG cuando no existen tareas asignadas
-- 
+  
 <img width="795" height="598" alt="image" src="https://github.com/user-attachments/assets/7f238a83-2a32-4275-ae72-4a52b22db9a2" />
 
 
