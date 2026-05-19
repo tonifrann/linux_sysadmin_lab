@@ -19,7 +19,7 @@ Además, incorpora automatización mediante scripts SYSTEM, snapins y tareas aut
 - Gestión de hosts e inventario de equipos  
 - Automatización post-despliegue (scripts SYSTEM)  
 - Configuración de firewall  
-- Resolución de incidencias reales del entorno  
+- Resolución de incidencias
 
 ---
 
