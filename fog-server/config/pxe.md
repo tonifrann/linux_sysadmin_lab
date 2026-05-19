@@ -9,25 +9,29 @@ El proceso es el siguiente:
 
 1.- El cliente arranca desde red (PXE).
 
-2.-El servidor DHCP externo (core-linux - 192.168.100.10) realiza la configuración de red 
+2.-El servidor DHCP externo (core-linux - 192.168.100.10) asigna parámetros de arranque PXE
 
-3.- Se entrega:
+3.- Se asignan los siguientes paámetros::
 
     - Servidor TFTP (Fog server - 192.168.100.13)
 
-    - Bootloader (undionly.kpxe / ipxe.efi)
+    - Bootloader 
+            
+            - undionly.kpxe (BIOS Legacy)
+            
+            - ipxe.efi (UEFI)
 
 4.- El cliente descarga el iPXE via TFTP.
 
-5.- El iPXE ejecuta una peticion HTTP a FOG:
+5.- Se ejecuta iPXE y se realiza una petición via HTTP al servidor FOG:
 
 ```http://192.168.100.13/fog/service/ipxe/boot.php```
 
-6.- FOG revisa las tareas:
+6.- FOG revisa el estado del host:
 
     - Si hay tareas asignadas, se ejecutan automáticamente.
 
-    - Sino hay tareas asignadas, se muestra el menú de FOG y el usuario selecciona una de las opciones manualmente.
+    - Sino hay tareas asignadas, se carga el menú de FOG.
 
 
 ## 2. Archivos de arranque PXE
@@ -39,7 +43,7 @@ Los archivos principales se encuentran en el servidor FOG:
 - undionly.kpxe → BIOS Legacy
 
 - ipxe.efi → UEFI
-- 
+
   
 <img width="1025" height="66" alt="image" src="https://github.com/user-attachments/assets/06b53ac3-c996-4ada-aad0-b3da43b458a7" />
 
@@ -55,13 +59,21 @@ Configuración completa:
 
 ## 4. Validación del arranque PXE
 
-Para comprobar que el sistema funciona correctamente:
+Se valida el flujo completo del arranque desde el cliente hasta FOG:
 
-- Cliente arranca en modo PXE
-- Se obtiene una IP por DHCP
-- Carga de iPXE
+- El equipo arranca en modo PXE
+
+- Obtiene configuración IP vía DHCP
+
+- Descarga iPXE mediante TFTP
+
+- Accede al entorno FOG
 
 <img width="1022" height="430" alt="image" src="https://github.com/user-attachments/assets/3659dd6d-5d23-4191-9c55-2a452787bee1" />
 
+- Se carga el menú de FOG cuando no existen tareas asignadas
+- 
+<img width="795" height="598" alt="image" src="https://github.com/user-attachments/assets/7f238a83-2a32-4275-ae72-4a52b22db9a2" />
 
-## 
+
+> Nota: Secure Boot debe estar desactivado para permitir la ejecución de iPXE (bootloader no firmado)
