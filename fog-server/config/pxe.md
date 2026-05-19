@@ -54,7 +54,7 @@ Los archivos principales se encuentran en el servidor FOG:
 
 La configuración del arranque PXE se realiza en el servidor DHCP del sistema principal (core-linux), donde se define la opcion de boot para UEFI.
 
-
+La configuración completa está documentada en ../core-linux/config/dhcp.md
 
 ## 4. Validación del arranque PXE
 
