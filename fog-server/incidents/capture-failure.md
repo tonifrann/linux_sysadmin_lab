@@ -5,21 +5,19 @@
 
 Al intentar capturar una imagen de Windows 11, FOG detiene el proceso indicando que la partición está cifrada con BitLocker, aunque Windows muestra que el cifrado está desactivado.
 
-<img width="1026" height="722" alt="image" src="https://github.com/user-attachments/assets/e04cde43-fc27-484e-99f7-1bbe88f03f84" />
+<img width="1010" height="357" alt="image" src="https://github.com/user-attachments/assets/ac339d8e-b720-49b5-b6d5-f678df927dc9" />
 
 
-## 2. Causa
+## 2. Síntomas
 
-Windows tenía configurado el “cifrado de espacio usado”, lo que deja una firma de BitLocker residual en la partición aunque el cifrado esté desactivado.
+La captura arranca correctamente por PXE.
 
-FOG detecta esa firma y bloquea la captura.
+- Partclone detecta las particiones.
 
-3. Resolución
-Se desactiva BitLocker completamente.
+- El proceso se interrumpe antes de iniciar la copia.
 
-Se elimina la firma residual (descifrado completo / ajuste de partición).
+- El equipo se reinicia automáticamente.
 
-Se repite la captura y funciona correctamente.
+En Windows, BitLocker aparece como “desactivado”, pero muestra “Cifrado de espacio usado”.
 
-4. Resultado
-La captura se completa sin errores tras eliminar la firma BitLocker.
+
