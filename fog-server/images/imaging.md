@@ -54,15 +54,20 @@ La Estructura tipica es:
 
 4. Flujo de despliegue
 
-El despliegue es el proceso inverso a la captura:
+El despliegue es el proceso de bolcado de la imagen:
 
-El cliente arranca por PXE
-Se asigna una tarea desde FOG
-iPXE carga el entorno FOS
-Se descarga la imagen desde NFS
-Partclone restaura los bloques en el disco destino
+- El cliente arranca por PXE
+  
+- Se asigna una tarea desde el FOG
 
-<img width="1363" height="404" alt="image" src="https://github.com/user-attachments/assets/49e09102-92f8-4f66-a285-4341a91f1031" />
+- iPXE carga el entorno FOS Linux
+
+- Se descarga la imagen desde NFS
+  
+- Partclone restaura los bloques en el disco destino
+
+<img width="1359" height="402" alt="image" src="https://github.com/user-attachments/assets/850d4108-6a55-4930-93c2-e3b488d238f8" />
 
 
-<img width="1302" height="200" alt="image" src="https://github.com/user-attachments/assets/c283446f-5849-4479-8919-9d9827d0884f" />
+
+
