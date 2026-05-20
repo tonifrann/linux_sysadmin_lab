@@ -1,4 +1,4 @@
-## Automatización en FOG
+# Automatización en FOG
 
 FOG no solo se utiliza para desplegar sistemas operativos, sino también como una plataforma para automatizar tareas.
 
