@@ -22,18 +22,34 @@ El proceso de creación de imagenes implica varios servicios:
 
 ## 2. Flujo de captura
 
-Durante una captura:
+Este es el proceso que sigue la captura de una imagen :
 
-El cliente arranca por PXE
-iPXE carga el entorno FOS Linux
-El disco es analizado automáticamente
-Partclone captura únicamente los bloques utilizados
-La imagen se comprime y se envía al almacenamiento NFS
+- El cliente arranca por PXE
 
-Las imágenes se almacenan en:
+- iPXE carga el entorno FOS Linux
 
+- El disco es analizado automáticamente
+
+- Partclone captura únicamente los bloques utilizados
+
+- La imagen se comprime y se envía al almacenamiento NFS
 
 <img width="497" height="353" alt="image" src="https://github.com/user-attachments/assets/c8c7737b-d7ac-45e1-a946-e5da01cb99d5" />
+
+
+## 3. Almacenamiento de las imágenes
+
+Las imágenes se almacenan en el servidor FOG dentro del directorio ```/ìmages```. 
+
+La Estructura tipica es:
+
+- dev/ esárea temporal durante capturas
+  
+- <nombre_imagen>/ es la imagen final generada, en este caso ```win11-image```
+
+- postdownloadscripts/ donde se guardan los scripts asociados a despliegues
+  
+<img width="1023" height="336" alt="image" src="https://github.com/user-attachments/assets/332d53f8-2099-4537-b059-48e3e208af44" />
 
 
 <img width="1363" height="404" alt="image" src="https://github.com/user-attachments/assets/49e09102-92f8-4f66-a285-4341a91f1031" />
