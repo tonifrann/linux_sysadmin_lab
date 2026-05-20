@@ -52,7 +52,7 @@ La Estructura tipica es:
 <img width="1023" height="336" alt="image" src="https://github.com/user-attachments/assets/332d53f8-2099-4537-b059-48e3e208af44" />
 
 
-4. Flujo de despliegue
+## 4. Flujo de despliegue
 
 El despliegue es el proceso de bolcado de la imagen:
 
