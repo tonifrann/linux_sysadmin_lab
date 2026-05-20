@@ -2,53 +2,64 @@
 
 FOG no solo se utiliza para desplegar sistemas operativos, sino también como una plataforma para automatizar tareas.
 
-Esn este servidor, la automatización se utiliza para que todos los equipos sean iguales, reduciendo la intervención manual así y poder administrar todo desde un unico sitio.
+En este servidor, la automatización se utiliza para que todos los equipos sean iguales, reduciendo la intervención manual y así poder administrar todo desde un unico sitio.
 
 
-## 1. Enfoque de automatización
+## 1. Automatización
 
-La automatización en el entorno FOG se basa en tres ideas:
+La automatización en FOG se basa en tres conceptos:
 
-Estandarización de equipos tras el despliegue
-Ejecución remota de tareas sobre hosts registrados
-Centralización de scripts sin intervención local
+- Estandarización de equipos después del despliegue
+  
+- Ejecución remota de tareas en hosts registrados
+  
+- Centralización de scripts sin intervención local
+  
+El objetivo es reducir tareas repetitivas y mantener igual el entorno.
 
-Esto permite mantener un entorno homogéneo sin gestionar cada equipo de forma individual.
 
-2. Modelo de ejecución
+## 2. Ejecución
 
-La automatización no depende del arranque PXE, sino de equipos ya registrados en FOG.
+La automatización no depende del arranque PXE, sino de los equipos ya registrados en FOG.
 
 El flujo general es:
 
-El host se registra en FOG
-El cliente FOG mantiene comunicación con el servidor
-Se asignan tareas o scripts desde la consola
-El host ejecuta la tarea en segundo plano
-El resultado queda registrado en el sistema
-3. Snapins (modelo de distribución)
+- El host se registra en FOG
+  
+- El cliente de FOG mantiene comunicación con el servidor
+  
+- Desde la consola se asignan tareas a los equipos
+  
+- El host ejecuta la tarea en segundo plano
+  
+- El resultado de la tarea se registra en el sistema de FOG
 
-Los Snapins representan el mecanismo de distribución de software y scripts en el laboratorio.
 
-Se utilizan como “unidad de automatización”, permitiendo:
+## 3. Snapins 
 
-Instalación de software sin acceso físico
-Ejecución de scripts en lote
-Configuración inicial de equipos
-Tareas de mantenimiento o corrección
-4. Integración con el laboratorio
+Los Snapins son la forma de instalación de software y la ejecución de scripts.
 
-La automatización no se entiende de forma aislada, sino como parte del flujo general del sistema:
+Los snapins nos permiten:
 
-PXE → despliegue de sistema base
-FOG → registro del host
-Snapins → configuración post-despliegue o mantenimiento
-Scripts → estandarización del entorno
-5. Uso real en el entorno
+- Instalar software sin necesidad de estar fisicamente en el equipo
 
-En este laboratorio, la automatización se utiliza principalmente para:
+- Ejecutar scripts en lote
 
-Aplicar configuraciones comunes en todos los equipos
-Evitar configuración manual tras cada despliegue
-Mantener coherencia entre estaciones de trabajo
-Reducir tiempos de intervención administrativa
+- La configuración inicial de los equipos
+
+- Realizar tareas de mantenimiento o solucionar problemas
+
+
+## 4. Uso en el entorno
+
+La automatización se utiliza principalmente para:
+
+- Aplicar configuraciones comunes en todos los equipos
+  
+- Evitar tener que configurar manualmente después de cada despliegue
+
+- Mantener la coherencia entre las estaciones de trabajo
+
+- Reducir el tiempo de intervención
+
+  
