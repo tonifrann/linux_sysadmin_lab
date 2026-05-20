@@ -31,3 +31,12 @@ Partclone captura únicamente los bloques utilizados
 La imagen se comprime y se envía al almacenamiento NFS
 
 Las imágenes se almacenan en:
+
+
+<img width="497" height="353" alt="image" src="https://github.com/user-attachments/assets/c8c7737b-d7ac-45e1-a946-e5da01cb99d5" />
+
+
+<img width="1363" height="404" alt="image" src="https://github.com/user-attachments/assets/49e09102-92f8-4f66-a285-4341a91f1031" />
+
+
+<img width="1302" height="200" alt="image" src="https://github.com/user-attachments/assets/c283446f-5849-4479-8919-9d9827d0884f" />
