@@ -45,12 +45,22 @@ La Estructura tipica es:
 
 - dev/ esárea temporal durante capturas
   
-- <nombre_imagen>/ es la imagen final generada, en este caso ```win11-image```
+- <nombre_imagen>/ es la imagen final generada, en este caso ```win11_image```
 
 - postdownloadscripts/ donde se guardan los scripts asociados a despliegues
   
 <img width="1023" height="336" alt="image" src="https://github.com/user-attachments/assets/332d53f8-2099-4537-b059-48e3e208af44" />
 
+
+4. Flujo de despliegue
+
+El despliegue es el proceso inverso a la captura:
+
+El cliente arranca por PXE
+Se asigna una tarea desde FOG
+iPXE carga el entorno FOS
+Se descarga la imagen desde NFS
+Partclone restaura los bloques en el disco destino
 
 <img width="1363" height="404" alt="image" src="https://github.com/user-attachments/assets/49e09102-92f8-4f66-a285-4341a91f1031" />
 
