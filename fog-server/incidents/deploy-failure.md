@@ -11,67 +11,68 @@ El cliente muestra un error indicando que las particiones de la imagen no caben 
 
 # 2. Síntomas
 
-- El despliegue arranca correctamente por PXE.
+- El arranque por PXE funciona correctamente
 
-- La imagen se descarga correctamente desde /images.
+- La imagen se descarga desde /images.
 
-- El error aparece justo al restaurar la tabla GPT.
+- El error aparece al restaurar la tabla GPT.
 
-- El proceso se aborta automáticamente y el equipo se reinicia.
+- El despliegue se aborta automáticamente.
 
-- El log muestra los siguientes mensajes:
+- El log muestra los mensajes:
 
-   - Partition X is too big for the disk
+   - Partition 3/4 is too big for the disk
 
    - Aborting write operation!
 
 
 ## 3. Diagnóstico
 
-El error indica que:
+La imagen fue capturada desde un disco más grande que el del equipo destino.
 
-- La imagen fue capturada desde un disco más grande.
+Aunque el sistema operativo no ocupaba todo el espacio disponible, la estructura GPT original tenia particiones más grandes que la capacidad del nuevo disco.
 
-- El disco del equipo destino es más pequeño.
+FOG solo puede restaurar imágenes en discos más pequeños en el caso de:
 
-- FOG intenta restaurar la tabla GPT original, pero las particiones no caben.
+- La imagen sea de tipo Resizable
 
-FOG solo puede restaurar una imagen en un disco igual o mayor que el original, a no ser que la imagen este configurada como ```resizable``` y las particiones lo permitan.
+- Las particiones permitan redimensionamiento
 
 
 ## 4. Causa
    
-La imagen win11_image fue capturada desde un disco más grande que el disco donde se intenta hacer el deploy.
+La imagen win11_image se capturo desde un disco más grande que el disco destino.
 
-- Imagen capturada desde un disco de 80 GB
+- Disco de origen de 80 GB
 
-- Intento de desplegar en un disco de 60 GB
+- Disco de destino de 60 GB
 
-Aunque la partición de Windows no ocupe todo el espacio, la tabla GPT sí contiene particiones que superan el tamaño del disco de destino.
+La tabla GPT original no podía crearse completamente en el disco menor.
 
 
 ## 5. Solución
 
-Se aumentar el tamaño del disco de destino para que sea igual que el original. Aunque también se podria haber optado por volver a crear la imagen en un disco más pequeño.
+Se aumenta el tamaño del disco de destino para que sea igual que el que se utilizo en la captura de la imagen. 
+
+Como alternativa, también se podria haber creado la imagen en un disco base más pequeño.
 
 
 ## 6. Verificación
 
-Despues de crear un disco mayor en el equipo destino:
+Despues de ampliar el disco:
 
-- El despliegue restaura la tabla GPT sin errores.
+- La tabla GPT se restaura sin errores.
 
-- No aparecen mensajes de particiones demasiado grandes.
+- Partclone continúa el despliegue sin errores.
 
-- El proceso continúa con Partclone y finaliza correctamente.
-
-- El equipo arranca Windows sin problemas.
+- El equipo inicia Windows sin problemas.
 
 
 ## 7. Prevención
 
-- Crear siempre la imagen base en un disco lo más pequeño posible.
+- Crear la imagen base en un disco lo más pequeño posible.
 
-- Verificar el tamaño del disco de destino antes de hacer el deploy de la imagen.
+- Verificar el tamaño del disco antes del despliegue de la imagen.
 
+- Utilizar imágenes ```Resizable``` cuando sea posible
 
