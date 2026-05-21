@@ -8,14 +8,13 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 
 ## Caracteristicas del servidor
 
-- Automatización centralizada con Ansible Core
-- Gestión remota de sistemas Linux con SSH
-- Gestión remota de sistemas Windows con WinRM
+- Automatización con Ansible Core
+- Gestión de hostss Linux con SSH
+- Gestión de hosts Windows con WinRM
 - Uso de playbooks y roles reutilizables
-- Inventario centralizado de hosts
-- Automatización de configuraciones comunes
-- Ejecución de tareas idempotentes
-- Resolución de incidencias
+- Inventario centralizado de los equipos
+- Ejecución de tareas de configuración
+- Aplicación de cambios de forma contralada
 
 ---
 
@@ -47,16 +46,7 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 
 ## Estructura del repositorio
 
-- `architecture/` → Diagramas y notas de diseño.
+- `architecture/` → Diagrama y notas de diseño.
 - `config/` → Configuración de Ansible e inventarios.
-- `automation/` → Playbooks y automatización.
+- `automation/` → Playbooks
 - `incidents/` → Incidencias y troubleshooting.
-
----
-
-## Flujo de automatización
-
-- El servidor Ansible se conecta a los hosts Linux mediante SSH.
-- Los sistemas Windows se gestionan mediante WinRM.
-- Los playbooks aplican configuraciones y automatizaciones de forma centralizada.
-- Los roles permiten reutilizar configuraciones comunes entre distintos sistemas.
