@@ -9,12 +9,12 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 ## Caracteristicas del servidor
 
 - Automatización con Ansible Core
-- Gestión de hostss Linux con SSH
+- Gestión de hosts Linux con SSH
 - Gestión de hosts Windows con WinRM
 - Uso de playbooks y roles reutilizables
 - Inventario centralizado de los equipos
 - Ejecución de tareas de configuración
-- Aplicación de cambios de forma contralada
+- Aplicación de cambios de forma controlada
 
 ---
 
