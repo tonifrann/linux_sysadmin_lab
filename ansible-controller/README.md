@@ -1,64 +1,62 @@
-ansible-controller (Rocky Linux 9)
+# ansible-controller (Rocky Linux 9)
 
-Servidor dedicado a la automatización de configuración y orquestación mediante Ansible.
-Centraliza la ejecución de playbooks, la gestión de inventarios y la aplicación de roles comunes sobre los equipos del laboratorio (Linux y Windows).
+Este servidor se utiliza para automatizar y gestionar la configuración de manera centralizada con Ansible.
 
-Permite estandarizar configuraciones, desplegar software, aplicar hardening básico y mantener los sistemas actualizados de forma reproducible.
+Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraciones consistentes, desplegar cambios y automatizar tareas administrativas.
 
-Características del servidor
+---
 
-Instalación y configuración de Ansible Core
+## Caracteristicas del servidor
 
-Gestión de inventarios estáticos y dinámicos
-Ejecución de playbooks para Linux y Windows
+- Automatización centralizada con Ansible Core
+- Gestión remota de sistemas Linux con SSH
+- Gestión remota de sistemas Windows con WinRM
+- Uso de playbooks y roles reutilizables
+- Inventario centralizado de hosts
+- Automatización de configuraciones comunes
+- Ejecución de tareas idempotentes
+- Resolución de incidencias
 
-Roles reutilizables para tareas comunes
+---
 
-Integración con SSH (Linux) y WinRM (Windows)
+## Índice
 
-Configuración de firewall
+### 1. Introducción
+- [Descripción general](#descripción-general)
 
-Resolución de incidencias reales del entorno
+### 2. Servicios del servidor
+- [Ansible Core](config/ansible.md)
+- [Inventario](config/inventory.md)
+- [Roles](config/roles.md)
+- [Firewall (firewalld)](config/firewalld.md)
 
-Índice
+### 3. Automatización
+- [Playbooks Linux](automation/linux-playbooks.md)
+- [Playbooks Windows](automation/windows-playbooks.md)
+- [Ejecución remota](automation/remote-execution.md)
 
-Introducción
+### 4. Arquitectura del sistema
+- [Diagrama](architecture/diagram.png)
 
-Descripción general
+### 5. Incidencias
+- [Error de conexión SSH](incidents/ssh-error.md)
+- [Error WinRM](incidents/winrm-error.md)
+- [Error en playbook](incidents/playbook-error.md)
 
-Servicios del servidor
+---
 
-Instalación de Ansible
+## Estructura del repositorio
 
-Inventario del laboratorio
+- `architecture/` → Diagramas y notas de diseño.
+- `config/` → Configuración de Ansible e inventarios.
+- `automation/` → Playbooks y automatización.
+- `incidents/` → Incidencias y troubleshooting.
 
-Roles y estructura de automatización
+---
 
-Firewall y seguridad
+## Flujo de automatización
 
-Automatización
-
-Playbooks del laboratorio
-
-Ejecución remota en Linux y Windows
-
-Arquitectura del sistema
-
-Diagrama del entorno
-
-Flujo de ejecución de playbooks
-
-Incidencias
-
-Error en ejecución de playbooks
-
-Error de conexión SSH
-
-Error de conexión WinRM
-
-Estructura del repositorio
-
-architecture/  → Diagramas del sistema y flujos de ejecución
-config/        → Instalación de Ansible, inventario, roles y firewall
-automation/    → Playbooks y roles utilizados en el laboratorio
-incidents/     → Incidencias reales y su resolución
+- El servidor Ansible se conecta a los hosts Linux mediante SSH.
+- Los sistemas Windows se gestionan mediante WinRM.
+- Los playbooks aplican configuraciones y automatizaciones de forma centralizada.
+- Los roles permiten reutilizar configuraciones comunes entre distintos sistemas.
