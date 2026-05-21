@@ -31,7 +31,7 @@ Se incluye el despliegue de servicios, seguridad, automatización, monitorizaci�
 | ansible-controller | 192.168.100.14 | Rocky Linux 9 | Automatización |
 | win-client | 192.168.100.50 | Windows 11 | Cliente de pruebas |
 
-Diagrama en [`architecture/`](architecture/diagram-explained.png)
+Diagrama en [`architecture/`](architecture/diagram.png)
 
 ---
 
