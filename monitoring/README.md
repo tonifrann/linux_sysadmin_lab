@@ -46,7 +46,7 @@ Este servidor permite supervisar el estado de los sistemas, detectar cualquier i
 - `architecture/` → Diagramas y notas de diseño.
 - `config/` → Configuración de servicios de monitorización.
 - `integration/` → Integración con otros sistemas y dashboards.
-- `incidents/` → Incidencias y resolución.
+- `incidents/` → Incidencias y su resolución.
 
 ---
 
