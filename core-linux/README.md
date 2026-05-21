@@ -55,5 +55,5 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 - `architecture/` → Diagramas y notas de diseño.
 - `config/` → Configuraciones detalladas de cada servicio.
 - `scripts/` → Scripts utilizados en el servidor.
-- `incidents/` → Incidencias simuladas y su resolución.
+- `incidents/` → Incidencias y su resolución.
 
