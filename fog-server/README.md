@@ -56,5 +56,5 @@ Además, incorpora automatización mediante scripts SYSTEM, snapins y tareas aut
 - `architecture/` → Diagramas del sistema y flujos PXE  
 - `config/` → Instalación y configuración de FOG, PXE, NFS, TFTP y firewall  
 - `images/` → Documentación de captura y despliegue de sistemas  
-- `incidents/` → Incidencias reales y su resolución  
+- `incidents/` → Incidencias y su resolución  
 - `automation/` → Scripts SYSTEM para post-despliegue  
