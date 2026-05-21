@@ -39,14 +39,14 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 
 ### 5. Incidencias
 - [Error de conexión SSH](incidents/ssh-error.md)
-- [Error WinRM](incidents/winrm-error.md)
+- [Error de conexión WinRM](incidents/winrm-error.md)
 - [Error en playbook](incidents/playbook-error.md)
 
 ---
 
 ## Estructura del repositorio
 
-- `architecture/` → Diagrama y notas de diseño.
-- `config/` → Configuración de Ansible e inventarios.
-- `automation/` → Playbooks
-- `incidents/` → Incidencias y troubleshooting.
+- `architecture/` → Diagrama del sistema
+- `config/` → Instalación de Ansible, inventario, roles y firewall
+- `automation/` → Playbooks y roles utilizados
+- `incidents/` → Incidencias y su resolución.
