@@ -45,4 +45,4 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 - `architecture/` → Diagramas y notas de diseño.
 - `config/` → Configuración de Docker Engine, Compose y Node Exporter.
 - `containers/` → Contenedores desplegados en el servidor.
-- `incidents/` → Incidencias reales y su resolución.
+- `incidents/` → Incidencias y su resolución.
