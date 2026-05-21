@@ -67,6 +67,9 @@ Despues de ampliar el disco:
 
 - El equipo inicia Windows sin problemas.
 
+<img width="1359" height="405" alt="image" src="https://github.com/user-attachments/assets/cb33f756-66cd-45f3-861e-f2bf5ceeb033" />
+
+
 
 ## 7. Prevención
 
