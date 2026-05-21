@@ -20,4 +20,7 @@ La captura arranca correctamente por PXE.
 
 En Windows, BitLocker aparece como “desactivado”, pero muestra “Cifrado de espacio usado”.
 
+<img width="975" height="354" alt="image" src="https://github.com/user-attachments/assets/5e636020-2664-4130-91f0-79c3054ad19e" />
+
+
 
