@@ -1,4 +1,4 @@
-# Configuración del Firewall
+# Configuración del Firewall (iptables)
 
 En este servidor se utiliza únicamente iptables.  
 Docker gestiona automáticamente sus propias reglas con iptables (cadenas DOCKER, DOCKER-FORWARD, DOCKER-USER), asi que no es necesario instalar firewalld.  
