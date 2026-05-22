@@ -1,4 +1,4 @@
-# Firewall
+# Configuración de Firewall (firewalld)
 
 Este servidor utiliza firewalld para gestionar las reglas de red.  
 FOG requiere varios servicios abiertos para que funcione correctamente: interfaz web, PXE, TFTP, NFS y RPC.
