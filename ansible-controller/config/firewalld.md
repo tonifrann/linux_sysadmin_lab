@@ -1,1 +1,1 @@
-dsdsa
+# Configuración de Firewall (firewalld)
