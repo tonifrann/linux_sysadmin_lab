@@ -1,4 +1,4 @@
-# Firewalld
+# Configuración del Firewall (firewalld)
 
 La configuración del firewall en el servidor de monitoring se realiza con firewalld. El motivo de utilizar firewalld es mantener la consistencia con el resto de los servidores.
 
