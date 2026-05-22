@@ -27,7 +27,7 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 - [Docker Compose](config/docker-compose.md)
 - [Docker Networks](config/docker-networks.md)
 - [Volúmenes y persistencia](config/volumes.md)
-- [Firewall](config/firewall.md)
+- [Firewall](config/iptables.md)
 
 ### 3. Contenedores
 - [Servicios desplegados](containers/containers.md)
