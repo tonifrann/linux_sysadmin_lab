@@ -12,4 +12,5 @@ Se comprueba que firewalld está activo y habilitado:
 
 ## 2. Reglas aplicadas
 
-Se añaden las reglas necesarias para permitir SSH y WinRM:
+Se añaden las reglas para permitir SSH y WinRM:
+<img width="1024" height="127" alt="image" src="https://github.com/user-attachments/assets/55d1a114-a578-44ef-88db-d3bbd74d89db" />
