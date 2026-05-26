@@ -27,5 +27,6 @@ La estructura desoues de la instalación es:
 ## 3. Configuración
 
 Se configura el archivo ```/etc/ansible/ansible.cfg``` para utilizar el inventario y los roles del sistema:
-<img width="1024" height="309" alt="image" src="https://github.com/user-attachments/assets/a85e6d48-f800-4d41-9e3b-ca40d8654258" />
+<img width="1023" height="307" alt="image" src="https://github.com/user-attachments/assets/759ad06a-f057-441c-9817-b0d33950ecff" />
+
 
