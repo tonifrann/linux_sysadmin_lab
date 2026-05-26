@@ -2,23 +2,23 @@
 
 Se documentan los pasos necesarios que hay que realizar en cada uno de los servidores que se gestionaran con Ansible.
 
-- Core-linux
 - Monitoring
 - Docker
+- Fog-server
 
 ## 1. Usuario administrador
 
 Se crea un usuario administrador ```admin``` con acceso SSH y privilegios de sudoers para que no sea necesario escribir la contraseña cada vez.
-<img width="1023" height="160" alt="image" src="https://github.com/user-attachments/assets/3217564c-465f-48a9-85bc-f0746b31bad4" />
+<img width="1021" height="130" alt="image" src="https://github.com/user-attachments/assets/3fb11ae3-ea75-4c16-9825-24833f917135" />
 
 
 ## 2. SSH
 
 Se resiva que SHH está activo:
-<img width="1025" height="68" alt="image" src="https://github.com/user-attachments/assets/242c5244-d3f3-453d-a278-439777a6ec5b" />
+<img width="1023" height="66" alt="image" src="https://github.com/user-attachments/assets/10ec1162-0f49-4bdd-93a1-1d4250baeea9" />
 
 Se revisa que SHH esta permitido en el firewall:
-<img width="1021" height="33" alt="image" src="https://github.com/user-attachments/assets/baccaa21-6fda-46fe-9d92-da7621aab029" />
+<img width="1024" height="33" alt="image" src="https://github.com/user-attachments/assets/c29fe7df-0e9a-4bb1-865b-9b354c36ca3e" />
 
 
 ## 3. Clave SSH del controlador
