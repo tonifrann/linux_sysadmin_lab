@@ -27,3 +27,4 @@ Se genera una clave SSH en el controlador de Ansible sin contraseña:
 <img width="1022" height="384" alt="image" src="https://github.com/user-attachments/assets/4b22b82b-ef65-4da4-a5f5-30dcbb0319b9" />
 
 Se copia la clave publica en cada servidor:
+<img width="1022" height="354" alt="image" src="https://github.com/user-attachments/assets/170caa44-b4e2-4a33-b088-0af879a40e4f" />
