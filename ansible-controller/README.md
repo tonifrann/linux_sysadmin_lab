@@ -2,7 +2,7 @@
 
 Este servidor se utiliza para automatizar y gestionar la configuración de manera centralizada con Ansible.
 
-Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraciones consistentes, desplegar cambios y automatizar tareas administrativas.
+Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consistentes, desplegar cambios y automatizar tareas administrativas.
 
 ---
 
@@ -10,11 +10,11 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 
 - Automatización con Ansible Core
 - Gestión de hosts Linux con SSH
-- Gestión de hosts Windows con WinRM
 - Uso de playbooks y roles reutilizables
 - Inventario centralizado de los equipos
 - Ejecución de tareas de configuración
 - Aplicación de cambios de forma controlada
+- Integración con firewalld
 
 ---
 
@@ -31,7 +31,6 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 
 ### 3. Automatización
 - [Playbooks Linux](automation/linux-playbooks.md)
-- [Playbooks Windows](automation/windows-playbooks.md)
 - [Ejecución remota](automation/remote-execution.md)
 
 ### 4. Arquitectura del sistema
@@ -39,7 +38,6 @@ Permite ejecutar playbooks en sistemas Linux y Windows para mantener configuraci
 
 ### 5. Incidencias
 - [Error de conexión SSH](incidents/ssh-error.md)
-- [Error de conexión WinRM](incidents/winrm-error.md)
 - [Error en playbook](incidents/playbook-error.md)
 
 ---
