@@ -12,9 +12,9 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 
 - Gestión remota: SSH para la administración de hosts Linux
 
-- Control de acceso: firewalld para limitar las conexiones al controlador
-
 - Ejecución centralizada: despliegue y aplicación de configuraciones en los nodos
+
+- Firewall: control de acceso con firewalld
 
 ---
 
