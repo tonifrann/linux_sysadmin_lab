@@ -12,7 +12,6 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 - Auditoría y seguridad: auditd y logrotate
 - Servicios de red: DHCP (ISC DHCP) para asignación de direcciones y soporte PXE
 - Automatización con scripts y cron
-- Resolución de incidencias
 
 ---
 
