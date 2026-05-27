@@ -1,18 +1,19 @@
 # Inventario de Ansible
 
-En el inventario se definen los hosts de Linux y de Windows que se gestionan con Ansible. 
+En el inventario se definen los hosts que se gestionan con Ansible. 
 
 
 ## 1. Inventario 
 
-Se modifica el archivo ```/etc/ansible/hosts``` y se añaden los servidores Linux que se gestionan con SHH y el cliente de windows que se gestiona mediante WinRM.
-<img width="1024" height="162" alt="image" src="https://github.com/user-attachments/assets/d697c57c-f31d-4bd5-a175-e59db3db3547" />
+Se modifica el archivo ```/etc/ansible/hosts``` y se añaden los servidores Linux que se gestionan con SSH.
+<img width="1024" height="86" alt="image" src="https://github.com/user-attachments/assets/af6fafbb-b9c3-41c5-9c2d-996dc8cc05aa" />
+
 
 
 
 ## 2. Verificación de la conectividad del inventario
 
-- Linux
+Se verifica que la connexión se establece correctamente:
 <img width="1020" height="354" alt="image" src="https://github.com/user-attachments/assets/92840ae9-e1dc-42da-9e33-eb5fec396ebc" />
 
-- Windows:
+
