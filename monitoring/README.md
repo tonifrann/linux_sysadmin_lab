@@ -9,7 +9,7 @@ Este servidor permite supervisar el estado de los sistemas, detectar cualquier i
 
 ## Caracteristicas del servidor
 
-- Monitorización: Prometheus para recolección de métricas
+- Monitorización: Prometheus para la recolección de métricas
   
 - Exporters: Node Exporter en hosts Linux
   
