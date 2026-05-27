@@ -5,14 +5,15 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 
 ## Caracteristicas del servidor
 
-- Hardening: SSH, SELinux (enforcing), firewalld
-- Gestión avanzada de almacenamiento con LVM (snapshots y ampliación)
-- Servicios en producción: Samba (ACLs) y Nginx (HTTPS)
-- Estrategias de backup: rsync, tar y dd
-- Auditoría y seguridad: auditd y logrotate
-- Servicios de red: DHCP (ISC DHCP) para asignación de direcciones y soporte PXE
-- Automatización con scripts y cron
+Automatización: Ansible Core (playbooks, roles, inventario)
 
+Gestión remota: SSH para administración de hosts Linux
+
+Control de acceso: firewalld para limitar conexiones al controlador
+
+Ejecución centralizada: despliegue y aplicación de configuraciones en los nodos
+
+Organización del entorno: estructura modular de roles y playbooks
 ---
 
 ## Índice
