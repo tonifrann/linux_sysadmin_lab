@@ -5,15 +5,14 @@ Es el servidor principal del laboratorio. Está enfocado a la seguridad, los ser
 
 ## Caracteristicas del servidor
 
-Automatización: Ansible Core (playbooks, roles, inventario)
+- Automatización: Ansible Core (playbooks, roles, inventario)
 
-Gestión remota: SSH para administración de hosts Linux
+- Gestión remota: SSH para administración de hosts Linux
 
-Control de acceso: firewalld para limitar conexiones al controlador
+- Control de acceso: firewalld para limitar conexiones al controlador
 
-Ejecución centralizada: despliegue y aplicación de configuraciones en los nodos
+- Ejecución centralizada: despliegue y aplicación de configuraciones en los nodos
 
-Organización del entorno: estructura modular de roles y playbooks
 ---
 
 ## Índice
