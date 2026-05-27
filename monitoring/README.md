@@ -9,12 +9,17 @@ Este servidor permite supervisar el estado de los sistemas, detectar cualquier i
 
 ## Caracteristicas del servidor
 
-- Monitorización centralizada con Prometheus
-- Recolección de métricas del sistema con Node Exporter
-- Visualización de datos mediante Grafana
-- Supervisión de core-linux y docker-host
-- Monitorización de CPU, RAM, disco y red
-- Detección de servicios caídos (UP/DOWN)
+- Monitorización: Prometheus para recolección de métricas
+  
+- Exporters: Node Exporter en hosts Linux
+  
+- Visualización: Grafana para dashboards
+  
+- Supervisión: CPU, RAM, disco, red y estado UP/DOWN
+  
+- Integración: core-linux y docker-host como targets
+  
+- Firewall: control de acceso con firewalld
 
 ---
 
