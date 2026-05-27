@@ -6,14 +6,15 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 
 ## Caracteristicas del servidor
 
-- Instalación de Docker Engine
-- Instalación de Docker Compose
-- Redes internas con Docker Networks
-- Persistencia mediante volúmenes Docker
-- Node Exporter para Prometheus
-- Configuración del firewall
-- Integración con el servidor de monitorización
-- Resolución de incidencias
+- Contenedores: Docker Engine y Docker Compose
+
+- Redes: Docker Networks para la comunicación interna
+
+- Persistencia: volúmenes Docker para datos y configuraciones
+
+- Monitorización: Node Exporter integrado con Prometheus
+
+- Seguridad: firewalld para el control de acceso
 
 ---
 
