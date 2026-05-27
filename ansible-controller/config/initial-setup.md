@@ -33,3 +33,7 @@ En el controlador de Ansible se genera una clave SSH sin contraseña:
 La clave pública se copia en cada servidor:
 <img width="1024" height="233" alt="image" src="https://github.com/user-attachments/assets/be6c8580-2cd8-4b1e-b08d-163a21ad4bee" />
 
+
+## 3. Winrm
+
+<img width="1024" height="147" alt="image" src="https://github.com/user-attachments/assets/475b2fa5-8934-4647-9f6c-68502c9cb6c8" />
