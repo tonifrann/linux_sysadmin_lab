@@ -82,8 +82,3 @@ Se inicializa el disco, se añade al VG y se amplia el LV. La ampliación se rea
 Se verifica que se ha ampliado correctamente:
 
 <img width="993" height="189" alt="image" src="https://github.com/user-attachments/assets/3e93fb65-dd88-4392-a52b-f93d57774a56" />
-
-
-## 8. Snapshots en LVM
-
-Los snapshots LVM son útiles para pruebas o cambios críticos, pero no sustituyen a un sistema de backup real. En este laboratorio no se han utilizado para mantener el foco en la gestión del almacenamiento.
