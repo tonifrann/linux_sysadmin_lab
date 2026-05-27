@@ -10,16 +10,19 @@ Además, incorpora automatización mediante scripts SYSTEM, snapins y tareas aut
 
 ## Características del servidor
 
-- Instalación y configuración de FOG Project  
-- Configuración de PXE / iPXE  
-- Integración con DHCP externo  
-- Servicio TFTP para arranque en red  
-- Servicio NFS para almacenamiento de imágenes  
-- Captura y despliegue de sistemas operativos  
-- Gestión de hosts e inventario de equipos  
-- Automatización post-despliegue (scripts SYSTEM)  
-- Configuración de firewall  
-- Resolución de incidencias
+- Despliegue: FOG Project para la captura y distribución de las imágenes
+
+- Arranque en red: PXE / iPXE con TFTP
+
+- Almacenamiento: NFS para el repositorio de imágenes
+
+- Integración de red: compatibilidad con un DHCP externo (core-linux)
+
+- Gestión de equipos: inventario y control de los hosts
+
+- Post‑instalación: automatización mediante scripts SYSTEM
+
+- Seguridad: firewalld para el control de acceso
 
 ---
 
