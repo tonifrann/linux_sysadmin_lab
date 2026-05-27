@@ -8,13 +8,13 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 
 ## Caracteristicas del servidor
 
-- Automatización con Ansible Core
-- Gestión de hosts Linux con SSH
-- Uso de playbooks y roles reutilizables
-- Inventario centralizado de los equipos
-- Ejecución de tareas de configuración
-- Aplicación de cambios de forma controlada
-- Integración con firewalld
+- Automatización: Ansible Core (playbooks, roles, inventario)
+
+- Gestión remota: SSH para la administración de hosts Linux
+
+- Control de acceso: firewalld para limitar las conexiones al controlador
+
+- Ejecución centralizada: despliegue y aplicación de configuraciones en los nodos
 
 ---
 
