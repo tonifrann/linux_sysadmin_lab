@@ -14,7 +14,7 @@ Es un servidor dedicado a la ejecución de contenedores Docker. Se podrá desple
 
 - Monitorización: Node Exporter integrado con Prometheus
 
-- Seguridad: firewalld para el control de acceso
+- Seguridad: iptables para el control de acceso
 
 ---
 
