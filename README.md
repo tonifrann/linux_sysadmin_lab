@@ -9,7 +9,7 @@ Se incluye el despliegue de servicios, seguridad, automatización, monitorizaci�
 ## Tecnologías y áreas trabajadas
 
 - Administración Linux (Rocky / Ubuntu)
-- Seguridad: SELinux, hardening, firewalls (firewalld, ufw, iptables)
+- Seguridad: SELinux, hardening, firewalls (firewalld, iptables)
 - Redes y servicios
 - Contenedores (Docker)
 - Monitorización (Prometheus, Grafana)
