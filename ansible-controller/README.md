@@ -24,6 +24,7 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 - [Descripción general](#descripción-general)
 
 ### 2. Servicios del servidor
+- [Configuración inicial](config/initial-setup.md)
 - [Ansible Core](config/ansible.md)
 - [Inventario](config/inventory.md)
 - [Roles](config/roles.md)
