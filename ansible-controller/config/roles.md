@@ -11,6 +11,7 @@ Se crean dos roles básicos para validar el funcionamiento del controlador.
 - firewalld: Aplica reglas de firewall dependiendo del servidor
 
 <img width="1022" height="81" alt="image" src="https://github.com/user-attachments/assets/be042246-fb8f-4a28-857b-a5e28f23fb84" />
+<img width="1168" height="32" alt="image" src="https://github.com/user-attachments/assets/1806655b-9184-4f06-a2bb-24f35425ac4d" />
 
 
 ## 3. Estructura de los roles
