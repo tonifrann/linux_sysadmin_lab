@@ -7,39 +7,46 @@ Se crean dos roles básicos para validar el funcionamiento del controlador.
 
 ## 2. Roles implementados
 
-- usuarios: Crea un usuario administrador y copia la clave SSH
+- node-exporter: 
 - firewalld: Aplica reglas de firewall dependiendo del servidor
 
-<img width="1011" height="32" alt="image" src="https://github.com/user-attachments/assets/d5be0b74-e43f-49ad-a79d-fc27eb213fec" />
-
-<img width="1168" height="32" alt="image" src="https://github.com/user-attachments/assets/1806655b-9184-4f06-a2bb-24f35425ac4d" />
+<img width="1023" height="83" alt="image" src="https://github.com/user-attachments/assets/729a3d50-f78d-4f38-87a5-51abb4d2261c" />
 
 
 ## 3. Estructura de los roles
 
 Se revisa la escructura que Ansible ha generado:
-<img width="1022" height="609" alt="image" src="https://github.com/user-attachments/assets/8ca97b71-fc21-43d2-a521-20fe79091d96" />
+<img width="1021" height="606" alt="image" src="https://github.com/user-attachments/assets/3ac4b06b-9a47-4c25-b340-33693f0c4c87" />
+
 
 
 ## 4. Función de los roles
 
-### usuarios
+### node-exporter
   
-Este rol prepara el acceso de administrador a los servidores que se vayan añadiendo en el inventario
+Este rol instala y configura el agente de Node Exporter, para expone las métricas del sistema para Prometheus.
 
-- Creación del usuario admin
+- Descarga el binario oficial desde GitHub
 
-- Lo añade al grupo wheel
+- Crea el usuario de servicio node_exporter
 
-- Copia la clave pública SSH para poder acceder sin contraseña
+- Copia el binario a /usr/local/bin/
+
+- Crea el servicio systemd
+
+- Activa y  habilita el servicio
+
+- Permite el puerto 9100/tcp (si se usa firewalld) 
 
 
 ### firewalld
 
-Este rol gestiona las reglas de firewall según el servidor:
+Este rol gestiona las reglas de firewall en los servidores:
 
-- Se activa  y habilita firewalld 
+- Activa  y habilita firewalld 
 
 - Abre los puertos definidos en cada host
+
+- Aplica las reglas permanentemente
 
 - Recarga las reglas después de cambios en la configuración
