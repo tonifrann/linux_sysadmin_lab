@@ -58,7 +58,7 @@ Automatización y configuración centralizada
 [Ver documentación](ansible-controller/README.md)
 
 ### win-client
-Cliente Windows utilizado únicamente para pruebas de acceso (Samba, SSH, Nginx). 
+Cliente Windows utilizado únicamente para pruebas (Samba, SSH, Nginx, FOG). 
 
 ---
 
