@@ -31,7 +31,7 @@ Este playbook solo aplica el rol de Node Exporter. Se usa cuando se quiere añad
 
 ## 3. Playbook para firewalld
 
-Este playbook solo aplica el rol de firewalld para que se configuren algunas reglas básicas del firewall.
+Este playbook solo aplica el rol de firewalld para que se configuren reglas del firewall.
 
 <img width="1023" height="19" alt="image" src="https://github.com/user-attachments/assets/59fb0304-d3aa-4b46-8d99-1c1d82e816e2" />
 
