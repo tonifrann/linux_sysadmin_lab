@@ -22,11 +22,24 @@ Este playbook aplica los roles comunes para cualquier servidor nuevo que se aña
 
 ## 2. Playbook para node-exporter
 
-Este playbook solo configura el rol de Node Exporter. Se usa cuando se quiere añadir un servidor nuevo a la monitorización.
+Este playbook solo aplica el rol de Node Exporter. Se usa cuando se quiere añadir un servidor nuevo a la monitorización.
 
 <img width="1023" height="20" alt="image" src="https://github.com/user-attachments/assets/89dfb606-49ad-4324-81ee-398ce9224a01" />
 
 <img width="1024" height="87" alt="image" src="https://github.com/user-attachments/assets/8328e181-7344-49dd-a5f8-de4371b88f10" />
+
+
+## 3. Playbook para firewalld
+
+Este playbook solo aplica el rol de firewalld para que se configuren algunas reglas básicas del firewall.
+
+<img width="1023" height="19" alt="image" src="https://github.com/user-attachments/assets/59fb0304-d3aa-4b46-8d99-1c1d82e816e2" />
+
+<img width="1024" height="82" alt="image" src="https://github.com/user-attachments/assets/84ff9c42-296e-4651-89c6-30abe574e626" />
+
+Los puertos abiertos dependen de las variables definidas en ```host_vars/<servidor>.yml```
+
+
 
 
 
