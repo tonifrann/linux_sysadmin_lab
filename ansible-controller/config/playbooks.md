@@ -26,6 +26,9 @@ Este playbook solo configura el rol de Node Exporter. Se usa cuando se quiere a√
 
 <img width="1023" height="20" alt="image" src="https://github.com/user-attachments/assets/89dfb606-49ad-4324-81ee-398ce9224a01" />
 
-<img width="1021" height="83" alt="image" src="https://github.com/user-attachments/assets/563c2998-b09c-42f9-911c-c3d46feb8485" />
+<img width="1024" height="87" alt="image" src="https://github.com/user-attachments/assets/8328e181-7344-49dd-a5f8-de4371b88f10" />
+
+
+
 
 
