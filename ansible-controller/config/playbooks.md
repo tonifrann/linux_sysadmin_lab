@@ -52,6 +52,8 @@ Los puertos abiertos en cada servidor dependen de las variables definidas en la 
 El funcionamiento del rol esta documentado en [rol firewalld](./role-firewalld.md)
 
 
+## 4. Ejecución de los playbooks
+
 
 
 
