@@ -37,7 +37,12 @@ Este playbook solo aplica el rol de firewalld para que se configuren reglas del 
 
 <img width="1024" height="82" alt="image" src="https://github.com/user-attachments/assets/84ff9c42-296e-4651-89c6-30abe574e626" />
 
-Los puertos abiertos dependen de las variables definidas en ```host_vars/<servidor>.yml```
+
+Los puertos abiertos en cada servidor dependen de las variables definidas en la carpeta ```/etc/ansible/host_vars/```.
+
+- ```host_vars/moitoring.yml```
+
+
 
 
 
