@@ -7,7 +7,7 @@ En este entorno se utilizan los roles node-exporter y firewalld.
 
 ## 1. Playbook general
 
-Este playbook define la configuración predeterminada para cualquier servidor nuevo que se añada al inventario. En el laboratorio, todos los servidores ya se configuraron manualmente. 
+Este playbook aplica los roles comunes para cualquier servidor nuevo que se añada al inventario. En el laboratorio, todos los servidores ya se configuraron manualmente. 
 
 <img width="1022" height="17" alt="image" src="https://github.com/user-attachments/assets/afb632cf-0fc7-4167-8955-5cca1e1c4065" />
 
@@ -17,10 +17,15 @@ Este playbook define la configuración predeterminada para cualquier servidor nu
 
 - Activa firewalld y abre los puertos definidos en host_vars
 
-- Garantiza que cualquier servidor nuevo queda monitorizado y con firewall coherente
+- Garantiza que cualquier servidor nuevo queda monitorizado y con unas reglas básicas de firewall 
 
 
 ## 2. Playbook para node-exporter
 
-Este playbook solo configura el rol de Node Exporter.
-Se usa cuando se añade un servidor nuevo a la monitorización.
+Este playbook solo configura el rol de Node Exporter. Se usa cuando se quiere añadir un servidor nuevo a la monitorización.
+
+<img width="1023" height="20" alt="image" src="https://github.com/user-attachments/assets/89dfb606-49ad-4324-81ee-398ce9224a01" />
+
+<img width="1021" height="83" alt="image" src="https://github.com/user-attachments/assets/563c2998-b09c-42f9-911c-c3d46feb8485" />
+
+
