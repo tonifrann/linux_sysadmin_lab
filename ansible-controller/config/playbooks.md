@@ -28,6 +28,7 @@ Este playbook solo aplica el rol de Node Exporter. Se usa cuando se quiere añad
 
 <img width="1024" height="87" alt="image" src="https://github.com/user-attachments/assets/8328e181-7344-49dd-a5f8-de4371b88f10" />
 
+El funcionamiento del rol (tareas YAML, servicio systemd, etc.) está documentado en [rol node exporter](./role-node-exporter.md)
 
 ## 3. Playbook para firewalld
 
@@ -41,11 +42,16 @@ Este playbook solo aplica el rol de firewalld para que se configuren reglas del 
 Los puertos abiertos en cada servidor dependen de las variables definidas en la carpeta ```/etc/ansible/host_vars/```.
 
 - ```host_vars/monitoring.yml```
-<img width="1023" height="65" alt="image" src="https://github.com/user-attachments/assets/cd7802bb-7f04-46f0-8361-d80a7414d572" />
+<img width="1025" height="81" alt="image" src="https://github.com/user-attachments/assets/096ef70d-92b9-48e6-9b40-bed30216310a" />
+
 
 - ```host_vars/fog_server.yml```
 
-<img width="1023" height="82" alt="image" src="https://github.com/user-attachments/assets/9f4df880-d6ff-44ac-8a43-a2973d46b84c" />
+<img width="1024" height="147" alt="image" src="https://github.com/user-attachments/assets/446e5a99-b7a8-42f4-9f7b-9e80547080d8" />
+
+El funcionamiento del rol esta documentado en [rol firewalld](./role-firewalld.md)
+
+
 
 
 
