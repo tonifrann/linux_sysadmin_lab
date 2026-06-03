@@ -32,7 +32,8 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 
 ### 3. Automatización
 - [Playbooks Linux](automation/linux-playbooks.md)
-- [Ejecución remota](automation/remote-execution.md)
+- [Rol node-exporter](automation/role-node-exporter.md)
+- [Rol firewalld](automation/role-firewalld.md)
 
 ### 4. Arquitectura del sistema
 - [Diagrama](architecture/diagram.png)
