@@ -31,9 +31,9 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 - [Firewall (firewalld)](config/firewalld.md)
 
 ### 3. Automatización
-- [Playbooks](./automation/linux-playbooks.md)
-- [Rol node-exporter](./automation/role-node-exporter.md)
-- [Rol firewalld](./automation/role-firewalld.md)
+- [Playbooks](automation/playbooks.md)
+- [Rol node-exporter](automation/role-node-exporter.md)
+- [Rol firewalld](automation/role-firewalld.md)
 
 ### 4. Arquitectura del sistema
 - [Diagrama](architecture/diagram.png)
