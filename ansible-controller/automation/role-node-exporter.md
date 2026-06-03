@@ -33,3 +33,15 @@ Se crea y modifica el archivo de configuración del rol:
 <img width="1023" height="243" alt="image" src="https://github.com/user-attachments/assets/b78c1ebf-6c23-4c3e-bd09-7f34ea422d08" />
 
 
+## 3. Plantilla del servicio systemd
+
+Se crea una plantilla del servicio de systemd:
+<img width="1022" height="18" alt="image" src="https://github.com/user-attachments/assets/d7e56e69-716f-4235-b7d7-d99b98d5d2ff" />
+<img width="1022" height="195" alt="image" src="https://github.com/user-attachments/assets/a6ba6a19-5848-42d0-83bc-6cef6361f3b5" />
+
+
+## 4. Ejecución del rol
+
+- El servicio node_exporter quedará instalado y activo.
+
+- El puerto 9100/tcp debe abrirse mediante el rol firewalld.
