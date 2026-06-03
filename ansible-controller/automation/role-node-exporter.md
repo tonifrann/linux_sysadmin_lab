@@ -26,7 +26,7 @@ El rol realiza automáticamente:
 
 ## 2. Tareas del rol
 
-Se crea y modifica el archivo de configuración del rol:
+El rol automatiza todo el proceso de instalación y configuración de Node Exporter:
 <img width="1022" height="17" alt="image" src="https://github.com/user-attachments/assets/9a8a8c9a-e089-4061-b00b-a7f1c285b6ea" />
 
 <img width="1023" height="643" alt="image" src="https://github.com/user-attachments/assets/458d5f74-e2c2-4a6d-82c5-ac9f5e2a209a" />
@@ -42,6 +42,10 @@ Se crea una plantilla del servicio de systemd:
 
 ## 4. Ejecución del rol
 
+Después de ejecutar el playbook: 
+
 - El servicio node_exporter quedará instalado y activo.
 
-- El puerto 9100/tcp debe abrirse mediante el rol firewalld.
+- El puerto 9100/tcp puede abrirse mediante el rol firewalld.
+
+- Las métricas quedan disponibles para Prometheus.
