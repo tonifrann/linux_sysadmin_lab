@@ -46,6 +46,6 @@ Después de ejecutar el playbook:
 
 - El servicio node_exporter quedará instalado y activo.
 
-- El puerto 9100/tcp puede abrirse mediante el rol firewalld.
+- El puerto 9100/tcp tiene que abrirse utilizando el rol de firewalld.
 
 - Las métricas quedan disponibles para Prometheus.
