@@ -12,6 +12,7 @@ Se modifica el archivo ```/etc/ansible/hosts``` y se añade el servidor ```ansib
 ## 2. Verificación de la conectividad
 
 Se verifica que el host responde correctamente con el modulo ```ping```:
-<img width="1020" height="354" alt="image" src="https://github.com/user-attachments/assets/92840ae9-e1dc-42da-9e33-eb5fec396ebc" />
+<img width="1021" height="133" alt="image" src="https://github.com/user-attachments/assets/646ce5b7-a817-478d-a910-a9095efa6b01" />
+
 
 
