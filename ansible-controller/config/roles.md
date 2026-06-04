@@ -21,6 +21,7 @@ Los roles que se utilizan en este entorno son:
 
 Estos roles se aplicarán a todos los servidores definidos en el inventario.
 
+
 ## 3. Creación de roles
 
 Los roles se crean con el comando de Ansible Galaxy:
@@ -34,6 +35,62 @@ En cada rol que se ha creado tiene esta misma estructura:
 
 
 ## 5. Función de los roles
+
+### usuarios
+
+El rol asegura que el usuario admin queda correctamente configurado en todos los servidores:
+
+- Verifica que el usuario admin existe
+
+- Establece /bin/bash como shell
+
+- Crea el directorio /home/admin si no existe
+
+- Garantiza permisos correctos en /home/admin/.ssh
+
+- Asegura que la clave pública del controlador está presente
+
+- Añade sudo sin contraseña mediante /etc/sudoers.d/admin
+
+
+### paquetes-base
+
+Instala herramientas basicas que tienen que estar en todos los servidores.
+
+- Instala utilidades del sistema (htop, vim/nano, curl, wget…)
+
+- Instala herramientas de red (net-tools, traceroute…)
+
+- Instala herramientas de compresión (tar, unzip…)
+
+- Garantiza un entorno homogéneo en todos los hosts
+
+
+### update
+
+Aplica actualizaciones del sistema de forma centralizada.
+
+- Actualiza los repositorios
+
+- Instala actualizaciones disponibles
+
+- Limpia paquetes obsoletos
+
+- Reinicia el servidor si es necesario (kernel nuevo)
+
+
+### firewalld
+
+Gestiona las reglas de firewall en los servidores:
+
+- Activa  y habilita firewalld 
+
+- Abre los puertos definidos en cada host
+
+- Aplica las reglas permanentemente
+
+- Recarga las reglas después de cambios en la configuración
+
 
 ### node-exporter
   
@@ -52,14 +109,4 @@ Instala y configura el agente de Node Exporter, para expone las métricas del si
 - Permite el puerto 9100/tcp (si se usa firewalld) 
 
 
-### firewalld
 
-Este rol gestiona las reglas de firewall en los servidores:
-
-- Activa  y habilita firewalld 
-
-- Abre los puertos definidos en cada host
-
-- Aplica las reglas permanentemente
-
-- Recarga las reglas después de cambios en la configuración
