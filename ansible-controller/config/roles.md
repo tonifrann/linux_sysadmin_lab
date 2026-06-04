@@ -1,9 +1,8 @@
 # Roles de Ansible
 
-Los roles son configuraciones reutilizables que se pueden aplicar en los servidores del que se vayan introduciondo en el inventario.
+Los roles permiten organizar la configuración en componentes reutilizables.
 
-Se crean dos roles básicos para validar el funcionamiento del controlador.
-
+Cada rol implementa una función concreta del sistema y puede aplicarse a cualquier servidor definido en el inventario.
 
 ## 2. Roles implementados
 
