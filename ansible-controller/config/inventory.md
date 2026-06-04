@@ -6,7 +6,7 @@ En el inventario se definen los hosts linux que se gestionan con Ansible.
 ## 1. Inventario 
 
 Se modifica el archivo ```/etc/ansible/hosts``` y se añade el servidor ansible-test que se gestiona con SSH.
-<img width="1024" height="86" alt="image" src="https://github.com/user-attachments/assets/af6fafbb-b9c3-41c5-9c2d-996dc8cc05aa" />
+<img width="1023" height="51" alt="image" src="https://github.com/user-attachments/assets/97b79ad1-5480-44eb-ad0f-02d402161418" />
 
 
 ## 2. Verificación de la conectividad
