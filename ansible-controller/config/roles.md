@@ -29,16 +29,15 @@ Los roles se crean con el comando de Ansible Galaxy:
 
 ## 4. Estructura de los roles
 
-Se revisa la escructura que Ansible ha generado:
-<img width="1021" height="606" alt="image" src="https://github.com/user-attachments/assets/3ac4b06b-9a47-4c25-b340-33693f0c4c87" />
-
+En cada rol que se ha creado tiene esta misma estructura:
+<img width="1008" height="575" alt="image" src="https://github.com/user-attachments/assets/648bb5bb-49e6-4428-811b-e8f95ed50987" />
 
 
 ## 5. Función de los roles
 
 ### node-exporter
   
-Este rol instala y configura el agente de Node Exporter, para expone las métricas del sistema para Prometheus.
+Instala y configura el agente de Node Exporter, para expone las métricas del sistema para Prometheus.
 
 - Descarga el binario oficial desde GitHub
 
