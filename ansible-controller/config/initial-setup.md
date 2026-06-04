@@ -1,15 +1,20 @@
 # Configuración inicial del entorno
 
-Este documento muestra los pasos previos necesarios para que un servidor Linux pueda ser gestionado con Ansible
+Este documento muestra los pasos previos necesarios para que un nuevo servidor Linux pueda ser gestionado con Ansible
 
 
 ## 1. Usuario inicial del sistema
 
-Durante la instalación del sistema operativo se crea un usuario inicial (por ejemplo: toni)
+Durante la instalación del sistema operativo se crea un usuario inicial.
 
-Este usuario se utilizará únicamente para el acceso SSH inicial y para ejecutar el bootstrap de Ansible.
+En este entorno se utilizará siempre el usuario:
 
-El usuario administrador definitivo (admin) se creará automáticamente mediante un rol de Ansible.
+**admin**
+
+Este usuario se utilizará únicamente para permitir el acceso SSH inicial del controlador Ansible.
+
+El usuario admin se crea manualmente durante la instalación del servidor.
+
 
 
 ## 2. SSH
