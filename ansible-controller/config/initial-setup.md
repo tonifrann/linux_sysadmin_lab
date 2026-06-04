@@ -16,9 +16,6 @@ El usuario administrador definitivo (admin) se creará automáticamente mediante
 
 Para que Ansible funcione correctamente, SSH debe estar instalado y activo. Si no fuera así, habría que instalar el servicio ```openssh-server``` y comprobar que se tiene acceso SSH.
 
-<img width="1023" height="15" alt="image" src="https://github.com/user-attachments/assets/9eeddd56-fd3d-497d-a0eb-044aa09239ff" />
-<img width="1022" height="14" alt="image" src="https://github.com/user-attachments/assets/186b5b5b-86b0-40da-b1e6-dcedc6b8680a" />
-
 
 ## 3. Clave SSH del controlador
 
