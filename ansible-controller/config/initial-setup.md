@@ -23,6 +23,6 @@ En el controlador de Ansible se genera una clave SSH sin contraseña:
 <img width="1022" height="384" alt="image" src="https://github.com/user-attachments/assets/4b22b82b-ef65-4da4-a5f5-30dcbb0319b9" />
 
 La clave pública se copia en el usuario inicial del servidor:
-<img width="1024" height="171" alt="image" src="https://github.com/user-attachments/assets/c6f58cb2-0e0f-4d81-9200-97b109e8097f" />
+<img width="1021" height="169" alt="image" src="https://github.com/user-attachments/assets/5cb4d08d-b174-4b4a-9c18-d8242f1148af" />
 
 Una vez hecho esto, el servidor ya puede recibir el playbook de bootstrap que creará el usuario admin y aplicará la configuración inicial.
