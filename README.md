@@ -29,6 +29,7 @@ Se incluye el despliegue de servicios, seguridad, automatización, monitorizaci�
 | docker-host | 192.168.100.12 | Ubuntu 22.04 | Contenedores y microservicios |
 | fog-server | 192.168.100.13 | Ubuntu 22.04 | PXE y despliegues |
 | ansible-controller | 192.168.100.14 | Rocky Linux 9 | Automatización |
+| ansible-test | 192.168.100.15 | Ubuntu 22.04 | Servidor de pruebas para Ansible |
 | win-client | 192.168.100.50 | Windows 11 | Cliente de pruebas |
 
 Diagrama en [`architecture/`](architecture/diagram.png)
@@ -57,8 +58,12 @@ Despliegue de sistemas por red (PXE)
 Automatización y configuración centralizada  
 [Ver documentación](ansible-controller/README.md)
 
+### ansible-test
+Servidor de pruebas de automatización para Ansible
+[Ver documentación](ansible-test/README.md)
+
 ### win-client
-Cliente Windows utilizado únicamente para pruebas (Samba, SSH, Nginx, FOG). 
+Cliente Windows utilizado únicamente para pruebas (Samba, SSH, Nginx, FOG)
 
 ---
 
