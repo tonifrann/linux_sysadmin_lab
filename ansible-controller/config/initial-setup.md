@@ -11,18 +11,15 @@ Este usuario se utilizará únicamente para el acceso SSH inicial y para ejecuta
 
 El usuario administrador definitivo (admin) se creará automáticamente mediante un rol de Ansible.
 
-<img width="1021" height="130" alt="image" src="https://github.com/user-attachments/assets/3fb11ae3-ea75-4c16-9825-24833f917135" />
-
 
 ## 2. SSH
 
 Para que Ansible funcione correctamente, SSH debe estar instalado y activo. Si no fuera así, habría que instalar el servicio ```openssh-server``` y permitir el servicio SSH en el firewall.
 
-sudo systemctl status sshd
+<img width="1023" height="15" alt="image" src="https://github.com/user-attachments/assets/9eeddd56-fd3d-497d-a0eb-044aa09239ff" />
+<img width="1022" height="14" alt="image" src="https://github.com/user-attachments/assets/186b5b5b-86b0-40da-b1e6-dcedc6b8680a" />
 
-sudo apt install -y openssh-server     # Ubuntu/Debian
 
-sudo dnf install -y openssh-server     # Rocky/Fedora
 
 sudo firewall-cmd --add-service=ssh --permanent
 
