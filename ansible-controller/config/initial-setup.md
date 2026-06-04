@@ -1,17 +1,15 @@
 # Configuración inicial del entorno
 
-Se documentan los pasos necesarios que se deben realizar en cada uno de los servidores que estan gestionados con Ansible.
-
-- Monitoring
-- Docker
-- Fog-server
+Este documento muestra los pasos previos necesarios para que un servidor Linux pueda ser gestionado con Ansible
 
 
-## 1. Usuario administrador
+## 1. 1. Usuario inicial del sistema
 
-Se crea un usuario administrador ```admin``` con acceso SSH y privilegios de sudoers para que no sea necesario escribir la contraseña cada vez.
+Durante la instalación del sistema operativo se crea un usuario inicial (por ejemplo: toni)
 
-Este usuario se utilizará unicamente para la automatización con Ansible.
+Este usuario se utilizará únicamente para el acceso SSH inicial y para ejecutar el bootstrap de Ansible.
+
+El usuario administrador definitivo (admin) se creará automáticamente mediante un rol de Ansible.
 
 <img width="1021" height="130" alt="image" src="https://github.com/user-attachments/assets/3fb11ae3-ea75-4c16-9825-24833f917135" />
 
