@@ -14,17 +14,17 @@ Con este playbook se aplican configuraciones comunes en los servidores del inven
 <img width="1022" height="149" alt="image" src="https://github.com/user-attachments/assets/20f5e6c2-8c52-4c79-b230-3d471bb0915f" />
 
 
-Este playbook garantiza que cualquier servidor nuevo queda:
+Este playbook hace que cualquier servidor nuevo:
 
-- con el usuario admin correctamente configurado
+- Se configure el usuario admin correctamente
 
-- con herramientas básicas instaladas
+- Se instale herramientas básicas 
 
-- actualizado
+- Se actualice el sistema
 
-- con firewall activo y con reglas aplicadas
+- Se active el firewall y se apliquen reglas base
 
-- monitorizado con Node Exporter
+- Se instale y configure Node Exporter para monitorizar
 
 
 ## 2. Playbook para node-exporter
