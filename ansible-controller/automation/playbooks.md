@@ -2,13 +2,8 @@
 
 Los playbooks permiten aplicar aplicar configuraciones de manera automática en los hosts definidos en el inventario.
 
-En este laboratorio los playbooks se utilizan para configurar el servidor de pruebas linux ```ansible-test``` donde se validan los roles.
+En este entorno se utilizan para configurar los servidores Linux gestionados por Ansible aplicando los roles definidos previamente.
 
-Los roles utilizados son:
-
-- node-exporter
-
-- firewalld
 
 ## 1. Playbook general
 
