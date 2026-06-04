@@ -11,13 +11,20 @@ Con este playbook se aplican configuraciones comunes en los servidores del inven
 
 <img width="1022" height="17" alt="image" src="https://github.com/user-attachments/assets/afb632cf-0fc7-4167-8955-5cca1e1c4065" />
 
-<img width="1024" height="96" alt="image" src="https://github.com/user-attachments/assets/5edb95c1-9c9e-4507-8576-d7ec3ecb61a5" />
+<img width="1022" height="149" alt="image" src="https://github.com/user-attachments/assets/20f5e6c2-8c52-4c79-b230-3d471bb0915f" />
 
-- Instala y configura Node Exporter
 
-- Activa firewalld y abre los puertos definidos en host_vars
+Este playbook garantiza que cualquier servidor nuevo queda:
 
-- Garantiza que cualquier servidor nuevo queda monitorizado y con unas reglas básicas de firewall 
+- con el usuario admin correctamente configurado
+
+- con herramientas básicas instaladas
+
+- actualizado
+
+- con firewall activo y con reglas aplicadas
+
+- monitorizado con Node Exporter
 
 
 ## 2. Playbook para node-exporter
