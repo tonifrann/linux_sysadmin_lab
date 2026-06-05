@@ -5,10 +5,14 @@ Este rol garantiza que el usuario administrativo ```admin``` está correctamente
 
 ## 1. Funciones del rol
 
-El rol realiza:
+El rol realiza automáticamente:
 
-Verifica que el usuario admin existe
+- Verifica que el usuario admin existe
 
-Establece /bin/bash como shell
+- Establece /bin/bash como shell
 
-Añade sudo sin contraseña mediante /etc/sudoers.d/admin
+- Añade sudo sin contraseña mediante /etc/sudoers.d/admin
+
+
+## 2. Tareas del rol
+
