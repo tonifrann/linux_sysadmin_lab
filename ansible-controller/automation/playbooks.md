@@ -82,7 +82,8 @@ Se comprueba que la sintaxis es correcta:
 <img width="1022" height="49" alt="image" src="https://github.com/user-attachments/assets/e09d32b3-9383-48a6-82ae-d800627d3915" />
 
 Se ejecuta el playbook:
-<img width="1022" height="216" alt="image" src="https://github.com/user-attachments/assets/99ae3ba5-bdf2-4e16-ab56-9461a5c349c4" />
+<img width="1021" height="152" alt="image" src="https://github.com/user-attachments/assets/bc9a6422-0f92-4b69-8a1a-403f884c4353" />
+
 
 Se revisa los hosts detectados:
 <img width="1025" height="83" alt="image" src="https://github.com/user-attachments/assets/2ab049eb-1119-4cc8-9174-1447dc50160e" />
