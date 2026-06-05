@@ -1,8 +1,8 @@
 # ansible-test (Ubuntu 22.04)
 
-Este servidor se utiliza únicamente para probar los roles y playbooks de Ansible para asegurar que funcionen correctamente, antes de aplicarlos en servidores nuevos.
+Este servidor se utiliza exclusivamente para probar los roles y playbooks de Ansible antes de aplicarlos en servidores nuevos.
 
-Se pueden validar las configuraciones y detectar cualquier error. de esta manera, nos aseguramos que los roles funcionan correctamente en un entorno controlado.
+Permite validar configuraciones, detectar errores y asegurar que los roles funcionan correctamente en un entorno controlado.
 
 
 ## Estado inicial del servidor
@@ -23,8 +23,35 @@ Se pueden validar las configuraciones y detectar cualquier error. de esta manera
 Aqui se edocumentan las pruebas que se han ejecutado desde ansible-controller sobre este servidor.
 
 
-## 1.- Prueba del rol usuarios
+## 1. Prueba del rol usuarios
 
 Se ejecuta el playbook ```usuarios```
 
-<img width="1024" height="18" alt="image" src="https://github.com/user-attachments/assets/59f0989e-2b65-4970-87ac-d2a8f5549842" />
+<img width="1024" height="245" alt="image" src="https://github.com/user-attachments/assets/bee475d7-d770-4e8b-b6bc-c2212f02f442" />
+
+### Comprobaciones
+
+Se comprueba que las configuraciones se han realizado correctamente:
+
+<img width="1023" height="210" alt="image" src="https://github.com/user-attachments/assets/4cafc49a-1b65-4dab-850f-dd0f42ed7cd5" />
+
+
+## 2. Prueba del rol node-exporter
+
+Se ejecuta el playbook ```node-exporter```
+
+<img width="1022" height="589" alt="image" src="https://github.com/user-attachments/assets/ef1cdb97-e679-4d80-a517-409ed120989e" />
+
+### Comprobaciones
+
+El servicio esta activo:
+<img width="1022" height="164" alt="image" src="https://github.com/user-attachments/assets/03f1d4cc-5429-43c0-9ce4-f4d4a42fbdaa" />
+
+El puerto 9100 esta abierto y en escucha:
+<img width="1024" height="30" alt="image" src="https://github.com/user-attachments/assets/f534dd21-3046-4bd4-a934-1c6f9281dd18" />
+
+Las metricas se estan enviando correctamente:
+
+<img width="1024" height="15" alt="image" src="https://github.com/user-attachments/assets/29fa9181-322e-492c-9f70-d5b4cf22501b" />
+
+<img width="1022" height="462" alt="image" src="https://github.com/user-attachments/assets/dbb78444-1e10-4c36-a3df-629f45767350" />
