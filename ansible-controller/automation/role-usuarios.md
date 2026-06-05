@@ -16,3 +16,4 @@ El rol realiza automáticamente:
 
 ## 2. Tareas del rol
 
+El rol se asegura de que el usuario ```admin``` este configurado de forma homogenea.
