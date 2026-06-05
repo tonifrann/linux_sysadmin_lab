@@ -42,6 +42,8 @@ Se crea una plantilla del servicio de systemd:
 
 ## 4. Ejecución del rol
 
+<img width="1023" height="17" alt="image" src="https://github.com/user-attachments/assets/18d906f1-cc18-4b62-8cad-cccb5b81943e" />
+
 Después de ejecutar el playbook: 
 
 - El servicio node_exporter queda instalado y activo.
