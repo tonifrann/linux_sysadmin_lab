@@ -44,12 +44,6 @@ El rol asegura que el usuario admin queda correctamente configurado en todos los
 
 - Establece /bin/bash como shell
 
-- Crea el directorio /home/admin si no existe
-
-- Garantiza permisos correctos en /home/admin/.ssh
-
-- Asegura que la clave pública del controlador está presente
-
 - Añade sudo sin contraseña mediante /etc/sudoers.d/admin
 
 
