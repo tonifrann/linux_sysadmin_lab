@@ -25,7 +25,7 @@ Estos roles se aplicarán a todos los servidores definidos en el inventario.
 ## 3. Creación de roles
 
 Los roles se crean con el comando de Ansible Galaxy:
-<img width="1026" height="177" alt="image" src="https://github.com/user-attachments/assets/20a82213-743b-4f3b-9381-5e4b2bb61338" />
+<img width="1023" height="177" alt="image" src="https://github.com/user-attachments/assets/823083d1-7a33-4937-a331-212a258ec6f0" />
 
 
 ## 4. Estructura de los roles
