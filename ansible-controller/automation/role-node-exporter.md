@@ -44,8 +44,8 @@ Se crea una plantilla del servicio de systemd:
 
 Después de ejecutar el playbook: 
 
-- El servicio node_exporter quedará instalado y activo.
+- El servicio node_exporter queda instalado y activo.
 
-- El puerto 9100/tcp tiene que abrirse utilizando el rol de firewalld.
+- El puerto 9100/tcp tiene que abrirse utilizando el rol firewalld.
 
 - Las métricas quedan disponibles para Prometheus.
