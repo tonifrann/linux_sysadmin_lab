@@ -59,8 +59,7 @@ Automatización y configuración centralizada
 [Ver documentación](ansible-controller/README.md)
 
 ### ansible-test
-Servidor de pruebas de automatización para Ansible
-
+Servidor de pruebas de automatización para Ansible   
 [Ver documentación](ansible-test/README.md)
 
 ### win-client
