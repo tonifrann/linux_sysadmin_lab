@@ -32,8 +32,11 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 
 ### 3. Automatización
 - [Playbooks](automation/playbooks.md)
-- [Rol node-exporter](automation/role-node-exporter.md)
+- [Rol usuarios](automation/role-usuarios.md)
+- [Rol paquetes-base](automation/role-paquetes-base.md)
+- [Rol update](automation/role-update.md)
 - [Rol firewalld](automation/role-firewalld.md)
+- [Rol node-exporter](automation/role-node-exporter.md)
 
 ### 4. Arquitectura del sistema
 - [Diagrama](architecture/diagram.png)
