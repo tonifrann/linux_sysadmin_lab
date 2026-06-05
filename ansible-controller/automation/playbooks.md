@@ -27,7 +27,34 @@ Este playbook hace que cualquier servidor nuevo:
 - Se instale y configure Node Exporter para monitorizar
 
 
-## 2. Playbook para node-exporter
+## 2. Playbook para usuarios
+
+Playbook para 
+<img width="1021" height="20" alt="image" src="https://github.com/user-attachments/assets/13b6d1cf-0434-4a70-a089-8d0a026d99ca" />
+
+<img width="1024" height="86" alt="image" src="https://github.com/user-attachments/assets/6dc98ecb-f156-4511-a359-88ffad539f4b" />
+
+
+## 3. Playbook para paquetes-base
+
+
+
+## 4. Playbook para update
+
+
+
+## 5. Playbook para firewalld
+
+Playbook utilizado para aplicar reglas del firewall definidas en el rol.
+
+<img width="1023" height="19" alt="image" src="https://github.com/user-attachments/assets/59fb0304-d3aa-4b46-8d99-1c1d82e816e2" />
+
+<img width="1024" height="82" alt="image" src="https://github.com/user-attachments/assets/84ff9c42-296e-4651-89c6-30abe574e626" />
+
+El funcionamiento del rol esta documentado en [rol firewalld](./role-firewalld.md)
+
+
+## 6. Playbook para node-exporter
 
 Playbook dedicado únicamente a la instalación y configuración de Node Exporter.
 
@@ -35,29 +62,10 @@ Playbook dedicado únicamente a la instalación y configuración de Node Exporte
 
 <img width="1024" height="87" alt="image" src="https://github.com/user-attachments/assets/8328e181-7344-49dd-a5f8-de4371b88f10" />
 
-El funcionamiento del rol (tareas YAML, servicio systemd, etc.) está documentado en [rol node exporter](./role-node-exporter.md)
-
-## 3. Playbook para firewalld
-
-Playbook utilizado para aplicar reglas de firewall según el servidor.
-
-<img width="1023" height="19" alt="image" src="https://github.com/user-attachments/assets/59fb0304-d3aa-4b46-8d99-1c1d82e816e2" />
-
-<img width="1024" height="82" alt="image" src="https://github.com/user-attachments/assets/84ff9c42-296e-4651-89c6-30abe574e626" />
-
-Los puertos se definen con variables en: ```/etc/ansible/host_vars/```.
-
-- ```host_vars/monitoring.yml```
-<img width="1025" height="81" alt="image" src="https://github.com/user-attachments/assets/096ef70d-92b9-48e6-9b40-bed30216310a" />
-
-- ```host_vars/fog_server.yml```
-
-<img width="1024" height="147" alt="image" src="https://github.com/user-attachments/assets/446e5a99-b7a8-42f4-9f7b-9e80547080d8" />
-
-El funcionamiento del rol esta documentado en [rol firewalld](./role-firewalld.md)
+El funcionamiento del rol está documentado en [rol node exporter](./role-node-exporter.md)
 
 
-## 4. Ejecución de los playbooks
+## 7. Ejecución de los playbooks
 
 Se comprueba que la sintaxis es correcta:
 <img width="1022" height="49" alt="image" src="https://github.com/user-attachments/assets/e09d32b3-9383-48a6-82ae-d800627d3915" />
