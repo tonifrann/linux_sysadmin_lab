@@ -35,6 +35,7 @@ Playbook utilizado para configurar correctamente el usuario ```admin```
 
 <img width="1024" height="86" alt="image" src="https://github.com/user-attachments/assets/6dc98ecb-f156-4511-a359-88ffad539f4b" />
 
+El funcionamiento del rol esta documentado en [rol usuarios](./role-usuarios.md)
 
 ## 3. Playbook para paquetes-base
 
@@ -44,6 +45,7 @@ Playbook utilizado para instalar herramientas básicas del sistema.
 
 <img width="1024" height="90" alt="image" src="https://github.com/user-attachments/assets/cd95762e-90a6-440c-8318-27988fe71ad8" />
 
+El funcionamiento del rol esta documentado en [rol paquetes-base](./role-paquetes-base.md)
 
 ## 4. Playbook para update
 
@@ -53,6 +55,7 @@ Playbook utilizado para aplicar actualizaciones del sistema.
 
 <img width="1021" height="82" alt="image" src="https://github.com/user-attachments/assets/ee2001b3-e166-4981-bc31-cd74b783154f" />
 
+El funcionamiento del rol esta documentado en [rol update](./role-update.md)
 
 ## 5. Playbook para firewalld
 
