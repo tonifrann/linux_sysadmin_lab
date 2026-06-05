@@ -29,7 +29,8 @@ Este playbook hace que cualquier servidor nuevo:
 
 ## 2. Playbook para usuarios
 
-Playbook para 
+Playbook usitlizado para configurar correctamente el usuario ```admin```
+
 <img width="1021" height="20" alt="image" src="https://github.com/user-attachments/assets/13b6d1cf-0434-4a70-a089-8d0a026d99ca" />
 
 <img width="1024" height="86" alt="image" src="https://github.com/user-attachments/assets/6dc98ecb-f156-4511-a359-88ffad539f4b" />
@@ -37,10 +38,20 @@ Playbook para
 
 ## 3. Playbook para paquetes-base
 
+Playbook utilizado para instalar herramientas basicas del sistema.
+
+<img width="1023" height="20" alt="image" src="https://github.com/user-attachments/assets/8078ea53-9827-4859-895f-e14671f626cf" />
+
+<img width="1024" height="90" alt="image" src="https://github.com/user-attachments/assets/cd95762e-90a6-440c-8318-27988fe71ad8" />
 
 
 ## 4. Playbook para update
 
+Playbook utilizado para hacer el update del sistema.
+
+<img width="1021" height="19" alt="image" src="https://github.com/user-attachments/assets/293b9ffe-d1d8-4dc4-8918-f2a72696972a" />
+
+<img width="1021" height="82" alt="image" src="https://github.com/user-attachments/assets/ee2001b3-e166-4981-bc31-cd74b783154f" />
 
 
 ## 5. Playbook para firewalld
