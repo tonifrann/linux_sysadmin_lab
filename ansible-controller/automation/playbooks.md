@@ -29,7 +29,7 @@ Este playbook hace que cualquier servidor nuevo:
 
 ## 2. Playbook para usuarios
 
-Playbook usitlizado para configurar correctamente el usuario ```admin```
+Playbook utilizado para configurar correctamente el usuario ```admin```
 
 <img width="1021" height="20" alt="image" src="https://github.com/user-attachments/assets/13b6d1cf-0434-4a70-a089-8d0a026d99ca" />
 
@@ -38,7 +38,7 @@ Playbook usitlizado para configurar correctamente el usuario ```admin```
 
 ## 3. Playbook para paquetes-base
 
-Playbook utilizado para instalar herramientas basicas del sistema.
+Playbook utilizado para instalar herramientas básicas del sistema.
 
 <img width="1023" height="20" alt="image" src="https://github.com/user-attachments/assets/8078ea53-9827-4859-895f-e14671f626cf" />
 
@@ -47,7 +47,7 @@ Playbook utilizado para instalar herramientas basicas del sistema.
 
 ## 4. Playbook para update
 
-Playbook utilizado para hacer el update del sistema.
+Playbook utilizado para aplicar actualizaciones del sistema.
 
 <img width="1021" height="19" alt="image" src="https://github.com/user-attachments/assets/293b9ffe-d1d8-4dc4-8918-f2a72696972a" />
 
@@ -62,12 +62,14 @@ Playbook utilizado para aplicar reglas del firewall definidas en el rol.
 
 <img width="1024" height="82" alt="image" src="https://github.com/user-attachments/assets/84ff9c42-296e-4651-89c6-30abe574e626" />
 
+Los puertos base se definen dentro del rol firewalld en defaults/main.yml
+
 El funcionamiento del rol esta documentado en [rol firewalld](./role-firewalld.md)
 
 
 ## 6. Playbook para node-exporter
 
-Playbook dedicado únicamente a la instalación y configuración de Node Exporter.
+Playbook utilizado para la instalación y configuración de Node Exporter.
 
 <img width="1023" height="20" alt="image" src="https://github.com/user-attachments/assets/89dfb606-49ad-4324-81ee-398ce9224a01" />
 
@@ -86,9 +88,3 @@ Se ejecuta el playbook:
 
 Se revisa los hosts detectados:
 <img width="1020" height="53" alt="image" src="https://github.com/user-attachments/assets/9761a1ba-050b-4ef2-8c5f-3d8c80b57ecc" />
-
-
-
-
-
-
