@@ -55,3 +55,15 @@ Las metricas se estan enviando correctamente:
 <img width="1024" height="15" alt="image" src="https://github.com/user-attachments/assets/29fa9181-322e-492c-9f70-d5b4cf22501b" />
 
 <img width="1022" height="462" alt="image" src="https://github.com/user-attachments/assets/dbb78444-1e10-4c36-a3df-629f45767350" />
+
+
+## 3. Prueba del rol paquetes-base
+
+Se ejecuta el playbook ```paquetes-base```
+<img width="1024" height="257" alt="image" src="https://github.com/user-attachments/assets/43b69e56-8cdb-44d5-8a24-98f3118b8bb9" />
+
+### Comprobaciones
+
+Se comprueba que todos los paquetes están correctamente instalados:
+
+<img width="1021" height="691" alt="image" src="https://github.com/user-attachments/assets/b27870b9-c360-42c4-bf82-fb43211afcd6" />
