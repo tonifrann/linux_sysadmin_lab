@@ -54,7 +54,7 @@ Entorno de contenedores y aplicaciones
 Despliegue de sistemas por red (PXE)  
 [Ver documentación](fog-server/README.md)
 
-### ansible-controller (en desarrollo)
+### ansible-controller
 Automatización y configuración centralizada  
 [Ver documentación](ansible-controller/README.md)
 
