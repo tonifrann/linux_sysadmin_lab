@@ -18,7 +18,7 @@ El rol realiza:
 
 ## 2. Tareas del rol
 
-El rol mantiene los sistemas al día y aplicar los parches de seguridad.
+El rol mantiene los sistemas actualizados:
 
 <img width="1023" height="18" alt="image" src="https://github.com/user-attachments/assets/ea6a89f0-c65a-4e3f-bbfc-d53d2ab8ac65" />
 
