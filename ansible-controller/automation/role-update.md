@@ -22,7 +22,8 @@ El rol mantiene los sistemas al día y aplicar los parches de seguridad.
 
 <img width="1023" height="18" alt="image" src="https://github.com/user-attachments/assets/ea6a89f0-c65a-4e3f-bbfc-d53d2ab8ac65" />
 
-<img width="1022" height="226" alt="image" src="https://github.com/user-attachments/assets/892d1d56-b635-4e43-bdb9-cf642c3ad9b6" />
+<img width="1022" height="230" alt="image" src="https://github.com/user-attachments/assets/474a91da-b121-4c12-971c-9459d974406a" />
+
 
 
 ## 3. Ejecución del rol
