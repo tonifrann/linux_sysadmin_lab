@@ -89,12 +89,12 @@ Se revisa el historial de las actualizaciones aplicadas:
 
 Se ejecuta el playbook ```firewalld```
 
-<img width="1023" height="727" alt="image" src="https://github.com/user-attachments/assets/f841fdd6-5836-4f0e-9193-07498cbc8c28" />
+<img width="1025" height="493" alt="image" src="https://github.com/user-attachments/assets/fbd8e473-5665-4a16-a2b0-03fdf5f5a545" />
 
 
 ### Comprobaciones
 
 
-<img width="1025" height="493" alt="image" src="https://github.com/user-attachments/assets/fbd8e473-5665-4a16-a2b0-03fdf5f5a545" />
+
 
 
