@@ -4,15 +4,51 @@ Este rol configura el firewall del sistema utilizando firewalld, permitiendo los
 
 Se aplica únicamente a sistemas Rocky/RHEL, ya que Ubuntu utiliza ufw o iptables.
 
-1. Funciones del rol
-El rol realiza:
 
-Habilitar y asegurar que el servicio firewalld está activo
+## 1. Funciones del rol
 
-Establecer la zona por defecto
+El rol realiza automáticamente:
 
-Permitir servicios esenciales (SSH, Node Exporter, etc.)
+- Instalación de firewalld (Ubuntu y Rocky)
 
-Abrir puertos específicos según necesidades del laboratorio
+- Activación y habilitación del servicio
 
-Recargar la configuración del firewall
+- Configuración de la zona por defecto
+
+- Permitir servicios (SSH)
+
+- Apertura de puertos (Node Exporter, etc.)
+
+- Abre los puertos específicos
+
+- Recargar la configuración del firewall
+
+
+## 2. Tareas del rol
+
+El rol se encarga de que la configuración del firewall sea homogénea y segura en todos los servidores que utilizan firewalld.
+
+<img width="1023" height="18" alt="image" src="https://github.com/user-attachments/assets/40970144-139c-4350-9266-73187d0bf2bc" />
+
+<img width="1022" height="726" alt="image" src="https://github.com/user-attachments/assets/d9c1869a-1731-446a-9cc4-5af8039bee5c" />
+
+
+## 3. Ejecución del rol
+
+Una vez ejecutamos el playbook:
+
+<img width="1024" height="19" alt="image" src="https://github.com/user-attachments/assets/02627e1f-6809-47be-b550-02324cdd196a" />
+
+- firewalld está instalado
+
+- El servicio está activo y habilitado
+
+- La zona por defecto es public
+
+- SSH está permitido
+
+- El puerto 9100/tcp está abierto
+
+- La configuración es permanente
+
+- El firewall se recarga correctamente
