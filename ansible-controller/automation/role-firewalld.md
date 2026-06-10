@@ -30,7 +30,7 @@ El rol se encarga de que la configuración del firewall sea homogénea y segura 
 
 <img width="1023" height="18" alt="image" src="https://github.com/user-attachments/assets/40970144-139c-4350-9266-73187d0bf2bc" />
 
-<img width="1022" height="726" alt="image" src="https://github.com/user-attachments/assets/d9c1869a-1731-446a-9cc4-5af8039bee5c" />
+<img width="1023" height="728" alt="image" src="https://github.com/user-attachments/assets/56f4fb9f-54d2-45d3-9e4d-fbbccbf0361f" />
 
 
 ## 3. Ejecución del rol
