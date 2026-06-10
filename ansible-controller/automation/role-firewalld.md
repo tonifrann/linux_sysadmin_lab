@@ -45,7 +45,7 @@ Una vez ejecutamos el playbook:
 
 - La zona por defecto es public
 
-- SSH está permitido
+- el servicio SSH está permitido
 
 - El puerto 9100/tcp está abierto
 
