@@ -45,9 +45,11 @@ Se ejecuta el playbook ```node-exporter```
 ### Comprobaciones
 
 El servicio esta activo:
+
 <img width="1022" height="164" alt="image" src="https://github.com/user-attachments/assets/03f1d4cc-5429-43c0-9ce4-f4d4a42fbdaa" />
 
 El puerto 9100 esta abierto y en escucha:
+
 <img width="1024" height="30" alt="image" src="https://github.com/user-attachments/assets/f534dd21-3046-4bd4-a934-1c6f9281dd18" />
 
 Las metricas se estan enviando correctamente:
@@ -60,6 +62,7 @@ Las metricas se estan enviando correctamente:
 ## 3. Prueba del rol paquetes-base
 
 Se ejecuta el playbook ```paquetes-base```
+
 <img width="1024" height="257" alt="image" src="https://github.com/user-attachments/assets/43b69e56-8cdb-44d5-8a24-98f3118b8bb9" />
 
 ### Comprobaciones
@@ -67,3 +70,25 @@ Se ejecuta el playbook ```paquetes-base```
 Se comprueba que todos los paquetes están correctamente instalados:
 
 <img width="1021" height="691" alt="image" src="https://github.com/user-attachments/assets/b27870b9-c360-42c4-bf82-fb43211afcd6" />
+
+
+## 4. Prueba del rol update
+
+Se ejecuta el playbook ```update```
+
+<img width="1021" height="250" alt="image" src="https://github.com/user-attachments/assets/e6e98ffc-596a-4435-9732-973635632ea5" />
+
+### Comprobaciones
+
+Se revisa el historial de las actualizaciones aplicadas: 
+
+<img width="1022" height="337" alt="image" src="https://github.com/user-attachments/assets/dad6a2c6-9e42-4c16-86dc-8e2d46945b5c" />
+
+
+
+
+
+
+
+
+
