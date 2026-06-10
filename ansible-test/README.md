@@ -94,6 +94,9 @@ Se ejecuta el playbook ```firewalld```
 
 ### Comprobaciones
 
+Se revisa que firewalld este instalado y confgurado:
+
+<img width="1023" height="240" alt="image" src="https://github.com/user-attachments/assets/dcbaabce-52f4-4c9b-a438-6238574f18a3" />
 
 
 
