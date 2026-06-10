@@ -85,10 +85,16 @@ Se revisa el historial de las actualizaciones aplicadas:
 <img width="1022" height="337" alt="image" src="https://github.com/user-attachments/assets/dad6a2c6-9e42-4c16-86dc-8e2d46945b5c" />
 
 
+## 5. Prueba del rol firewalld
+
+Se ejecuta el playbook ```firewalld```
+
+<img width="1023" height="727" alt="image" src="https://github.com/user-attachments/assets/f841fdd6-5836-4f0e-9193-07498cbc8c28" />
 
 
+### Comprobaciones
 
 
-
+<img width="1025" height="493" alt="image" src="https://github.com/user-attachments/assets/fbd8e473-5665-4a16-a2b0-03fdf5f5a545" />
 
 
