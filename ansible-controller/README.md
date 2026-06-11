@@ -43,7 +43,6 @@ Permite ejecutar playbooks en sistemas Linux para mantener configuraciones consi
 
 ### 5. Incidencias
 - [Error de conexión SSH](incidents/ssh-error.md)
-- [Error en playbook](incidents/playbook-error.md)
 
 ---
 
