@@ -42,3 +42,12 @@ Se vuelve a autorizar la clave pública:
  Se comprueba la conectividad de nuevo:
 
  <img width="1024" height="130" alt="image" src="https://github.com/user-attachments/assets/2ed7a47c-a7bb-4aed-ac53-f8e08171b201" />
+
+
+# 7. Prevención
+
+- Verificar la conectividad SSH antes de añadir nuevos hosts al inventario.
+
+- Validar usuarios y claves durante el alta de servidores.
+
+- Realizar pruebas periódicas con ```ansible all -m ping```
